@@ -49,6 +49,7 @@
             this.btnCrearWO.TabIndex = 1;
             this.btnCrearWO.Text = "Nueva Orden de Trabajo";
             this.btnCrearWO.UseVisualStyleBackColor = true;
+            this.btnCrearWO.Click += new System.EventHandler(this.btnCrearWO_Click);
             // 
             // OrdenesdeTrabajo
             // 

@@ -6,9 +6,16 @@ using System.Threading.Tasks;
 
 namespace BE
 {
-    public class BEOrdenDeTrabajo
+    public abstract class BEOrdenDeTrabajo
     {
 
+        public BEOrdenDeTrabajo(int numero, DateTime inicio)
+        {
+            this.Numero = numero;
+            this.FechaInicio = inicio;
+            CalcularFechaLimite();
+        }
+        public int Numero { get; set; }
         public BEUsuario Cliente { get; set; }
 
         public BEUsuario EmpleadoAsignado { get; set; }
@@ -26,6 +33,9 @@ namespace BE
 
         public string Resolucion { get; set; }
 
+        public DateTime FechaLimite { get; set; }
 
+
+        public abstract void CalcularFechaLimite();
     }
 }

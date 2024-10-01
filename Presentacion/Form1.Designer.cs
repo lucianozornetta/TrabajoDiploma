@@ -37,6 +37,7 @@
             this.alteradosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.crearAreaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +51,8 @@
             this.asignarPermisosToolStripMenuItem,
             this.gestionarIdiomasToolStripMenuItem,
             this.alteradosToolStripMenuItem,
-            this.cerrarSesionToolStripMenuItem});
+            this.cerrarSesionToolStripMenuItem,
+            this.crearAreaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
@@ -124,6 +126,13 @@
             this.comboBox1.TabIndex = 3;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
+            // crearAreaToolStripMenuItem
+            // 
+            this.crearAreaToolStripMenuItem.Name = "crearAreaToolStripMenuItem";
+            this.crearAreaToolStripMenuItem.Size = new System.Drawing.Size(74, 22);
+            this.crearAreaToolStripMenuItem.Text = "Crear Area";
+            this.crearAreaToolStripMenuItem.Click += new System.EventHandler(this.crearAreaToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -134,7 +143,7 @@
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -156,6 +165,7 @@
         private System.Windows.Forms.ToolStripMenuItem gestionarIdiomasToolStripMenuItem;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ToolStripMenuItem alteradosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem crearAreaToolStripMenuItem;
     }
 }
 

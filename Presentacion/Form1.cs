@@ -26,8 +26,9 @@ namespace Presentacion
         private AsignarPermisos asignarpermisos;
         private Idiomas idiomas;
         private BLLRepositorioIdioma bllrepositorio;
+        private CrearArea creararea;
         Loguin log;
-        
+
         public Form1()
         {
             InitializeComponent();
@@ -52,7 +53,7 @@ namespace Presentacion
                 asignarPermisosToolStripMenuItem.Enabled = false;
                 gestionarIdiomasToolStripMenuItem.Enabled = false;
                 alteradosToolStripMenuItem.Enabled = false;
-                
+
                 int centerX = 0;
                 comboBox1.Location = new System.Drawing.Point(centerX, comboBox1.Location.Y);
             }
@@ -64,10 +65,10 @@ namespace Presentacion
         }
         private void registroToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if(or ==null)
+            if (or == null)
             {
 
-                if(comboBox1.SelectedIndex >= 0)
+                if (comboBox1.SelectedIndex >= 0)
                 {
                     or = new Registro((BEIdioma)comboBox1.SelectedItem);
                 }
@@ -78,12 +79,12 @@ namespace Presentacion
                 or.MdiParent = this;
                 or.FormClosed += new FormClosedEventHandler(CerrarRegistro);
                 or.Show();
-                
+
             }
             else
             {
                 or.Activate();
-                
+
             }
 
         }
@@ -122,7 +123,7 @@ namespace Presentacion
         {
             if (bitacora == null)
             {
-                if(comboBox1.SelectedIndex >= 0 )
+                if (comboBox1.SelectedIndex >= 0)
                 {
                     bitacora = new Bitacora((BEIdioma)comboBox1.SelectedItem);
                 }
@@ -130,7 +131,7 @@ namespace Presentacion
                 {
                     bitacora = new Bitacora();
                 }
-                
+
                 bitacora.MdiParent = this;
                 bitacora.FormClosed += new FormClosedEventHandler(CerrarBitacora);
                 bitacora.Show();
@@ -141,7 +142,7 @@ namespace Presentacion
                 bitacora.Activate();
 
             }
-           
+
         }
         void CerrarBitacora(object sender, FormClosedEventArgs e)
         {
@@ -199,7 +200,7 @@ namespace Presentacion
         {
             if (permisos == null)
             {
-                if(comboBox1.SelectedIndex >= 0)
+                if (comboBox1.SelectedIndex >= 0)
                 {
                     permisos = new Permisos((BEIdioma)comboBox1.SelectedItem);
                 }
@@ -207,7 +208,7 @@ namespace Presentacion
                 {
                     permisos = new Permisos();
                 }
-               
+
                 permisos.MdiParent = this;
                 permisos.FormClosed += new FormClosedEventHandler(CerrarPermisos);
                 permisos.Show();
@@ -229,15 +230,15 @@ namespace Presentacion
         {
             if (asignarpermisos == null)
             {
-                if(comboBox1.SelectedIndex >= 0)
+                if (comboBox1.SelectedIndex >= 0)
                 {
-                    asignarpermisos = new AsignarPermisos((BEIdioma) comboBox1.SelectedItem);
+                    asignarpermisos = new AsignarPermisos((BEIdioma)comboBox1.SelectedItem);
                 }
                 else
                 {
                     asignarpermisos = new AsignarPermisos();
                 }
-                
+
                 asignarpermisos.MdiParent = this;
                 asignarpermisos.FormClosed += new FormClosedEventHandler(CerrarAsignarPermisos);
                 asignarpermisos.Show();
@@ -256,7 +257,7 @@ namespace Presentacion
 
         void ActivarControles()
         {
-            if(Sesion.ObtenerUsername().permiso != null)
+            if (Sesion.ObtenerUsername().permiso != null)
             {
                 Recursiva(Sesion.ObtenerUsername().permiso);
             }
@@ -265,7 +266,7 @@ namespace Presentacion
                 MessageBox.Show("Su usuario no tiene permisos asignados");
 
             }
-           
+
         }
         void Recursiva(BEPermiso permiso)
         {
@@ -281,15 +282,15 @@ namespace Presentacion
                     {
                         gestionarIdiomasToolStripMenuItem.Enabled = true;
                     }
-                    if(perm.ID == 1)
+                    if (perm.ID == 1)
                     {
                         registroToolStripMenuItem.Enabled = true;
                     }
-                    if(perm.ID == 5)
+                    if (perm.ID == 5)
                     {
                         verBitacoraToolStripMenuItem.Enabled = true;
                     }
-                    if(perm.ID == 6)
+                    if (perm.ID == 6)
                     {
                         gestionPermisosToolStripMenuItem.Enabled = true;
                     }
@@ -297,18 +298,18 @@ namespace Presentacion
                     {
                         asignarPermisosToolStripMenuItem.Enabled = true;
                     }
-                    if(perm.ID == 55)
+                    if (perm.ID == 55)
                     {
                         alteradosToolStripMenuItem.Enabled = true;
                     }
-                    
+
                 }
             }
         }
 
         public void Update(int a)
         {
-            
+
             foreach (ToolStripItem c in this.menuStrip1.Items)
             {
                 if (c.Tag != null)
@@ -336,15 +337,15 @@ namespace Presentacion
         {
             if (idiomas == null)
             {
-                if(comboBox1.SelectedIndex >= 0)
+                if (comboBox1.SelectedIndex >= 0)
                 {
-                    idiomas = new Idiomas((BEIdioma) comboBox1.SelectedItem);
+                    idiomas = new Idiomas((BEIdioma)comboBox1.SelectedItem);
                 }
                 else
                 {
                     idiomas = new Idiomas();
                 }
-                
+
                 idiomas.MdiParent = this;
                 idiomas.FormClosed += new FormClosedEventHandler(CerrarIdiomas);
                 idiomas.Show();
@@ -366,14 +367,14 @@ namespace Presentacion
         {
             if (comboBox1.SelectedIndex >= 0)
             {
-                Sesion.getinstace().CambioDeEstado((BEIdioma) comboBox1.SelectedItem);
+                Sesion.getinstace().CambioDeEstado((BEIdioma)comboBox1.SelectedItem);
             }
         }
 
         private void historialToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
-            
+
+
         }
         UsuariosAlterados usualt;
         private void alteradosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -386,7 +387,7 @@ namespace Presentacion
                 }
                 else
                 {
-                    usualt  = new UsuariosAlterados();
+                    usualt = new UsuariosAlterados();
                 }
 
 
@@ -404,6 +405,27 @@ namespace Presentacion
         void cerraralt(object sender, FormClosedEventArgs e)
         {
             usualt = null;
+        }
+
+        private void crearAreaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (creararea == null)
+            {
+
+                creararea = new CrearArea();
+                creararea.MdiParent = this;
+                creararea.FormClosed += new FormClosedEventHandler(CerrarCrearArea);
+                creararea.Show();
+            }
+            else
+            {
+                creararea.Activate();
+
+            }
+        }
+        void CerrarCrearArea(object sender, FormClosedEventArgs e)
+        {
+            creararea = null;
         }
     }
 }

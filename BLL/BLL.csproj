@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLLArea.cs" />
     <Compile Include="BLLBitacora.cs" />
     <Compile Include="BLLPermiso.cs" />
     <Compile Include="BLLRepositorioIdioma.cs" />

@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace BE
 {
-    public class BEOrdenTrabajoModerado
+    public class BEOrdenTrabajoModerado : BEOrdenDeTrabajo
     {
+
+        public BEOrdenTrabajoModerado(int numero, DateTime inicio) : base(numero, inicio)
+        {
+            this.Numero = numero;
+            this.FechaInicio = inicio;
+            CalcularFechaLimite();
+        }
+        public override void CalcularFechaLimite()
+        {
+            this.FechaLimite = this.FechaInicio.AddDays(2);
+        }
     }
 }
