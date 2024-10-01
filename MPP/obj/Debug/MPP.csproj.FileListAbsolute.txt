@@ -1,0 +1,13 @@
+C:\Users\lucia\Source\Repos\TrabajoDiploma\MPP\bin\Debug\MPP.dll
+C:\Users\lucia\Source\Repos\TrabajoDiploma\MPP\bin\Debug\MPP.pdb
+C:\Users\lucia\Source\Repos\TrabajoDiploma\MPP\bin\Debug\BE.dll
+C:\Users\lucia\Source\Repos\TrabajoDiploma\MPP\bin\Debug\DAL.dll
+C:\Users\lucia\Source\Repos\TrabajoDiploma\MPP\bin\Debug\Interfaces.dll
+C:\Users\lucia\Source\Repos\TrabajoDiploma\MPP\bin\Debug\BE.pdb
+C:\Users\lucia\Source\Repos\TrabajoDiploma\MPP\bin\Debug\DAL.pdb
+C:\Users\lucia\Source\Repos\TrabajoDiploma\MPP\bin\Debug\Interfaces.pdb
+C:\Users\lucia\Source\Repos\TrabajoDiploma\MPP\obj\Debug\MPP.csproj.AssemblyReference.cache
+C:\Users\lucia\Source\Repos\TrabajoDiploma\MPP\obj\Debug\MPP.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Source\Repos\TrabajoDiploma\MPP\obj\Debug\MPP.csproj.Up2Date
+C:\Users\lucia\Source\Repos\TrabajoDiploma\MPP\obj\Debug\MPP.dll
+C:\Users\lucia\Source\Repos\TrabajoDiploma\MPP\obj\Debug\MPP.pdb

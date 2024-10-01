@@ -41,10 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BEArea.cs" />
     <Compile Include="BEBitacora.cs" />
+    <Compile Include="BEDetalleWO.cs" />
     <Compile Include="BEIdioma.cs" />
+    <Compile Include="BEOrdenDeTrabajo.cs" />
+    <Compile Include="BEOrdenTrabajoBaja.cs" />
+    <Compile Include="BEOrdenTrabajoCritico.cs" />
+    <Compile Include="BEOrdenTrabajoModerado.cs" />
     <Compile Include="BEPermiso.cs" />
     <Compile Include="BEPermisoSimple.cs" />
+    <Compile Include="BETag.cs" />
     <Compile Include="BETraduccion.cs" />
     <Compile Include="BEUsuario.cs" />
     <Compile Include="BEUsuarioHistorico.cs" />

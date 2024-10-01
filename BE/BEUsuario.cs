@@ -12,6 +12,7 @@ namespace BE
         public string Usuario { get; set; }
         public string Contraseña { get; set; }
 
+       
         public BEPermiso permiso { get; set; }
         public int DVH { get; set; }
         public override string ToString()

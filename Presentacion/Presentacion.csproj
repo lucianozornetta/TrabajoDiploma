@@ -58,6 +58,12 @@
     <Compile Include="Bitacora.Designer.cs">
       <DependentUpon>Bitacora.cs</DependentUpon>
     </Compile>
+    <Compile Include="CrearOrdenTrabajo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearOrdenTrabajo.Designer.cs">
+      <DependentUpon>CrearOrdenTrabajo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,12 @@
     </Compile>
     <Compile Include="Loguin.Designer.cs">
       <DependentUpon>Loguin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrdenesdeTrabajo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrdenesdeTrabajo.Designer.cs">
+      <DependentUpon>OrdenesdeTrabajo.cs</DependentUpon>
     </Compile>
     <Compile Include="Permisos.cs">
       <SubType>Form</SubType>
@@ -102,6 +114,9 @@
     <EmbeddedResource Include="Bitacora.resx">
       <DependentUpon>Bitacora.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CrearOrdenTrabajo.resx">
+      <DependentUpon>CrearOrdenTrabajo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -110,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Loguin.resx">
       <DependentUpon>Loguin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrdenesdeTrabajo.resx">
+      <DependentUpon>OrdenesdeTrabajo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Permisos.resx">
       <DependentUpon>Permisos.cs</DependentUpon>

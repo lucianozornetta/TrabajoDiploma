@@ -49,7 +49,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.datagridusuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.datagridusuarios.Location = new System.Drawing.Point(320, 31);
-            this.datagridusuarios.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.datagridusuarios.Margin = new System.Windows.Forms.Padding(2);
             this.datagridusuarios.Name = "datagridusuarios";
             this.datagridusuarios.RowHeadersWidth = 62;
             this.datagridusuarios.RowTemplate.Height = 28;
@@ -64,7 +64,7 @@
             // btnregistrarusuario
             // 
             this.btnregistrarusuario.Location = new System.Drawing.Point(221, 22);
-            this.btnregistrarusuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnregistrarusuario.Margin = new System.Windows.Forms.Padding(2);
             this.btnregistrarusuario.Name = "btnregistrarusuario";
             this.btnregistrarusuario.Size = new System.Drawing.Size(79, 34);
             this.btnregistrarusuario.TabIndex = 1;
@@ -76,7 +76,7 @@
             // btneliminarusuarioRegistro
             // 
             this.btneliminarusuarioRegistro.Location = new System.Drawing.Point(221, 63);
-            this.btneliminarusuarioRegistro.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btneliminarusuarioRegistro.Margin = new System.Windows.Forms.Padding(2);
             this.btneliminarusuarioRegistro.Name = "btneliminarusuarioRegistro";
             this.btneliminarusuarioRegistro.Size = new System.Drawing.Size(79, 38);
             this.btneliminarusuarioRegistro.TabIndex = 2;
@@ -88,7 +88,7 @@
             // btnmodificarusuarioRegistro
             // 
             this.btnmodificarusuarioRegistro.Location = new System.Drawing.Point(221, 105);
-            this.btnmodificarusuarioRegistro.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnmodificarusuarioRegistro.Margin = new System.Windows.Forms.Padding(2);
             this.btnmodificarusuarioRegistro.Name = "btnmodificarusuarioRegistro";
             this.btnmodificarusuarioRegistro.Size = new System.Drawing.Size(79, 34);
             this.btnmodificarusuarioRegistro.TabIndex = 3;
@@ -122,7 +122,7 @@
             // txtusuario
             // 
             this.txtusuario.Location = new System.Drawing.Point(118, 36);
-            this.txtusuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtusuario.Margin = new System.Windows.Forms.Padding(2);
             this.txtusuario.Name = "txtusuario";
             this.txtusuario.Size = new System.Drawing.Size(68, 20);
             this.txtusuario.TabIndex = 6;
@@ -130,7 +130,7 @@
             // txtcontraseña
             // 
             this.txtcontraseña.Location = new System.Drawing.Point(118, 81);
-            this.txtcontraseña.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtcontraseña.Margin = new System.Windows.Forms.Padding(2);
             this.txtcontraseña.Name = "txtcontraseña";
             this.txtcontraseña.Size = new System.Drawing.Size(68, 20);
             this.txtcontraseña.TabIndex = 7;
@@ -141,7 +141,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSalir.Location = new System.Drawing.Point(419, 168);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(2);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(284, 49);
             this.btnSalir.TabIndex = 9;
@@ -156,7 +156,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.datagridcambios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.datagridcambios.Location = new System.Drawing.Point(326, 228);
-            this.datagridcambios.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.datagridcambios.Margin = new System.Windows.Forms.Padding(2);
             this.datagridcambios.Name = "datagridcambios";
             this.datagridcambios.RowHeadersWidth = 62;
             this.datagridcambios.RowTemplate.Height = 28;
@@ -168,7 +168,7 @@
             // 
             this.btnrestaurarcambios.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnrestaurarcambios.Location = new System.Drawing.Point(221, 311);
-            this.btnrestaurarcambios.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnrestaurarcambios.Margin = new System.Windows.Forms.Padding(2);
             this.btnrestaurarcambios.Name = "btnrestaurarcambios";
             this.btnrestaurarcambios.Size = new System.Drawing.Size(85, 42);
             this.btnrestaurarcambios.TabIndex = 13;
@@ -194,7 +194,7 @@
             this.Controls.Add(this.btneliminarusuarioRegistro);
             this.Controls.Add(this.btnregistrarusuario);
             this.Controls.Add(this.datagridusuarios);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Registro";
             this.Text = "Registro";
             this.Load += new System.EventHandler(this.Registro_Load);

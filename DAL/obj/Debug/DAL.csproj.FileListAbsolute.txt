@@ -1,0 +1,11 @@
+C:\Users\lucia\Source\Repos\TrabajoDiploma\DAL\bin\Debug\DAL.dll
+C:\Users\lucia\Source\Repos\TrabajoDiploma\DAL\bin\Debug\DAL.pdb
+C:\Users\lucia\Source\Repos\TrabajoDiploma\DAL\bin\Debug\BE.dll
+C:\Users\lucia\Source\Repos\TrabajoDiploma\DAL\bin\Debug\Interfaces.dll
+C:\Users\lucia\Source\Repos\TrabajoDiploma\DAL\bin\Debug\BE.pdb
+C:\Users\lucia\Source\Repos\TrabajoDiploma\DAL\bin\Debug\Interfaces.pdb
+C:\Users\lucia\Source\Repos\TrabajoDiploma\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\lucia\Source\Repos\TrabajoDiploma\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Source\Repos\TrabajoDiploma\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\lucia\Source\Repos\TrabajoDiploma\DAL\obj\Debug\DAL.dll
+C:\Users\lucia\Source\Repos\TrabajoDiploma\DAL\obj\Debug\DAL.pdb
