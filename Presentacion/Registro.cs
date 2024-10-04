@@ -23,6 +23,7 @@ namespace Presentacion
         private BEUsuario ousuario;
         private BLLBitacora obllbitacora;
         BLLRepositorioIdioma bllrepositorio;
+        BLLArea bllarea;
         public Registro()
         {
             
@@ -33,6 +34,7 @@ namespace Presentacion
             obllbitacora = new BLLBitacora();
             btnSalir.Hide();
             bllrepositorio = new BLLRepositorioIdioma();
+            bllarea = new BLLArea();
         }
         public Registro(BEIdioma idiomainicial)
         {
@@ -43,6 +45,7 @@ namespace Presentacion
             obllbitacora = new BLLBitacora();
             btnSalir.Hide();
             bllrepositorio = new BLLRepositorioIdioma();
+            bllarea = new BLLArea();
             Update(idiomainicial.ID);
         }
         //public static Registro Ventanaunica()
@@ -111,14 +114,18 @@ namespace Presentacion
                 limpiar();
             }
         }
-        
+        private void CargarCMBArea()
+        {
+            cmbAsignarAreas.DataSource = null;
+            cmbAsignarAreas.DataSource = bllarea.ListarAreas();
+        }
         private void cargargrilla()
         {
             datagridusuarios.DataSource = null;
             datagridusuarios.DataSource=obllusuario.ListarUsuarios();
             datagridusuarios.RowsDefaultCellStyle.BackColor = Color.LightBlue;
             datagridusuarios.AlternatingRowsDefaultCellStyle.BackColor = Color.LavenderBlush;
-            datagridusuarios.Columns[3].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            datagridusuarios.Columns[4].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
         }
 
         private void btneliminarusuario_Click(object sender, EventArgs e)
@@ -164,6 +171,7 @@ namespace Presentacion
             
             Sesion.getinstace().AgregarObservador(this);
             cargargrilla();
+            CargarCMBArea();
             txtcontraseña.Hide();
             txtusuario.Hide();
             btneliminarusuarioRegistro.Hide();
@@ -175,14 +183,13 @@ namespace Presentacion
             //btnrestablecercontra.Hide();
             ActivarControles();
             
-            
-
         }
+
         void ActivarControles()
         {
-            if (Sesion.ObtenerUsername().permiso != null)
+            if (Sesion.ObtenerUsername().Permiso != null)
             {
-                Recursiva(Sesion.ObtenerUsername().permiso);
+                Recursiva(Sesion.ObtenerUsername().Permiso);
             }
 
         }
@@ -360,6 +367,18 @@ namespace Presentacion
         {
             //BEUsuario usuario = (BEUsuario)datagridusuarios.SelectedRows[0].DataBoundItem;
             //cargarcambios(usuario);
+        }
+
+        private void btnAsignarArea_Click(object sender, EventArgs e)
+        {
+            BEUsuario usuario = (BEUsuario) datagridusuarios.SelectedRows[0].DataBoundItem;
+            BEArea area = (BEArea)cmbAsignarAreas.SelectedItem;
+            if(usuario.Area == null)
+            {
+                obllusuario.AsignarAreaUsuario(usuario, area);
+                MessageBox.Show("Se asigno el area correspondiente");
+            }
+            
         }
     }
 }

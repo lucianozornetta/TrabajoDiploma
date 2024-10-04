@@ -46,9 +46,9 @@ namespace BLL
 
             foreach (BEUsuario user in mpusuario.ListarUsuarios())
             {
-                if(user.permiso != null)
+                if(user.Permiso != null)
                 {
-                    if (user.permiso.ID == id)
+                    if (user.Permiso.ID == id)
                     {
                         return true;
                     }

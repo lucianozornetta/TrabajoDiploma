@@ -39,6 +39,8 @@
             this.btnSalir = new System.Windows.Forms.Button();
             this.datagridcambios = new System.Windows.Forms.DataGridView();
             this.btnrestaurarcambios = new System.Windows.Forms.Button();
+            this.btnAsignarArea = new System.Windows.Forms.Button();
+            this.cmbAsignarAreas = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.datagridusuarios)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datagridcambios)).BeginInit();
             this.SuspendLayout();
@@ -140,7 +142,7 @@
             this.btnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSalir.Location = new System.Drawing.Point(419, 168);
+            this.btnSalir.Location = new System.Drawing.Point(36, 228);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(2);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(284, 49);
@@ -167,7 +169,7 @@
             // btnrestaurarcambios
             // 
             this.btnrestaurarcambios.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnrestaurarcambios.Location = new System.Drawing.Point(221, 311);
+            this.btnrestaurarcambios.Location = new System.Drawing.Point(221, 316);
             this.btnrestaurarcambios.Margin = new System.Windows.Forms.Padding(2);
             this.btnrestaurarcambios.Name = "btnrestaurarcambios";
             this.btnrestaurarcambios.Size = new System.Drawing.Size(85, 42);
@@ -177,12 +179,34 @@
             this.btnrestaurarcambios.UseVisualStyleBackColor = true;
             this.btnrestaurarcambios.Click += new System.EventHandler(this.btnrestaurarcambios_Click);
             // 
+            // btnAsignarArea
+            // 
+            this.btnAsignarArea.Location = new System.Drawing.Point(612, 169);
+            this.btnAsignarArea.Name = "btnAsignarArea";
+            this.btnAsignarArea.Size = new System.Drawing.Size(79, 36);
+            this.btnAsignarArea.TabIndex = 14;
+            this.btnAsignarArea.Text = "Asignar Area";
+            this.btnAsignarArea.UseVisualStyleBackColor = true;
+            this.btnAsignarArea.Visible = false;
+            this.btnAsignarArea.Click += new System.EventHandler(this.btnAsignarArea_Click);
+            // 
+            // cmbAsignarAreas
+            // 
+            this.cmbAsignarAreas.FormattingEnabled = true;
+            this.cmbAsignarAreas.Location = new System.Drawing.Point(474, 178);
+            this.cmbAsignarAreas.Name = "cmbAsignarAreas";
+            this.cmbAsignarAreas.Size = new System.Drawing.Size(121, 21);
+            this.cmbAsignarAreas.TabIndex = 15;
+            this.cmbAsignarAreas.Visible = false;
+            // 
             // Registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(727, 369);
+            this.Controls.Add(this.cmbAsignarAreas);
+            this.Controls.Add(this.btnAsignarArea);
             this.Controls.Add(this.btnrestaurarcambios);
             this.Controls.Add(this.datagridcambios);
             this.Controls.Add(this.btnSalir);
@@ -218,5 +242,7 @@
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.DataGridView datagridcambios;
         private System.Windows.Forms.Button btnrestaurarcambios;
+        private System.Windows.Forms.Button btnAsignarArea;
+        private System.Windows.Forms.ComboBox cmbAsignarAreas;
     }
 }

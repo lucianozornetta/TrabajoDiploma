@@ -35,9 +35,10 @@
             this.asignarPermisosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gestionarIdiomasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.alteradosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.areasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.crearAreaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ticketeraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,8 +52,9 @@
             this.asignarPermisosToolStripMenuItem,
             this.gestionarIdiomasToolStripMenuItem,
             this.alteradosToolStripMenuItem,
-            this.cerrarSesionToolStripMenuItem,
-            this.crearAreaToolStripMenuItem});
+            this.areasToolStripMenuItem,
+            this.ticketeraToolStripMenuItem,
+            this.cerrarSesionToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
@@ -108,6 +110,13 @@
             this.alteradosToolStripMenuItem.Text = "UsuariosAlterados";
             this.alteradosToolStripMenuItem.Click += new System.EventHandler(this.alteradosToolStripMenuItem_Click);
             // 
+            // areasToolStripMenuItem
+            // 
+            this.areasToolStripMenuItem.Name = "areasToolStripMenuItem";
+            this.areasToolStripMenuItem.Size = new System.Drawing.Size(48, 22);
+            this.areasToolStripMenuItem.Text = "Areas";
+            this.areasToolStripMenuItem.Click += new System.EventHandler(this.areasToolStripMenuItem_Click);
+            // 
             // cerrarSesionToolStripMenuItem
             // 
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
@@ -126,12 +135,12 @@
             this.comboBox1.TabIndex = 3;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // crearAreaToolStripMenuItem
+            // ticketeraToolStripMenuItem
             // 
-            this.crearAreaToolStripMenuItem.Name = "crearAreaToolStripMenuItem";
-            this.crearAreaToolStripMenuItem.Size = new System.Drawing.Size(74, 22);
-            this.crearAreaToolStripMenuItem.Text = "Crear Area";
-            this.crearAreaToolStripMenuItem.Click += new System.EventHandler(this.crearAreaToolStripMenuItem_Click);
+            this.ticketeraToolStripMenuItem.Name = "ticketeraToolStripMenuItem";
+            this.ticketeraToolStripMenuItem.Size = new System.Drawing.Size(66, 22);
+            this.ticketeraToolStripMenuItem.Text = "Ticketera";
+            this.ticketeraToolStripMenuItem.Click += new System.EventHandler(this.ticketeraToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -165,7 +174,8 @@
         private System.Windows.Forms.ToolStripMenuItem gestionarIdiomasToolStripMenuItem;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ToolStripMenuItem alteradosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem crearAreaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem areasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ticketeraToolStripMenuItem;
     }
 }
 

@@ -27,6 +27,8 @@ namespace Presentacion
         private Idiomas idiomas;
         private BLLRepositorioIdioma bllrepositorio;
         private CrearArea creararea;
+        private Areas areas;
+        private MDITicketera mditicketera;
         Loguin log;
 
         public Form1()
@@ -257,9 +259,9 @@ namespace Presentacion
 
         void ActivarControles()
         {
-            if (Sesion.ObtenerUsername().permiso != null)
+            if (Sesion.ObtenerUsername().Permiso != null)
             {
-                Recursiva(Sesion.ObtenerUsername().permiso);
+                Recursiva(Sesion.ObtenerUsername().Permiso);
             }
             else
             {
@@ -426,6 +428,22 @@ namespace Presentacion
         void CerrarCrearArea(object sender, FormClosedEventArgs e)
         {
             creararea = null;
+        }
+
+        private void areasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            areas = new Areas();
+            areas.FormClosed += (s, args) => this.Show();
+            areas.Show();
+            this.Hide();
+        }
+
+        private void ticketeraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            mditicketera = new MDITicketera();
+            mditicketera.FormClosed += (s, args) => this.Show();
+            mditicketera.Show();
+            this.Hide();
         }
     }
 }

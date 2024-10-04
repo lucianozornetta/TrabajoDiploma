@@ -121,9 +121,9 @@ namespace Presentacion
                     }
                     else
                     {
-                        if (Sesion.ObtenerUsername().permiso != null)
+                        if (Sesion.ObtenerUsername().Permiso != null)
                         {
-                            Recursiva(Sesion.ObtenerUsername().permiso);
+                            Recursiva(Sesion.ObtenerUsername().Permiso);
                         }
                         else
                         {

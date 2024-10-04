@@ -27,9 +27,13 @@ namespace Presentacion
         BLLArea bllarea;
         private void CrearArea_Load(object sender, EventArgs e)
         {
+            Actualizar();
+
+        }
+        void Actualizar()
+        {
             cmbResponsable.DataSource = null;
             cmbResponsable.DataSource = bllusuario.ListarUsuarios();
-
         }
 
         private void btnCrearArea_Click(object sender, EventArgs e)
@@ -37,7 +41,28 @@ namespace Presentacion
             BEArea area = new BEArea();
             area.Nombre = txtNombreArea.Text;
             area.Responsable = (BEUsuario)cmbResponsable.SelectedItem;
-            bllarea.CrearArea(area);
+            if (area.Responsable.Area == null)
+            {
+                if (bllarea.ValidarNombre(area.Nombre))
+                {
+                    bllarea.CrearArea(area);
+                    bllusuario.AsignarAreaUsuario(area.Responsable, area);
+                    MessageBox.Show("Se creo al area.");
+                }
+                else
+                {
+                    MessageBox.Show("Ya existe un area con ese nombre");
+                }
+               
+                
+            }
+            else
+            {
+                MessageBox.Show("El empleado no puede ser responsable del area porque ya pertenece a otra area.");
+            }
+            
+            Actualizar();
         }
+
     }
 }

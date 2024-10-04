@@ -20,7 +20,12 @@ namespace BLL
         MPPUsuario mppUsuario;
         public List<BEUsuario> ListarUsuarios()
         {
-            return mppUsuario.ListarUsuarios();
+            List<BEUsuario> listausuarios =  mppUsuario.ListarUsuarios();
+            foreach(BEUsuario usuario in listausuarios)
+            {
+                CompletarAreas(usuario);
+            }
+            return listausuarios;
         }
         public List<BEUsuarioHistorico> Listarcambios(BEUsuario usuario)
         {
@@ -73,7 +78,7 @@ namespace BLL
         public bool AsignarPermisoAUsuario(BEPermiso permiso, BEUsuario usuario)
         {
             MPPUsuario mp = new MPPUsuario();
-            if (usuario.permiso == null)
+            if (usuario.Permiso == null)
             {
                 return mp.AsignarPermisoAUsuario(permiso, usuario);
             }
@@ -82,6 +87,35 @@ namespace BLL
                 return false;
             }
           
+        }
+
+        void CompletarAreas(BEUsuario usu)
+        {
+            MPPArea mparea = new MPPArea();
+            List<BEArea> areas =  mparea.ListarAreas();
+            if (usu.Area != null)
+            {
+                foreach (BEArea area in areas)
+                {
+                    if (usu.Area.ID == area.ID)
+                    {
+                        usu.Area = area;
+                    }
+
+                }
+            }
+           
+        }
+
+        public bool RemoverDeArea(BEUsuario usuario)
+        {
+            MPPUsuario mp = new MPPUsuario();
+            return mp.RemoverDeArea(usuario);
+        }
+        public bool AsignarAreaUsuario(BEUsuario usu, BEArea area)
+        {
+            MPPUsuario mp = new MPPUsuario();
+            return mp.AsignarAreaUsuario(usu,area);
         }
         public bool Guardardvv()
         {
@@ -92,5 +126,9 @@ namespace BLL
             return mppUsuario.chequearDVV();
         }
 
+        public bool HacerResponsable(BEUsuario usuario, BEArea area)
+        {
+            return mppUsuario.HacerResponsable(usuario,area);
+        }
     }
 }

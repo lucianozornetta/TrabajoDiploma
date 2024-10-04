@@ -24,12 +24,12 @@ namespace MPP
         public bool Guardar(BEUsuario usuario)
         {
 
-            
+
             string consultasql = "S_CrearUsuario";
 
             int nombreDvh = GenerarASCII(usuario.Usuario);
             int emailDvh = GenerarASCII(usuario.Contraseña);
-            
+
             usuario.DVH = calcularDvh(usuario);
 
             hasdatos = new Hashtable();
@@ -54,7 +54,7 @@ namespace MPP
         public int calcularDvh(BEUsuario oUsuario)
         {
             int nombreDvh = GenerarASCII(oUsuario.Usuario);
-           
+
             int passwordDvh = GenerarASCII(oUsuario.Contraseña);
 
             return nombreDvh + passwordDvh;
@@ -94,7 +94,7 @@ namespace MPP
             hasdatos.Add("@Id", osu.Id);
             hasdatos.Add("@UsuarioRestaurar", osu.Usuario);
 
-            
+
             return acceso.Escribir(consultasql, hasdatos);
         }
 
@@ -111,7 +111,7 @@ namespace MPP
             hasdatos = new Hashtable();
             hasdatos.Add("@Usuario", usuario.Usuario);
             hasdatos.Add("@Contraseña", usuario.Contraseña);
-            hasdatos.Add("@DVH", usuario.DVH);            
+            hasdatos.Add("@DVH", usuario.DVH);
             return acceso.Escribir(consultasql, hasdatos);
         }
 
@@ -155,12 +155,29 @@ namespace MPP
                         usuario.Usuario = row["Usuario"].ToString();
                         usuario.Contraseña = row["Contraseña"].ToString();
                         usuario.DVH = Convert.ToInt32(row["DVH"].ToString());
+
+                        usuario.Area = row["Area"] != DBNull.Value ? new BEArea(Convert.ToInt32(row["Area"])) : null;
+
+
+
                         LeerPermisos(usuario);
+                        
                         ListaDeUsuarios.Add(usuario);
                     }
                 }
             }
             return ListaDeUsuarios;
+        }
+        public void AsignarAreaUsuario(BEUsuario usuario, List<BEArea> areas)
+        {
+            foreach (BEArea area in areas)
+            {
+                if (usuario.Area.ID == area.ID)
+                {
+                    usuario.Area = area;
+                }
+
+            }
         }
         public List<BEUsuario> ListarUsuariosConEliminados()
         {
@@ -195,18 +212,18 @@ namespace MPP
             if (grilla.Rows.Count > 0)
             {
                 foreach (DataRow row in grilla.Rows)
-                {                    
+                {
 
                     BEUsuarioHistorico usuario = new BEUsuarioHistorico();
                     usuario.Id = Convert.ToInt32(row["Id"].ToString());
                     usuario.Usuario = row["Usuario"].ToString();
                     usuario.Contraseña = row["Contraseña"].ToString();
                     usuario.DVH = Convert.ToInt32(row["DVH"].ToString());
-                   
+
                     //LeerPermisos(usuario);
                     lusu.Add(usuario);
 
-                    
+
 
                 }
             }
@@ -249,7 +266,7 @@ namespace MPP
                     {
                         if (usuario.Usuario == i)
                         {
-                            usuario.permiso = CrearPermiso(dict[i]);
+                            usuario.Permiso = CrearPermiso(dict[i]);
                         }
                         j++;
                     }
@@ -260,6 +277,34 @@ namespace MPP
                 }
             }
 
+        }
+
+        public bool AsignarAreaUsuario(BEUsuario usu, BEArea area)
+        {
+            acceso = new Acceso();
+            hasdatos = new Hashtable();
+
+            if(area.ID <= 0)
+            {
+                area.ID = ObtenerIDArea(area);
+            }
+            string consultasql = "S_AsignarArea";
+            hasdatos.Add("@Usuario", usu.Usuario);
+            hasdatos.Add("@Area", area.ID);
+            return acceso.Escribir(consultasql, hasdatos);
+        }
+        int ObtenerIDArea(BEArea area)
+        {
+            MPPArea mparea = new MPPArea();
+            List<BEArea> lstarea = mparea.ListarAreas();
+            foreach(BEArea a in lstarea)
+            {
+                if(a.Nombre == area.Nombre)
+                {
+                    return a.ID;
+                }
+            }
+            return -1;
         }
         BEPermiso CrearPermiso(int idPermiso)
         {
@@ -290,12 +335,12 @@ namespace MPP
             hasdatos = new Hashtable();
 
             string consulta = "S_GuardarDVV";
-            
+
             hasdatos.Add("@dvv", dvv);
 
             return acceso.Escribir(consulta, hasdatos);
-            
-            
+
+
         }
         public bool chequearDVV()
         {
@@ -334,5 +379,33 @@ namespace MPP
 
 
         }
+
+        public bool RemoverDeArea(BEUsuario usuario)
+        {
+            acceso = new Acceso();
+            hasdatos = new Hashtable();
+
+            string consultasql = "S_RemoverArea";
+            hasdatos.Add("@Usuario", usuario.Usuario);
+            return acceso.Escribir(consultasql, hasdatos);
+        }
+
+        public bool HacerResponsable(BEUsuario usuario, BEArea area)
+        {
+            acceso = new Acceso();
+            hasdatos = new Hashtable();
+
+            if (area.ID <= 0)
+            {
+                area.ID = ObtenerIDArea(area);
+            }
+            string consultasql = "S_CambiarResponsable";
+            hasdatos.Add("@Usuario", usuario.Usuario);
+            hasdatos.Add("@Area", area.ID);
+            return acceso.Escribir(consultasql, hasdatos);
+        }
+
     }
+    
+    
 }

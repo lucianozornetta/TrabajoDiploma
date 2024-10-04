@@ -13,11 +13,22 @@ namespace BE
         public string Contraseña { get; set; }
 
        
-        public BEPermiso permiso { get; set; }
+        public BEPermiso Permiso { get; set; }
+
+        public BEArea Area { get; set; }
         public int DVH { get; set; }
         public override string ToString()
         {
             return Usuario;
+        }
+        public BEUsuario()
+        {
+
+        }
+
+        public BEUsuario(string a)
+        {
+            this.Usuario = a;
         }
     }
     

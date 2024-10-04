@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Areas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Areas.Designer.cs">
+      <DependentUpon>Areas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AsignarEmpleadoArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AsignarEmpleadoArea.Designer.cs">
+      <DependentUpon>AsignarEmpleadoArea.cs</DependentUpon>
+    </Compile>
     <Compile Include="AsignarPermisos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,11 +94,23 @@
     <Compile Include="Idiomas.Designer.cs">
       <DependentUpon>Idiomas.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListadoAreas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListadoAreas.Designer.cs">
+      <DependentUpon>ListadoAreas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Loguin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Loguin.Designer.cs">
       <DependentUpon>Loguin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDITicketera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDITicketera.Designer.cs">
+      <DependentUpon>MDITicketera.cs</DependentUpon>
     </Compile>
     <Compile Include="OrdenesdeTrabajo.cs">
       <SubType>Form</SubType>
@@ -114,6 +138,12 @@
     <Compile Include="UsuariosAlterados.Designer.cs">
       <DependentUpon>UsuariosAlterados.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Areas.resx">
+      <DependentUpon>Areas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AsignarEmpleadoArea.resx">
+      <DependentUpon>AsignarEmpleadoArea.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AsignarPermisos.resx">
       <DependentUpon>AsignarPermisos.cs</DependentUpon>
     </EmbeddedResource>
@@ -132,8 +162,14 @@
     <EmbeddedResource Include="Idiomas.resx">
       <DependentUpon>Idiomas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ListadoAreas.resx">
+      <DependentUpon>ListadoAreas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Loguin.resx">
       <DependentUpon>Loguin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDITicketera.resx">
+      <DependentUpon>MDITicketera.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OrdenesdeTrabajo.resx">
       <DependentUpon>OrdenesdeTrabajo.cs</DependentUpon>

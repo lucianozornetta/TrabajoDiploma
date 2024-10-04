@@ -42,6 +42,7 @@
             this.cmbUrgencia = new System.Windows.Forms.ComboBox();
             this.lblImpacto = new System.Windows.Forms.Label();
             this.lblUrgencia = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -164,11 +165,22 @@
             this.lblUrgencia.TabIndex = 13;
             this.lblUrgencia.Text = "Urgencia";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(425, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(243, 23);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "NUEVA ORDEN DE TRABAJO";
+            // 
             // CrearOrdenTrabajo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1090, 635);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblUrgencia);
             this.Controls.Add(this.lblImpacto);
             this.Controls.Add(this.cmbUrgencia);
@@ -202,5 +214,6 @@
         private System.Windows.Forms.ComboBox cmbUrgencia;
         private System.Windows.Forms.Label lblImpacto;
         private System.Windows.Forms.Label lblUrgencia;
+        private System.Windows.Forms.Label label1;
     }
 }
