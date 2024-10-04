@@ -436,6 +436,7 @@ namespace Presentacion
             areas.FormClosed += (s, args) => this.Show();
             areas.Show();
             this.Hide();
+            
         }
 
         private void ticketeraToolStripMenuItem_Click(object sender, EventArgs e)

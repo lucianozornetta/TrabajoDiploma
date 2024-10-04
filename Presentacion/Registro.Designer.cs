@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.datagridusuarios = new System.Windows.Forms.DataGridView();
             this.btnregistrarusuario = new System.Windows.Forms.Button();
             this.btneliminarusuarioRegistro = new System.Windows.Forms.Button();
@@ -41,6 +42,13 @@
             this.btnrestaurarcambios = new System.Windows.Forms.Button();
             this.btnAsignarArea = new System.Windows.Forms.Button();
             this.cmbAsignarAreas = new System.Windows.Forms.ComboBox();
+            this.txtDNI = new System.Windows.Forms.TextBox();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtApellido = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.datagridusuarios)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datagridcambios)).BeginInit();
             this.SuspendLayout();
@@ -95,14 +103,14 @@
             this.btnmodificarusuarioRegistro.Size = new System.Drawing.Size(79, 34);
             this.btnmodificarusuarioRegistro.TabIndex = 3;
             this.btnmodificarusuarioRegistro.Tag = "btnModificarUsuarioRegistro";
-            this.btnmodificarusuarioRegistro.Text = "Modificar usuario";
+            this.btnmodificarusuarioRegistro.Text = "Modificar contraseña";
             this.btnmodificarusuarioRegistro.UseVisualStyleBackColor = true;
             this.btnmodificarusuarioRegistro.Click += new System.EventHandler(this.btnmodificarusuario_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 36);
+            this.label1.Location = new System.Drawing.Point(42, 43);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 13);
@@ -113,7 +121,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(22, 81);
+            this.label2.Location = new System.Drawing.Point(33, 88);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(81, 13);
@@ -199,12 +207,77 @@
             this.cmbAsignarAreas.TabIndex = 15;
             this.cmbAsignarAreas.Visible = false;
             // 
+            // txtDNI
+            // 
+            this.txtDNI.Location = new System.Drawing.Point(118, 119);
+            this.txtDNI.Name = "txtDNI";
+            this.txtDNI.Size = new System.Drawing.Size(68, 20);
+            this.txtDNI.TabIndex = 16;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(54, 126);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(26, 13);
+            this.label3.TabIndex = 18;
+            this.label3.Tag = "labelContraseñaRegistroUsuario";
+            this.label3.Text = "DNI";
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Location = new System.Drawing.Point(118, 155);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(68, 20);
+            this.txtNombre.TabIndex = 19;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(44, 162);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(54, 13);
+            this.label4.TabIndex = 20;
+            this.label4.Tag = "labelContraseñaRegistroUsuario";
+            this.label4.Text = "NOMBRE";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(44, 195);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(59, 13);
+            this.label5.TabIndex = 21;
+            this.label5.Tag = "labelContraseñaRegistroUsuario";
+            this.label5.Text = "APELLIDO";
+            // 
+            // txtApellido
+            // 
+            this.txtApellido.Location = new System.Drawing.Point(118, 192);
+            this.txtApellido.Name = "txtApellido";
+            this.txtApellido.Size = new System.Drawing.Size(68, 20);
+            this.txtApellido.TabIndex = 22;
+            // 
             // Registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(727, 369);
+            this.Controls.Add(this.txtApellido);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txtNombre);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtDNI);
             this.Controls.Add(this.cmbAsignarAreas);
             this.Controls.Add(this.btnAsignarArea);
             this.Controls.Add(this.btnrestaurarcambios);
@@ -244,5 +317,12 @@
         private System.Windows.Forms.Button btnrestaurarcambios;
         private System.Windows.Forms.Button btnAsignarArea;
         private System.Windows.Forms.ComboBox cmbAsignarAreas;
+        private System.Windows.Forms.TextBox txtDNI;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtApellido;
     }
 }

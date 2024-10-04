@@ -112,12 +112,6 @@
     <Compile Include="MDITicketera.Designer.cs">
       <DependentUpon>MDITicketera.cs</DependentUpon>
     </Compile>
-    <Compile Include="OrdenesdeTrabajo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="OrdenesdeTrabajo.Designer.cs">
-      <DependentUpon>OrdenesdeTrabajo.cs</DependentUpon>
-    </Compile>
     <Compile Include="Permisos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,9 +164,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MDITicketera.resx">
       <DependentUpon>MDITicketera.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OrdenesdeTrabajo.resx">
-      <DependentUpon>OrdenesdeTrabajo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Permisos.resx">
       <DependentUpon>Permisos.cs</DependentUpon>

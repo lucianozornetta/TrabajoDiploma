@@ -30,7 +30,6 @@ C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.e
 C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.pdb
 C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.CrearArea.resources
 C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.CrearOrdenTrabajo.resources
-C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.OrdenesdeTrabajo.resources
 C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.Areas.resources
 C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.AsignarEmpleadoArea.resources
 C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.ListadoAreas.resources

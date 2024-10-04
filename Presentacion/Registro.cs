@@ -131,19 +131,27 @@ namespace Presentacion
         private void btneliminarusuario_Click(object sender, EventArgs e)
         {
             ousuario = (BEUsuario)datagridusuarios.CurrentRow.DataBoundItem;
-            obllusuario.Eliminar(ousuario);
-            obllusuario.Guardardvv();
-            BEBitacora bitacora = new BEBitacora();
-
-            bitacora.Usuario = Sesion.ObtenerUsername().Usuario;
-            bitacora.Mensaje = "Ha eliminado a usuario: " + ousuario;
-            bitacora.Tipo = BitacoraTipo.INFO;
-            obllbitacora.GuardarBitacora(bitacora);
-            if (ousuario.Usuario == Sesion.ObtenerUsername().Usuario)
+            if(ousuario.Area == null)
             {
-                MessageBox.Show("Elimino el usuario de la sesion.");
-                Application.Exit();
+                obllusuario.Eliminar(ousuario);
+                obllusuario.Guardardvv();
+                BEBitacora bitacora = new BEBitacora();
+
+                bitacora.Usuario = Sesion.ObtenerUsername().Usuario;
+                bitacora.Mensaje = "Ha eliminado a usuario: " + ousuario;
+                bitacora.Tipo = BitacoraTipo.INFO;
+                obllbitacora.GuardarBitacora(bitacora);
+                if (ousuario.Usuario == Sesion.ObtenerUsername().Usuario)
+                {
+                    MessageBox.Show("Elimino el usuario de la sesion.");
+                    Application.Exit();
+                }
             }
+            else
+            {
+                MessageBox.Show("El usuario pertenece a un area y no puede ser eliminado");
+            }
+           
             cargargrilla();
             cargarcambios(ousuario);
             limpiar();
