@@ -45,6 +45,7 @@
     <Compile Include="MPPBitacora.cs" />
     <Compile Include="MPPPermiso.cs" />
     <Compile Include="MPPRepositorioIdioma.cs" />
+    <Compile Include="MPPTag.cs" />
     <Compile Include="MPPUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

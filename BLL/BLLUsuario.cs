@@ -106,6 +106,7 @@ namespace BLL
             }
            
         }
+        
 
         public bool RemoverDeArea(BEUsuario usuario)
         {
@@ -129,6 +130,10 @@ namespace BLL
         public bool HacerResponsable(BEUsuario usuario, BEArea area)
         {
             return mppUsuario.HacerResponsable(usuario,area);
+        }
+        public bool AsignarTag(BEUsuario usuario, BETag tag)
+        {
+            return mppUsuario.AsignarTagsUsuario(usuario, tag);
         }
     }
 }

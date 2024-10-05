@@ -8,6 +8,11 @@ namespace BE
 {
     public class BETag
     {
-        string Nombre { get; set; }
+        public string Nombre { get; set; }
+
+        public override string ToString()
+        {
+            return this.Nombre;
+        }
     }
 }

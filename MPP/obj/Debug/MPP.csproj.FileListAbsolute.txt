@@ -11,3 +11,16 @@ C:\Users\lucia\Source\Repos\TrabajoDiploma\MPP\obj\Debug\MPP.csproj.CoreCompileI
 C:\Users\lucia\Source\Repos\TrabajoDiploma\MPP\obj\Debug\MPP.csproj.Up2Date
 C:\Users\lucia\Source\Repos\TrabajoDiploma\MPP\obj\Debug\MPP.dll
 C:\Users\lucia\Source\Repos\TrabajoDiploma\MPP\obj\Debug\MPP.pdb
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\MPP\bin\Debug\MPP.dll
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\MPP\bin\Debug\MPP.pdb
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\MPP\bin\Debug\BE.dll
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\MPP\bin\Debug\DAL.dll
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\MPP\bin\Debug\Interfaces.dll
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\MPP\bin\Debug\BE.pdb
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\MPP\bin\Debug\DAL.pdb
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\MPP\bin\Debug\Interfaces.pdb
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\MPP\obj\Debug\MPP.csproj.AssemblyReference.cache
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\MPP\obj\Debug\MPP.csproj.CoreCompileInputs.cache
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\MPP\obj\Debug\MPP.csproj.CopyComplete
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\MPP\obj\Debug\MPP.dll
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\MPP\obj\Debug\MPP.pdb

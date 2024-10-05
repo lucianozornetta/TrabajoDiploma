@@ -8,6 +8,9 @@ namespace BE
 {
     public class BEOrdenTrabajoModerado : BEOrdenDeTrabajo
     {
+        public BEOrdenTrabajoModerado()
+        {
+        }
 
         public BEOrdenTrabajoModerado(int numero, DateTime inicio) : base(numero, inicio)
         {

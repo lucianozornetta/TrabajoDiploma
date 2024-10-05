@@ -161,7 +161,7 @@ namespace MPP
 
 
                         LeerPermisos(usuario);
-                        
+                        LeerTagsUsuario(usuario);
                         ListaDeUsuarios.Add(usuario);
                     }
                 }
@@ -284,7 +284,7 @@ namespace MPP
             acceso = new Acceso();
             hasdatos = new Hashtable();
 
-            if(area.ID <= 0)
+            if (area.ID <= 0)
             {
                 area.ID = ObtenerIDArea(area);
             }
@@ -297,9 +297,9 @@ namespace MPP
         {
             MPPArea mparea = new MPPArea();
             List<BEArea> lstarea = mparea.ListarAreas();
-            foreach(BEArea a in lstarea)
+            foreach (BEArea a in lstarea)
             {
-                if(a.Nombre == area.Nombre)
+                if (a.Nombre == area.Nombre)
                 {
                     return a.ID;
                 }
@@ -405,7 +405,42 @@ namespace MPP
             return acceso.Escribir(consultasql, hasdatos);
         }
 
+
+        public bool AsignarTagsUsuario(BEUsuario usuario, BETag tag)
+        {
+            acceso = new Acceso();
+            hasdatos = new Hashtable();
+            string consultasql = "S_AsignarTag";
+            hasdatos.Add("@Usuario", usuario.Usuario);
+            hasdatos.Add("@Tag", tag.Nombre);
+            return acceso.Escribir(consultasql, hasdatos);
+        }
+
+        public void LeerTagsUsuario(BEUsuario usuario)
+        {
+            acceso = new Acceso();
+            hasdatos = new Hashtable();
+            hasdatos.Add("@NombreUsuario", usuario.Usuario);
+            string sqlconsulta = "S_ListarTagsUsuario";
+
+            DataTable grilla = acceso.Leer(sqlconsulta, hasdatos);
+            if (grilla.Rows.Count > 0)
+            {
+                foreach (DataRow row in grilla.Rows)
+                {
+
+                    BETag tag = new BETag();
+                    tag.Nombre = row["Nombre"].ToString();
+                    usuario.Aptitudes.Add(tag);
+
+                }
+            }
+
+        }
+
     }
-    
-    
+
 }
+
+
+

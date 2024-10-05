@@ -8,6 +8,10 @@ namespace BE
 {
     public class BEOrdenTrabajoBaja : BEOrdenDeTrabajo
     {
+        public BEOrdenTrabajoBaja()
+        {
+        }
+
         public BEOrdenTrabajoBaja(int numero, DateTime inicio) : base(numero, inicio)
         {
             this.Numero = numero;

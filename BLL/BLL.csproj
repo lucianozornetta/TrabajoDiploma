@@ -45,6 +45,7 @@
     <Compile Include="BLLBitacora.cs" />
     <Compile Include="BLLPermiso.cs" />
     <Compile Include="BLLRepositorioIdioma.cs" />
+    <Compile Include="BLLTag.cs" />
     <Compile Include="BLLUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

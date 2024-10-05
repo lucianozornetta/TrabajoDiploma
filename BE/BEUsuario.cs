@@ -18,23 +18,21 @@ namespace BE
         public BEArea Area { get; set; }
         public int DVH { get; set; }
 
-        public int DNI { get; set; }
+        public List<BETag> Aptitudes { get; set; }  
 
-        public string Nombre { get; set; }
-
-        public string Apellido { get; set; }
         public override string ToString()
         {
             return Usuario;
         }
         public BEUsuario()
         {
-
+            this.Aptitudes = new List<BETag>();
         }
 
         public BEUsuario(string a)
         {
             this.Usuario = a;
+            this.Aptitudes = new List<BETag>();
         }
     }
     

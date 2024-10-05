@@ -15,8 +15,8 @@ namespace DAL
     public class Acceso
     {
         
-        string cadena = @"Data Source=.\SQLEXPRESS;Initial Catalog=BDPROYECTOCAMPO;Integrated Security=True";
-        private SqlConnection ocon = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=BDPROYECTOCAMPO;Integrated Security=True");
+        string cadena = @"Data Source=.;Initial Catalog=BDPROYECTOCAMPO;Integrated Security=True";
+        private SqlConnection ocon = new SqlConnection(@"Data Source=.;Initial Catalog=BDPROYECTOCAMPO;Integrated Security=True");
         private SqlCommand ocomand;
         private SqlTransaction trans;
 

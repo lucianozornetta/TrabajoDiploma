@@ -9,3 +9,14 @@ C:\Users\lucia\Source\Repos\TrabajoDiploma\Servicios\obj\Debug\Servicios.csproj.
 C:\Users\lucia\Source\Repos\TrabajoDiploma\Servicios\obj\Debug\Servicios.csproj.Up2Date
 C:\Users\lucia\Source\Repos\TrabajoDiploma\Servicios\obj\Debug\Servicios.dll
 C:\Users\lucia\Source\Repos\TrabajoDiploma\Servicios\obj\Debug\Servicios.pdb
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\Servicios\bin\Debug\Servicios.dll
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\Servicios\bin\Debug\Servicios.pdb
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\Servicios\bin\Debug\BE.dll
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\Servicios\bin\Debug\Interfaces.dll
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\Servicios\bin\Debug\BE.pdb
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\Servicios\bin\Debug\Interfaces.pdb
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\Servicios\obj\Debug\Servicios.csproj.AssemblyReference.cache
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\Servicios\obj\Debug\Servicios.csproj.CoreCompileInputs.cache
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\Servicios\obj\Debug\Servicios.csproj.CopyComplete
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\Servicios\obj\Debug\Servicios.dll
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\Servicios\obj\Debug\Servicios.pdb

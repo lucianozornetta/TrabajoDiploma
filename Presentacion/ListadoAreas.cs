@@ -12,6 +12,7 @@ using BE;
 using Servicios;
 using Interfaces;
 
+
 namespace Presentacion
 {
     public partial class ListadoAreas : Form
@@ -20,13 +21,17 @@ namespace Presentacion
         {
             InitializeComponent();
             bllarea = new BLLArea();
-            BLLUsuario = new BLLUsuario();
+            bLLUsuario = new BLLUsuario();
+            blltag = new BLLTag();
         }
+        CrearTag creartag;
         BLLArea bllarea;
-        BLLUsuario BLLUsuario;
+        BLLUsuario bLLUsuario;
+        BLLTag blltag;
         private void ListadoAreas_Load(object sender, EventArgs e)
         {
             CargarGrilla();
+            ActualizarCMB();
         }
         void CargarGrilla()
         {
@@ -49,6 +54,73 @@ namespace Presentacion
 
             dgvEmpleados.DataSource = null;
             dgvEmpleados.DataSource = datosFiltrados;
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+        void ActualizarCMB() 
+        {
+            cmbTags.DataSource = null;
+            cmbTags.DataSource = blltag.ListarTags();
+        }
+        private void btnCrearTag_Click(object sender, EventArgs e)
+        {
+            if (creartag == null)
+            {
+                creartag = new CrearTag();
+                creartag.FormClosed += (s, args) => this.ActualizarCMB();
+                creartag.FormClosed += new FormClosedEventHandler(CerrarCrearTag);
+                creartag.Show();
+            }
+            else
+            {
+                creartag.Activate();
+            }
+            
+
+        }
+        void CerrarCrearTag(object sender, FormClosedEventArgs e)
+        {
+            creartag = null;
+        }
+        void ActualizarListBox()
+        {
+
+        }
+        private void btnAsignarTag_Click(object sender, EventArgs e)
+        {
+            BETag tag = (BETag)cmbTags.SelectedItem;
+            BEUsuario usuario = new BEUsuario(dgvEmpleados.SelectedRows[0].Cells[0].Value.ToString());
+            try
+            {
+                 if(bLLUsuario.AsignarTag(usuario, tag))
+                 {
+                    MessageBox.Show("Se asigno el tag correctamente");
+                 }
+                else
+                {
+                    MessageBox.Show("El empleado ya posee ese Tag.");
+                }
+                 
+            }
+            catch(Exception ex)
+            {
+
+                MessageBox.Show("ERROR 404");
+            }
+           
+            
+        }
+
+        private void btnListarTagsEmpleado_Click(object sender, EventArgs e)
+        {
+            BEUsuario usuario = new BEUsuario(dgvEmpleados.SelectedRows[0].Cells[0].Value.ToString());
+            
+            listBox1.DataSource = null;
+            listBox1.DataSource = blltag.DevolverTagsDeUsuario(usuario);
+
         }
     }
 }

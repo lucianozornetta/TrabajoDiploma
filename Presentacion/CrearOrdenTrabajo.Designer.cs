@@ -43,6 +43,9 @@
             this.lblImpacto = new System.Windows.Forms.Label();
             this.lblUrgencia = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -52,7 +55,7 @@
             // 
             // RtxtNotasWO
             // 
-            this.RtxtNotasWO.Location = new System.Drawing.Point(161, 104);
+            this.RtxtNotasWO.Location = new System.Drawing.Point(161, 182);
             this.RtxtNotasWO.Name = "RtxtNotasWO";
             this.RtxtNotasWO.Size = new System.Drawing.Size(315, 237);
             this.RtxtNotasWO.TabIndex = 2;
@@ -62,7 +65,7 @@
             // 
             this.lblNotas.AutoSize = true;
             this.lblNotas.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNotas.Location = new System.Drawing.Point(102, 100);
+            this.lblNotas.Location = new System.Drawing.Point(102, 178);
             this.lblNotas.Name = "lblNotas";
             this.lblNotas.Size = new System.Drawing.Size(53, 23);
             this.lblNotas.TabIndex = 3;
@@ -70,16 +73,16 @@
             // 
             // txtResumenWO
             // 
-            this.txtResumenWO.Location = new System.Drawing.Point(161, 58);
+            this.txtResumenWO.Location = new System.Drawing.Point(161, 132);
             this.txtResumenWO.Name = "txtResumenWO";
-            this.txtResumenWO.Size = new System.Drawing.Size(294, 20);
+            this.txtResumenWO.Size = new System.Drawing.Size(315, 20);
             this.txtResumenWO.TabIndex = 4;
             // 
             // lblResumen
             // 
             this.lblResumen.AutoSize = true;
             this.lblResumen.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResumen.Location = new System.Drawing.Point(87, 58);
+            this.lblResumen.Location = new System.Drawing.Point(84, 128);
             this.lblResumen.Name = "lblResumen";
             this.lblResumen.Size = new System.Drawing.Size(71, 23);
             this.lblResumen.TabIndex = 5;
@@ -88,7 +91,7 @@
             // cmbAreaWO
             // 
             this.cmbAreaWO.FormattingEnabled = true;
-            this.cmbAreaWO.Location = new System.Drawing.Point(161, 391);
+            this.cmbAreaWO.Location = new System.Drawing.Point(161, 455);
             this.cmbAreaWO.Name = "cmbAreaWO";
             this.cmbAreaWO.Size = new System.Drawing.Size(315, 21);
             this.cmbAreaWO.TabIndex = 6;
@@ -97,7 +100,7 @@
             // 
             this.lblAreaWO.AutoSize = true;
             this.lblAreaWO.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAreaWO.Location = new System.Drawing.Point(102, 391);
+            this.lblAreaWO.Location = new System.Drawing.Point(102, 451);
             this.lblAreaWO.Name = "lblAreaWO";
             this.lblAreaWO.Size = new System.Drawing.Size(46, 23);
             this.lblAreaWO.TabIndex = 7;
@@ -106,7 +109,7 @@
             // cmbTags
             // 
             this.cmbTags.FormattingEnabled = true;
-            this.cmbTags.Location = new System.Drawing.Point(161, 446);
+            this.cmbTags.Location = new System.Drawing.Point(161, 502);
             this.cmbTags.Name = "cmbTags";
             this.cmbTags.Size = new System.Drawing.Size(315, 21);
             this.cmbTags.TabIndex = 8;
@@ -115,7 +118,7 @@
             // 
             this.lblTags.AutoSize = true;
             this.lblTags.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTags.Location = new System.Drawing.Point(49, 446);
+            this.lblTags.Location = new System.Drawing.Point(46, 498);
             this.lblTags.Name = "lblTags";
             this.lblTags.Size = new System.Drawing.Size(109, 23);
             this.lblTags.TabIndex = 9;
@@ -175,11 +178,42 @@
             this.label1.TabIndex = 14;
             this.label1.Text = "NUEVA ORDEN DE TRABAJO";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(707, 182);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(144, 55);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "Crear Orden de Trabajo";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(161, 76);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(315, 20);
+            this.textBox1.TabIndex = 16;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(89, 76);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(66, 23);
+            this.label2.TabIndex = 17;
+            this.label2.Text = "Numero";
+            // 
             // CrearOrdenTrabajo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1090, 635);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblUrgencia);
             this.Controls.Add(this.lblImpacto);
@@ -195,6 +229,7 @@
             this.Controls.Add(this.RtxtNotasWO);
             this.Name = "CrearOrdenTrabajo";
             this.Text = "CrearOrdenTrabajo";
+            this.Load += new System.EventHandler(this.CrearOrdenTrabajo_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -215,5 +250,8 @@
         private System.Windows.Forms.Label lblImpacto;
         private System.Windows.Forms.Label lblUrgencia;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label2;
     }
 }

@@ -15,6 +15,10 @@ namespace BE
             this.FechaInicio = inicio;
             CalcularFechaLimite();
         }
+        public BEOrdenDeTrabajo()
+        {
+
+        }
         public int Numero { get; set; }
         public BEUsuario Cliente { get; set; }
 
@@ -26,6 +30,7 @@ namespace BE
 
         public List<BEDetalleWO> DetallesWO { get; set; }
 
+        public List<BEArea> Tags { get; set; }
 
         public DateTime FechaInicio { get; set; }
         
