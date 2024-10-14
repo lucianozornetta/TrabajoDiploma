@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="BLLArea.cs" />
     <Compile Include="BLLBitacora.cs" />
+    <Compile Include="BLLOrdenDeTrabajo.cs" />
     <Compile Include="BLLPermiso.cs" />
     <Compile Include="BLLRepositorioIdioma.cs" />
     <Compile Include="BLLTag.cs" />

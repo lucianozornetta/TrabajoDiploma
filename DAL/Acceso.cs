@@ -14,9 +14,10 @@ namespace DAL
 {
     public class Acceso
     {
+   
         
-        string cadena = @"Data Source=.;Initial Catalog=BDPROYECTOCAMPO;Integrated Security=True";
-        private SqlConnection ocon = new SqlConnection(@"Data Source=.;Initial Catalog=BDPROYECTOCAMPO;Integrated Security=True");
+        string cadena = @"Data Source=.\SQLEXPRESS01;Initial Catalog=BDPROYECTOCAMPO;Integrated Security=True;Encrypt=False";
+        private SqlConnection ocon = new SqlConnection(@"Data Source=.\SQLEXPRESS01;Initial Catalog=BDPROYECTOCAMPO;Integrated Security=True;Encrypt=False");
         private SqlCommand ocomand;
         private SqlTransaction trans;
 
@@ -123,10 +124,70 @@ namespace DAL
             }
             finally
             { ocon.Close(); }
-        }      
+        }
 
-        
-        
+        public bool Transaccion(List<string> consultas, List<Hashtable> HdatosList)
+        {
+            if (ocon.State == ConnectionState.Closed)
+            {
+                ocon.ConnectionString = cadena;
+                ocon.Open();
+            }
+
+            SqlTransaction trans = null;
+
+            try
+            {
+                trans = ocon.BeginTransaction();
+
+                for (int i = 0; i < consultas.Count; i++)
+                {
+                    string consulta = consultas[i];
+                    Hashtable Hdatos = HdatosList[i];
+
+                    SqlCommand ocomand = new SqlCommand(consulta, ocon, trans);
+                    ocomand.CommandType = CommandType.StoredProcedure;
+
+                    if (Hdatos != null)
+                    {
+                        foreach (string dato in Hdatos.Keys)
+                        {
+                            ocomand.Parameters.AddWithValue(dato, Hdatos[dato]);
+                        }
+                    }
+
+                    int respuesta = ocomand.ExecuteNonQuery();
+
+
+                }
+
+                trans.Commit(); 
+                return true;
+            }
+            catch (SqlException ex)
+            {
+                if (trans != null)
+                    trans.Rollback(); 
+
+                return false;
+                throw ex;
+            }
+            catch (Exception ex)
+            {
+                if (trans != null)
+                    trans.Rollback();
+
+                return false;
+                throw ex;
+            }
+            finally
+            {
+                ocon.Close();
+            }
+        }
+
+
+
     }
 
 }

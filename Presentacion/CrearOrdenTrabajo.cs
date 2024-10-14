@@ -10,6 +10,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Servicios;
+using System.Diagnostics.Eventing.Reader;
+
 
 namespace Presentacion
 {
@@ -21,10 +23,12 @@ namespace Presentacion
             bllusuario = new BLLUsuario();
             blltag = new BLLTag();
             bllarea = new BLLArea();
+            bllordentrabajo = new BLLOrdenDeTrabajo();
         }
         BLLUsuario bllusuario;
         BLLTag blltag;
         BLLArea bllarea;
+        BLLOrdenDeTrabajo bllordentrabajo;
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -35,11 +39,25 @@ namespace Presentacion
             ActualizarControladores();
             cmbAreaWO.SelectedIndex = -1;
             cmbTags.SelectedIndex = -1;
+            cmbTags.Hide();
+            txtNumero.Text = Convert.ToString(bllordentrabajo.ObtenerProximoNumeroWO());
+            
+        }
+        void CargarCheckedListbox()
+        {
+            ListTags.Items.Clear();
+            List<BETag> tags = blltag.ListarTags();
+            foreach(BETag TAG in  tags)
+            {
+                ListTags.Items.Add(TAG);
+            }
+
         }
         void ActualizarControladores()
         {
             ActualizarCMBArea();
             ActualizarCMBTags();
+            CargarCheckedListbox();
         }
         void ActualizarCMBArea()
         {
@@ -71,6 +89,28 @@ namespace Presentacion
             }
             FabricaOrdenesTrabajo fabrica = new FabricaOrdenesTrabajo();
             BEOrdenDeTrabajo WO = fabrica.CrearOrdenTrabajo(costo);
+
+            WO.Numero = bllordentrabajo.ObtenerProximoNumeroWO();
+            WO.FechaInicio = DateTime.Now;
+            WO.Cliente = Sesion.ObtenerUsername();
+            WO.Resumen = txtResumenWO.Text;
+            WO.Notas = RtxtNotasWO.Text;
+            WO.area = (BEArea) cmbAreaWO.SelectedItem;
+            WO.CalcularFechaLimite();
+            foreach (BETag TAG in ListTags.CheckedItems)
+            {
+                WO.Tags.Add(TAG);
+            }
+            bllordentrabajo.GuardarWorkOrder(WO);
+        }
+
+        private void ListTags_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //List<BETag> tags = new List<BETag>();
+            //foreach(BETag TAG in ListTags.CheckedItems)
+            //{
+            //    tags.Add(TAG);
+            //}
         }
     }
 }

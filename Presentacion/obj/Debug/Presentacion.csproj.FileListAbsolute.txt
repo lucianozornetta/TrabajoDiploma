@@ -71,3 +71,5 @@ C:\Users\Navegador\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentaci
 C:\Users\Navegador\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\Navegador\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.pdb
 C:\Users\Navegador\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.CrearTag.resources
+C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.CrearTag.resources
+C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.ListadoTickets.resources

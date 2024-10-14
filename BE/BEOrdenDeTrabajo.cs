@@ -13,11 +13,12 @@ namespace BE
         {
             this.Numero = numero;
             this.FechaInicio = inicio;
+            this.Tags = new List<BETag>();
             CalcularFechaLimite();
         }
         public BEOrdenDeTrabajo()
         {
-
+            this.Tags = new List<BETag> ();
         }
         public int Numero { get; set; }
         public BEUsuario Cliente { get; set; }
@@ -30,7 +31,9 @@ namespace BE
 
         public List<BEDetalleWO> DetallesWO { get; set; }
 
-        public List<BEArea> Tags { get; set; }
+        public List<BETag> Tags { get; set; }
+
+        public BEArea area { get; set; }
 
         public DateTime FechaInicio { get; set; }
         

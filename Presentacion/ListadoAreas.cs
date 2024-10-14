@@ -41,19 +41,28 @@ namespace Presentacion
 
         private void button1_Click(object sender, EventArgs e)
         {
-            BEArea area = (BEArea)dgvAreas.SelectedRows[0].DataBoundItem;
-            //bllarea.ListarEmpleados(area);
-
-            var datosFiltrados = area.EmpleadosDelArea.Select(u => new
+            try
             {
-                u.Usuario,
-                u.Contraseña,
-                u.Permiso,
-                u.DVH
-            }).ToList();
+                BEArea area = (BEArea)dgvAreas.SelectedRows[0].DataBoundItem;
+                //bllarea.ListarEmpleados(area);
 
-            dgvEmpleados.DataSource = null;
-            dgvEmpleados.DataSource = datosFiltrados;
+                var datosFiltrados = area.EmpleadosDelArea.Select(u => new
+                {
+                    u.Usuario,
+                    u.Contraseña,
+                    u.Permiso,
+                    u.DVH
+                }).ToList();
+
+                dgvEmpleados.DataSource = null;
+                dgvEmpleados.DataSource = datosFiltrados;
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Area seleccionada no valida");
+            }
+           
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -116,10 +125,19 @@ namespace Presentacion
 
         private void btnListarTagsEmpleado_Click(object sender, EventArgs e)
         {
-            BEUsuario usuario = new BEUsuario(dgvEmpleados.SelectedRows[0].Cells[0].Value.ToString());
-            
-            listBox1.DataSource = null;
-            listBox1.DataSource = blltag.DevolverTagsDeUsuario(usuario);
+            try
+            {
+                BEUsuario usuario = new BEUsuario(dgvEmpleados.SelectedRows[0].Cells[0].Value.ToString());
+
+                listBox1.DataSource = null;
+                listBox1.DataSource = blltag.DevolverTagsDeUsuario(usuario);
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Empleado seleccionado no valido");
+            }
+           
 
         }
     }

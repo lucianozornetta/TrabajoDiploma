@@ -10,11 +10,13 @@ namespace BE
     {
         public BEOrdenTrabajoCritico()
         {
+            this.Tags = new List<BETag>();
         }
 
         public BEOrdenTrabajoCritico(int numero, DateTime inicio) : base(numero, inicio)
         {
             this.Numero = numero;
+            this.Tags = new List<BETag>();
             this.FechaInicio = inicio;
             CalcularFechaLimite();
         }

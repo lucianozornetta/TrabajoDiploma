@@ -106,6 +106,12 @@
     <Compile Include="ListadoAreas.Designer.cs">
       <DependentUpon>ListadoAreas.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListadoTickets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListadoTickets.Designer.cs">
+      <DependentUpon>ListadoTickets.cs</DependentUpon>
+    </Compile>
     <Compile Include="Loguin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,6 +173,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ListadoAreas.resx">
       <DependentUpon>ListadoAreas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListadoTickets.resx">
+      <DependentUpon>ListadoTickets.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loguin.resx">
       <DependentUpon>Loguin.cs</DependentUpon>

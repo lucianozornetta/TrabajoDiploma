@@ -32,13 +32,15 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.nuevaOrdenDeTrabajoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.verTicketsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nuevaOrdenDeTrabajoToolStripMenuItem});
+            this.nuevaOrdenDeTrabajoToolStripMenuItem,
+            this.verTicketsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(974, 24);
@@ -57,6 +59,13 @@
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // verTicketsToolStripMenuItem
+            // 
+            this.verTicketsToolStripMenuItem.Name = "verTicketsToolStripMenuItem";
+            this.verTicketsToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
+            this.verTicketsToolStripMenuItem.Text = "Ver Tickets";
+            this.verTicketsToolStripMenuItem.Click += new System.EventHandler(this.verTicketsToolStripMenuItem_Click);
             // 
             // MDITicketera
             // 
@@ -80,5 +89,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem nuevaOrdenDeTrabajoToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem verTicketsToolStripMenuItem;
     }
 }

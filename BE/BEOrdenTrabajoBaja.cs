@@ -10,12 +10,14 @@ namespace BE
     {
         public BEOrdenTrabajoBaja()
         {
+            this.Tags = new List<BETag>();
         }
 
         public BEOrdenTrabajoBaja(int numero, DateTime inicio) : base(numero, inicio)
         {
             this.Numero = numero;
             this.FechaInicio = inicio;
+            this.Tags = new List<BETag>();
             CalcularFechaLimite();
         }
 

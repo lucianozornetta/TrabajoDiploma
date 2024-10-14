@@ -19,6 +19,7 @@ namespace Presentacion
             InitializeComponent();
         }
         private CrearOrdenTrabajo crearWO;
+        private ListadoTickets listartickets;
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
             if (crearWO == null)
@@ -44,6 +45,27 @@ namespace Presentacion
         private void nuevaOrdenDeTrabajoToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void verTicketsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (listartickets == null)
+            {
+                listartickets = new ListadoTickets();
+                listartickets.MdiParent = this;
+                listartickets.FormClosed += new FormClosedEventHandler(CerrarListarTickets);
+                listartickets.Show();
+
+            }
+            else
+            {
+                listartickets.Activate();
+
+            }
+        }
+        void CerrarListarTickets(object sender, FormClosedEventArgs e)
+        {
+            listartickets = null;
         }
     }
 }

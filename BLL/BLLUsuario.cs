@@ -135,5 +135,18 @@ namespace BLL
         {
             return mppUsuario.AsignarTagsUsuario(usuario, tag);
         }
+        public BEArea BuscarArea(BEUsuario usuario)
+        {
+            List<BEUsuario> LISTAUSUARIOS = ListarUsuarios();
+            foreach(BEUsuario user in LISTAUSUARIOS)
+            {
+                if(usuario.Usuario == user.Usuario)
+                {
+                    return user.Area;
+                }
+
+            }
+            return null;
+        }
     }
 }
