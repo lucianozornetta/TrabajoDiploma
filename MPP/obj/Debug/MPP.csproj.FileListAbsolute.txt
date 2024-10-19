@@ -26,3 +26,5 @@ C:\Users\Navegador\Source\Repos\TrabajoDiploma\MPP\obj\Debug\MPP.dll
 C:\Users\Navegador\Source\Repos\TrabajoDiploma\MPP\obj\Debug\MPP.pdb
 C:\Users\lucia\Source\Repos\TrabajoDiploma\MPP\bin\Debug\Servicios.dll
 C:\Users\lucia\Source\Repos\TrabajoDiploma\MPP\bin\Debug\Servicios.pdb
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\MPP\bin\Debug\Servicios.dll
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\MPP\bin\Debug\Servicios.pdb

@@ -22,6 +22,7 @@ namespace Presentacion
             area = bllusuario.BuscarArea(Sesion.ObtenerUsername());
             bllwo = new BLLOrdenDeTrabajo();
         }
+        Ticket Tickets;
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -36,5 +37,12 @@ namespace Presentacion
             
         }
 
+        private void btnAbrirWO_Click(object sender, EventArgs e)
+        {
+            
+            Tickets = new Ticket();
+            Tickets.Show();
+           
+        }
     }
 }

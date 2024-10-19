@@ -4,3 +4,9 @@ C:\Users\lucia\Source\Repos\TrabajoDiploma\Interfaces\obj\Debug\Interfaces.cspro
 C:\Users\lucia\Source\Repos\TrabajoDiploma\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
 C:\Users\lucia\Source\Repos\TrabajoDiploma\Interfaces\obj\Debug\Interfaces.dll
 C:\Users\lucia\Source\Repos\TrabajoDiploma\Interfaces\obj\Debug\Interfaces.pdb
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\Interfaces\bin\Debug\Interfaces.dll
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\Interfaces\obj\Debug\Interfaces.csproj.AssemblyReference.cache
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\Interfaces\obj\Debug\Interfaces.dll
+C:\Users\Navegador\Source\Repos\TrabajoDiploma\Interfaces\obj\Debug\Interfaces.pdb

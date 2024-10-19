@@ -29,34 +29,63 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnAbrirWO = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(90, 93);
+            this.dataGridView1.Location = new System.Drawing.Point(41, 97);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(1266, 381);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(514, 33);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(363, 40);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "TICKETERA ZORNETTA";
+            // 
+            // btnAbrirWO
+            // 
+            this.btnAbrirWO.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAbrirWO.Location = new System.Drawing.Point(1326, 97);
+            this.btnAbrirWO.Name = "btnAbrirWO";
+            this.btnAbrirWO.Size = new System.Drawing.Size(152, 59);
+            this.btnAbrirWO.TabIndex = 2;
+            this.btnAbrirWO.Text = "ABRIR ORDEN DE TRABAJO";
+            this.btnAbrirWO.UseVisualStyleBackColor = true;
+            this.btnAbrirWO.Click += new System.EventHandler(this.btnAbrirWO_Click);
             // 
             // ListadoTickets
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1446, 569);
+            this.ClientSize = new System.Drawing.Size(1490, 569);
+            this.Controls.Add(this.btnAbrirWO);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "ListadoTickets";
             this.Text = "ListadoTickets";
             this.Load += new System.EventHandler(this.ListadoTickets_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnAbrirWO;
     }
 }
