@@ -75,3 +75,4 @@ C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.C
 C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.ListadoTickets.resources
 C:\Users\Navegador\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.ListadoTickets.resources
 C:\Users\Navegador\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.Ticket.resources
+C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.Ticket.resources

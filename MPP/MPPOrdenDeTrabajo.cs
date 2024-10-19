@@ -46,6 +46,10 @@ namespace MPP
             hasdatos.Add("@Notas", WO.Notas);
             hasdatos.Add("@Area", WO.area.ID);
             hasdatos.Add("@FechaLimite", WO.FechaLimite);
+            if(WO.EmpleadoAsignado != null)
+            {
+
+            }
             ListaConsultas.Add(consulta);
             ListaHash.Add(hasdatos);
 

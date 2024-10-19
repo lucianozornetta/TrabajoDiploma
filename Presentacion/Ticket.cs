@@ -36,6 +36,11 @@ namespace Presentacion
             dgvDetalleWO.Columns[2].Width = 300;
             dgvDetalleWO.Columns[3].Width = 100;
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
         //        //AGREGAR COLUMNAS dataGridView1.Columns.Add("RelationshipType", "Relationship Type");
         //        dataGridView1.Columns.Add("RequestType", "Request Type");
         //        dataGridView1.Columns.Add("RequestSummary", "Request Summary");
