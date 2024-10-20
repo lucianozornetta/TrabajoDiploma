@@ -32,3 +32,7 @@ C:\Users\Navegador\Source\Repos\TrabajoDiploma\BLL\obj\Debug\BLL.csproj.CoreComp
 C:\Users\Navegador\Source\Repos\TrabajoDiploma\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\Navegador\Source\Repos\TrabajoDiploma\BLL\obj\Debug\BLL.dll
 C:\Users\Navegador\Source\Repos\TrabajoDiploma\BLL\obj\Debug\BLL.pdb
+C:\Users\lucia\Source\Repos\TrabajoDiploma\BLL\bin\Debug\itextsharp.dll
+C:\Users\lucia\Source\Repos\TrabajoDiploma\BLL\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\lucia\Source\Repos\TrabajoDiploma\BLL\bin\Debug\itextsharp.xml
+C:\Users\lucia\Source\Repos\TrabajoDiploma\BLL\bin\Debug\BouncyCastle.Cryptography.xml

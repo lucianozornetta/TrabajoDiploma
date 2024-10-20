@@ -100,6 +100,12 @@
     <Compile Include="Idiomas.Designer.cs">
       <DependentUpon>Idiomas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Informes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informes.Designer.cs">
+      <DependentUpon>Informes.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListadoAreas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,6 +156,12 @@
     <Compile Include="UsuariosAlterados.Designer.cs">
       <DependentUpon>UsuariosAlterados.cs</DependentUpon>
     </Compile>
+    <Compile Include="VerTexto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerTexto.Designer.cs">
+      <DependentUpon>VerTexto.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Areas.resx">
       <DependentUpon>Areas.cs</DependentUpon>
     </EmbeddedResource>
@@ -177,6 +189,9 @@
     <EmbeddedResource Include="Idiomas.resx">
       <DependentUpon>Idiomas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Informes.resx">
+      <DependentUpon>Informes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ListadoAreas.resx">
       <DependentUpon>ListadoAreas.cs</DependentUpon>
     </EmbeddedResource>
@@ -200,6 +215,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Registro.resx">
       <DependentUpon>Registro.cs</DependentUpon>
@@ -209,6 +225,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UsuariosAlterados.resx">
       <DependentUpon>UsuariosAlterados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerTexto.resx">
+      <DependentUpon>VerTexto.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -240,6 +259,10 @@
       <Project>{1e5164c5-71c1-440c-b5bc-9a29b5ad0822}</Project>
       <Name>Servicios</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagen\detail_icon_215012.png" />
+    <None Include="Resources\detail_icon_215012.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

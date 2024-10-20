@@ -76,3 +76,9 @@ C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.L
 C:\Users\Navegador\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.ListadoTickets.resources
 C:\Users\Navegador\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.Ticket.resources
 C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.Ticket.resources
+C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.VerTexto.resources
+C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.Informes.resources
+C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\bin\Debug\itextsharp.dll
+C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\bin\Debug\itextsharp.xml
+C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\bin\Debug\BouncyCastle.Cryptography.xml

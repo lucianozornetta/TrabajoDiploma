@@ -45,6 +45,8 @@
     <Compile Include="BEBitacora.cs" />
     <Compile Include="BEDetalleWO.cs" />
     <Compile Include="BEIdioma.cs" />
+    <Compile Include="BEInformeAbiertoCerrado.cs" />
+    <Compile Include="BEInformeEmpleado.cs" />
     <Compile Include="BEOrdenDeTrabajo.cs" />
     <Compile Include="BEOrdenTrabajoBaja.cs" />
     <Compile Include="BEOrdenTrabajoCritico.cs" />

@@ -22,7 +22,7 @@ namespace BE
         }
         public override void CalcularFechaLimite()
         {
-            this.FechaLimite = this.FechaInicio.AddHours(12);
+            this.FechaLimite = this.FechaInicio.AddDays(1);
         }
     }
 }

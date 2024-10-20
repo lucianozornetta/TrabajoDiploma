@@ -34,6 +34,7 @@
             this.crearAreaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.asignarEmpleadosAAreaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listadoAreasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.informesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,7 +48,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.crearAreaToolStripMenuItem,
             this.asignarEmpleadosAAreaToolStripMenuItem,
-            this.listadoAreasToolStripMenuItem});
+            this.listadoAreasToolStripMenuItem,
+            this.informesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1113, 24);
@@ -75,6 +77,13 @@
             this.listadoAreasToolStripMenuItem.Text = "Listado Areas";
             this.listadoAreasToolStripMenuItem.Click += new System.EventHandler(this.listadoAreasToolStripMenuItem_Click);
             // 
+            // informesToolStripMenuItem
+            // 
+            this.informesToolStripMenuItem.Name = "informesToolStripMenuItem";
+            this.informesToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.informesToolStripMenuItem.Text = "Informes";
+            this.informesToolStripMenuItem.Click += new System.EventHandler(this.informesToolStripMenuItem_Click);
+            // 
             // Areas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -84,6 +93,7 @@
             this.IsMdiContainer = true;
             this.Name = "Areas";
             this.Text = "Areas";
+            this.Load += new System.EventHandler(this.Areas_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -98,5 +108,6 @@
         private System.Windows.Forms.ToolStripMenuItem crearAreaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem asignarEmpleadosAAreaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listadoAreasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem informesToolStripMenuItem;
     }
 }

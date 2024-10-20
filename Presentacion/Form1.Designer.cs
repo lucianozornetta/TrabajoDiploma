@@ -36,9 +36,9 @@
             this.gestionarIdiomasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.alteradosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.areasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ticketeraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.ticketeraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -117,6 +117,13 @@
             this.areasToolStripMenuItem.Text = "Areas";
             this.areasToolStripMenuItem.Click += new System.EventHandler(this.areasToolStripMenuItem_Click);
             // 
+            // ticketeraToolStripMenuItem
+            // 
+            this.ticketeraToolStripMenuItem.Name = "ticketeraToolStripMenuItem";
+            this.ticketeraToolStripMenuItem.Size = new System.Drawing.Size(66, 22);
+            this.ticketeraToolStripMenuItem.Text = "Ticketera";
+            this.ticketeraToolStripMenuItem.Click += new System.EventHandler(this.ticketeraToolStripMenuItem_Click);
+            // 
             // cerrarSesionToolStripMenuItem
             // 
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
@@ -134,13 +141,6 @@
             this.comboBox1.Size = new System.Drawing.Size(141, 21);
             this.comboBox1.TabIndex = 3;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
-            // ticketeraToolStripMenuItem
-            // 
-            this.ticketeraToolStripMenuItem.Name = "ticketeraToolStripMenuItem";
-            this.ticketeraToolStripMenuItem.Size = new System.Drawing.Size(66, 22);
-            this.ticketeraToolStripMenuItem.Text = "Ticketera";
-            this.ticketeraToolStripMenuItem.Click += new System.EventHandler(this.ticketeraToolStripMenuItem_Click);
             // 
             // Form1
             // 

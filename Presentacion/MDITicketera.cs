@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -14,13 +15,25 @@ namespace Presentacion
 {
     public partial class MDITicketera : Form
     {
+
         public MDITicketera()
         {
             InitializeComponent();
         }
+        private static MdiClient mdi;
         private CrearOrdenTrabajo crearWO;
         private ListadoTickets listartickets;
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        void CerrarCrearWO(object sender, FormClosedEventArgs e)
+        {
+            crearWO = null;
+        }
+
+        private void nuevaOrdenDeTrabajoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (crearWO == null)
             {
@@ -35,16 +48,6 @@ namespace Presentacion
                 crearWO.Activate();
 
             }
-        }
-
-        void CerrarCrearWO(object sender, FormClosedEventArgs e)
-        {
-            crearWO = null;
-        }
-
-        private void nuevaOrdenDeTrabajoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void verTicketsToolStripMenuItem_Click(object sender, EventArgs e)
@@ -66,6 +69,25 @@ namespace Presentacion
         void CerrarListarTickets(object sender, FormClosedEventArgs e)
         {
             listartickets = null;
+        }
+
+        private void MDITicketera_Load(object sender, EventArgs e)
+        {
+            foreach (Control control in this.Controls)
+            {
+
+                try
+                {
+                    mdi = (MdiClient)control;
+                    mdi.BackColor = Color.FromArgb(120, 150, 200); 
+
+                }
+                catch (Exception)
+                {
+
+
+                }
+            }
         }
     }
 }

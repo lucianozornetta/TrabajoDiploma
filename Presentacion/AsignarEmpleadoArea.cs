@@ -20,6 +20,8 @@ namespace Presentacion
             InitializeComponent();
             bllarea = new BLLArea();
             bllusuario = new BLLUsuario();
+            btnHacerResponsable.Hide();
+            ActivarControles();
         }
         BLLArea bllarea;
         BLLUsuario bllusuario;
@@ -28,11 +30,48 @@ namespace Presentacion
         {
 
         }
+        void ActivarControles()
+        {
+            if (Sesion.ObtenerUsername().Permiso != null)
+            {
+                Recursiva(Sesion.ObtenerUsername().Permiso);
+            }
+            else
+            {
+                MessageBox.Show("Su usuario no tiene permisos asignados");
+
+            }
+
+        }
+        void Recursiva(BEPermiso permiso)
+        {
+            foreach (BEPermiso perm in permiso.PermisosHijos)
+            {
+                if (perm.EsPadre == true)
+                {
+                    Recursiva(perm);
+                }
+                else
+                {
+                    if (perm.ID == 64)
+                    {
+                        btnHacerResponsable.Show();
+                    }
+                   
+
+                }
+            }
+        }
 
         void CargarGrilla()
         {
             dgvEmpleados.DataSource = null;
             dgvEmpleados.DataSource = bllusuario.ListarUsuarios();
+            dgvEmpleados.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvEmpleados.RowsDefaultCellStyle.BackColor = Color.LightBlue;
+            dgvEmpleados.AlternatingRowsDefaultCellStyle.BackColor = Color.White;
+            dgvEmpleados.ReadOnly = true;
+
         }
         void CargarCMB()
         {

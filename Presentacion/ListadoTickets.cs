@@ -33,16 +33,40 @@ namespace Presentacion
         BLLOrdenDeTrabajo bllwo;
         private void ListadoTickets_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = bllwo.ListarOrdenesTrabajo(area);
+            cargargrilla();
             
+        }
+        void cargargrilla()
+        {
+            dataGridView1.DataSource = bllwo.ListarOrdenesTrabajo(area);
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView1.RowsDefaultCellStyle.BackColor = Color.LightBlue;
+            dataGridView1.AlternatingRowsDefaultCellStyle.BackColor = Color.White;
+            dataGridView1.ReadOnly = true;
         }
 
         private void btnAbrirWO_Click(object sender, EventArgs e)
         {
-            
-            Tickets = new Ticket();
+            BEOrdenDeTrabajo WO = (BEOrdenDeTrabajo) dataGridView1.SelectedRows[0].DataBoundItem;
+            Tickets = new Ticket(WO);
+            Tickets.FormClosed += (s, args) => Tickets = null;
             Tickets.Show();
+            WO = null;
            
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(comboBox1.SelectedIndex == 0)
+            {
+                dataGridView1.DataSource = null;
+                dataGridView1.DataSource = bllwo.ListarOrdenesTrabajo(area);
+            }
+            else
+            {
+                dataGridView1.DataSource = null;
+                dataGridView1.DataSource = bllwo.ListarOrdenTrabajoCliente(area);
+            }
         }
     }
 }

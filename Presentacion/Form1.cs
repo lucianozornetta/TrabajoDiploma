@@ -21,7 +21,7 @@ namespace Presentacion
     {
         private Registro or;
         private Bitacora bitacora;
-        private static MdiClient mdi;
+        private  MdiClient mdi;
         private Permisos permisos;
         private AsignarPermisos asignarpermisos;
         private Idiomas idiomas;
@@ -55,6 +55,8 @@ namespace Presentacion
                 asignarPermisosToolStripMenuItem.Enabled = false;
                 gestionarIdiomasToolStripMenuItem.Enabled = false;
                 alteradosToolStripMenuItem.Enabled = false;
+                areasToolStripMenuItem.Enabled = false;
+                ticketeraToolStripMenuItem.Enabled = false;
 
                 int centerX = 0;
                 comboBox1.Location = new System.Drawing.Point(centerX, comboBox1.Location.Y);
@@ -303,6 +305,14 @@ namespace Presentacion
                     if (perm.ID == 55)
                     {
                         alteradosToolStripMenuItem.Enabled = true;
+                    }
+                    if(perm.ID == 60)
+                    {
+                        areasToolStripMenuItem.Enabled = true;
+                    }
+                    if(perm.ID == 73)
+                    {
+                        ticketeraToolStripMenuItem.Enabled = true;
                     }
 
                 }

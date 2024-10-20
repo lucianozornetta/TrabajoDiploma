@@ -38,14 +38,23 @@ namespace Presentacion
         {
             try
             {
-                if(BLLUsuario.AsignarPermisoAUsuario((BEPermiso)cmbPermiso.SelectedItem, (BEUsuario)cmbUsuario.SelectedItem))
+                BEUsuario usuario = (BEUsuario)cmbUsuario.SelectedItem;
+                if ( usuario.Area == null) 
                 {
-                    MessageBox.Show("Se le asigno el permiso correctamente");
+                    MessageBox.Show("No puede asignarle un permiso sin antes asignarle un area");
                 }
                 else
                 {
-                    MessageBox.Show("El usuario ya tiene un permiso asignado");
+                    if (BLLUsuario.AsignarPermisoAUsuario((BEPermiso)cmbPermiso.SelectedItem, (BEUsuario)cmbUsuario.SelectedItem))
+                    {
+                        MessageBox.Show("Se le asigno el permiso correctamente");
+                    }
+                    else
+                    {
+                        MessageBox.Show("El usuario ya tiene un permiso asignado");
+                    }
                 }
+                
             }
             catch (Exception)
             {

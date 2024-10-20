@@ -53,20 +53,24 @@ namespace BE
         }
         public int DevolverCostoWO(BEOrdenDeTrabajo WO)
         {
-            if (WO == null)
+            if (WO != null)
             {
-                if (WO is BEOrdenTrabajoBaja)
+                if(WO.Estado != "Cerrado")
                 {
-                    return 2;
+                    if (WO is BEOrdenTrabajoBaja)
+                    {
+                        return 2;
+                    }
+                    if (WO is BEOrdenTrabajoModerado)
+                    {
+                        return 4;
+                    }
+                    if (WO is BEOrdenTrabajoCritico)
+                    {
+                        return 6;
+                    }
                 }
-                if (WO is BEOrdenTrabajoModerado)
-                {
-                    return 4;
-                }
-                if (WO is BEOrdenTrabajoCritico)
-                {
-                    return 6;
-                }
+
                 return -1;
             }
             else

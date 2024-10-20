@@ -37,6 +37,10 @@ namespace Presentacion
         {
             dgvAreas.DataSource = null;
             dgvAreas.DataSource = bllarea.ListarAreas();
+            dgvAreas.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvAreas.RowsDefaultCellStyle.BackColor = Color.LightBlue;
+            dgvAreas.AlternatingRowsDefaultCellStyle.BackColor = Color.White;
+            dgvAreas.ReadOnly = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -56,6 +60,11 @@ namespace Presentacion
 
                 dgvEmpleados.DataSource = null;
                 dgvEmpleados.DataSource = datosFiltrados;
+                dgvEmpleados.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                dgvEmpleados.RowsDefaultCellStyle.BackColor = Color.LightBlue;
+                dgvEmpleados.AlternatingRowsDefaultCellStyle.BackColor = Color.White;
+                dgvEmpleados.ReadOnly = true;
+
             }
             catch (Exception)
             {
@@ -138,6 +147,11 @@ namespace Presentacion
                 MessageBox.Show("Empleado seleccionado no valido");
             }
            
+
+        }
+
+        private void dgvEmpleados_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }

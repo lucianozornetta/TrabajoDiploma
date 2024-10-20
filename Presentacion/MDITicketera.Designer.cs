@@ -31,8 +31,8 @@
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.nuevaOrdenDeTrabajoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.verTicketsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,17 +55,17 @@
             this.nuevaOrdenDeTrabajoToolStripMenuItem.Text = "Nueva Orden De Trabajo";
             this.nuevaOrdenDeTrabajoToolStripMenuItem.Click += new System.EventHandler(this.nuevaOrdenDeTrabajoToolStripMenuItem_Click);
             // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
             // verTicketsToolStripMenuItem
             // 
             this.verTicketsToolStripMenuItem.Name = "verTicketsToolStripMenuItem";
             this.verTicketsToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
             this.verTicketsToolStripMenuItem.Text = "Ver Tickets";
             this.verTicketsToolStripMenuItem.Click += new System.EventHandler(this.verTicketsToolStripMenuItem_Click);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // MDITicketera
             // 
@@ -77,6 +77,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MDITicketera";
             this.Text = "MDITicketera";
+            this.Load += new System.EventHandler(this.MDITicketera_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
