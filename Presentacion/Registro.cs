@@ -361,7 +361,16 @@ namespace Presentacion
         {
             BEUsuario usuario = (BEUsuario)datagridusuarios.SelectedRows[0].DataBoundItem;
             cargarcambios(usuario) ;
-            datagridcambios.Columns[4].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            try
+            {
+                datagridcambios.Columns[4].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            }
+            catch (Exception)
+            {
+
+               
+            }
+          
         }
 
         private void datagridusuarios_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)

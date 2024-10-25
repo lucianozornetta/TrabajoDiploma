@@ -51,7 +51,7 @@ namespace Presentacion
             cmbIdiomaAModificar.Hide();
             ActivarControles();
             ColorearGrilla();
-            
+            cmbIdiomaAModificar.DropDownStyle = ComboBoxStyle.DropDownList;
         }
         void ColorearGrilla()
         {

@@ -27,6 +27,9 @@ namespace Presentacion
             obllusuario = new BLLUsuario();
             bllrepositorio = new BLLRepositorioIdioma();
             cmbUsuario.DataSource = obllusuario.ListarUsuariosConEliminados();            
+            cmbUsuario.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbTipo.DropDownStyle = ComboBoxStyle.DropDownList;
+
             
         }
         public Bitacora(BEIdioma idioma)

@@ -55,6 +55,8 @@ namespace Presentacion
             textBox1.Hide();
             label1.Hide();
             ActivarControles();
+            cmbEliminarPermiso.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             
         }
 

@@ -33,7 +33,9 @@ namespace Presentacion
         BLLOrdenDeTrabajo bllwo;
         private void ListadoTickets_Load(object sender, EventArgs e)
         {
+            
             cargargrilla();
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             
         }
         void cargargrilla()

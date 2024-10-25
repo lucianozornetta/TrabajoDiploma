@@ -113,7 +113,9 @@ namespace Presentacion
             {
                 txtCriticidad.Text = "Critica";
             }
-
+            cmbEstado.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbArea.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbUsuarioAsignado.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
         void CargarGrilla()
@@ -373,20 +375,29 @@ namespace Presentacion
 
         private void button1_Click(object sender, EventArgs e)
         {
-            BEDetalleWO detalleWO = (BEDetalleWO)dgvDetalleWO.SelectedRows[0].DataBoundItem;
-            if(detalleWO.TieneArchivo)
+            try
             {
-                Archivo archivo = bllorden.DescargarArchivo(detalleWO);
-                SaveFileDialog saveFileDialog = new SaveFileDialog();
-                saveFileDialog.FileName = archivo.Nombre;
-                saveFileDialog.Filter = "Archivos (*" + archivo.Extension + ")|*" + archivo.Extension;
-
-                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                BEDetalleWO detalleWO = (BEDetalleWO)dgvDetalleWO.SelectedRows[0].DataBoundItem;
+                if (detalleWO.TieneArchivo)
                 {
-                    File.WriteAllBytes(saveFileDialog.FileName, archivo.DatosArchivo);
-                    MessageBox.Show("Archivo descargado con éxito.");
+                    Archivo archivo = bllorden.DescargarArchivo(detalleWO);
+                    SaveFileDialog saveFileDialog = new SaveFileDialog();
+                    saveFileDialog.FileName = archivo.Nombre;
+                    saveFileDialog.Filter = "Archivos (*" + archivo.Extension + ")|*" + archivo.Extension;
+
+                    if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                    {
+                        File.WriteAllBytes(saveFileDialog.FileName, archivo.DatosArchivo);
+                        MessageBox.Show("Archivo descargado con éxito.");
+                    }
                 }
             }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Hubo un error al descargar el archivo seleccionado.");
+            }
+           
         }
     }
 }

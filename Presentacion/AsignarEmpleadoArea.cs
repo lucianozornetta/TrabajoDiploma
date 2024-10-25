@@ -77,6 +77,7 @@ namespace Presentacion
         {
             cmbAreas.DataSource = null;
             cmbAreas.DataSource = bllarea.ListarAreas();
+            cmbAreas.DropDownStyle = ComboBoxStyle.DropDownList;
         }
         void Actualizar()
         {
@@ -96,6 +97,7 @@ namespace Presentacion
             if (usuario.Area == null)
             {
                 bllusuario.AsignarAreaUsuario(usuario, area);
+                bllusuario.AsignarPermisoAUsuario(new BEPermisoCompuesto(76), usuario);
                 MessageBox.Show("Se asigno el area correspondiente");
             }
             else
@@ -136,6 +138,7 @@ namespace Presentacion
             if (usuario.Area == null || usuario.Area.Nombre == area.Nombre)
             {
                 bllusuario.HacerResponsable(usuario, area);
+                bllusuario.AsignarPermisoAUsuario(new BEPermisoCompuesto(75), usuario);
                 MessageBox.Show("Se asigno responsable del area.");
             }
             else

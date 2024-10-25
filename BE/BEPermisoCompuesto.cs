@@ -12,6 +12,11 @@ namespace BE
         {
             PermisosHijos.Add(permiso);
         }
+        public BEPermisoCompuesto() { }
+        public BEPermisoCompuesto(int numero)
+        {
+            this.ID = numero;
+        }
 
         public override void EliminarHijo(BEPermiso permiso)
         {

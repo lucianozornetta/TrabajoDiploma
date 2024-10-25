@@ -41,6 +41,8 @@ namespace Presentacion
             cmbTags.SelectedIndex = -1;
             cmbTags.Hide();
             txtNumero.Text = Convert.ToString(bllordentrabajo.ObtenerProximoNumeroWO());
+            cmbImpacto.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbUrgencia.DropDownStyle = ComboBoxStyle.DropDownList;
             
         }
         void CargarCheckedListbox()
@@ -63,45 +65,57 @@ namespace Presentacion
         {
             cmbAreaWO.DataSource = null;
             cmbAreaWO.DataSource = bllarea.ListarAreas();
+            cmbAreaWO.DropDownStyle = ComboBoxStyle.DropDownList;
 
         }
         void ActualizarCMBTags()
         {
             cmbTags.DataSource = null;
             cmbTags.DataSource = blltag.ListarTags();
+            cmbTags.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int costo = 0;
-            switch (cmbImpacto.SelectedIndex)
+            try
             {
-                case 0: costo += 1;break;
-                case 1: costo += 2; break; 
-                case 2: costo += 3; ; break;
-            }
+                int costo = 0;
+                switch (cmbImpacto.SelectedIndex)
+                {
+                    case 0: costo += 1; break;
+                    case 1: costo += 2; break;
+                    case 2: costo += 3; ; break;
+                }
 
-            switch(cmbUrgencia.SelectedIndex)
-            {
-                case 0: costo += 1; break;
-                case 1: costo += 2; break;
-                case 2: costo += 3; ; break;
-            }
-            FabricaOrdenesTrabajo fabrica = new FabricaOrdenesTrabajo();
-            BEOrdenDeTrabajo WO = fabrica.CrearOrdenTrabajo(costo);
+                switch (cmbUrgencia.SelectedIndex)
+                {
+                    case 0: costo += 1; break;
+                    case 1: costo += 2; break;
+                    case 2: costo += 3; ; break;
+                }
+                FabricaOrdenesTrabajo fabrica = new FabricaOrdenesTrabajo();
+                BEOrdenDeTrabajo WO = fabrica.CrearOrdenTrabajo(costo);
 
-            WO.Numero = bllordentrabajo.ObtenerProximoNumeroWO();
-            WO.FechaInicio = DateTime.Now;
-            WO.Cliente = Sesion.ObtenerUsername();
-            WO.Resumen = txtResumenWO.Text;
-            WO.Notas = RtxtNotasWO.Text;
-            WO.area = (BEArea) cmbAreaWO.SelectedItem;
-            WO.CalcularFechaLimite();
-            foreach (BETag TAG in ListTags.CheckedItems)
-            {
-                WO.Tags.Add(TAG);
+                WO.Numero = bllordentrabajo.ObtenerProximoNumeroWO();
+                WO.FechaInicio = DateTime.Now;
+                WO.Cliente = Sesion.ObtenerUsername();
+                WO.Resumen = txtResumenWO.Text;
+                WO.Notas = RtxtNotasWO.Text;
+                WO.area = (BEArea)cmbAreaWO.SelectedItem;
+                WO.CalcularFechaLimite();
+                foreach (BETag TAG in ListTags.CheckedItems)
+                {
+                    WO.Tags.Add(TAG);
+                }
+                bllordentrabajo.GuardarWorkOrder(WO);
+
             }
-            bllordentrabajo.GuardarWorkOrder(WO);
+            catch (Exception)
+            {
+
+                MessageBox.Show("Datos no validos.");
+            }
+           
         }
 
         private void ListTags_SelectedIndexChanged(object sender, EventArgs e)

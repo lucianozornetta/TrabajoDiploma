@@ -69,7 +69,9 @@ namespace Presentacion
         {
             Sesion.getinstace().AgregarObservador(this);
             cmbPermiso.DataSource = bllpermiso.ListarPermisosCompuestos();
+            cmbPermiso.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbUsuario.DataSource = BLLUsuario.ListarUsuarios();
+            cmbUsuario.DropDownStyle = ComboBoxStyle.DropDownList;
            
             
         }

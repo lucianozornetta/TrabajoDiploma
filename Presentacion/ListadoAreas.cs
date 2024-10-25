@@ -82,6 +82,7 @@ namespace Presentacion
         {
             cmbTags.DataSource = null;
             cmbTags.DataSource = blltag.ListarTags();
+            cmbTags.DropDownStyle = ComboBoxStyle.DropDownList;
         }
         private void btnCrearTag_Click(object sender, EventArgs e)
         {

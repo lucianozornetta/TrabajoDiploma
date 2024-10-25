@@ -117,6 +117,7 @@ namespace BLL
 
         public List<BEOrdenDeTrabajo> ListarOrdenTrabajoCliente(BEArea area)
         {
+            int a;
             MPPOrdenDeTrabajo mppWO = new MPPOrdenDeTrabajo();
             List<BEOrdenDeTrabajo> lista  = mppWO.ListarOrdenesDeTrabajoSinArea();
             List<BEOrdenDeTrabajo> ListaSoloCliente = new List<BEOrdenDeTrabajo>();
@@ -125,10 +126,19 @@ namespace BLL
             
             foreach(BEOrdenDeTrabajo WO in lista)
             {
-                if(area.ID == WO.Cliente.Area.ID)
+                try
                 {
-                    ListaSoloCliente.Add(WO);
+                    if (area.ID == WO.Cliente.Area.ID)
+                    {
+                        ListaSoloCliente.Add(WO);
+                    }
                 }
+                catch (Exception)
+                {
+
+                    a = 1;
+                }
+                
             }
             return ListaSoloCliente;
 

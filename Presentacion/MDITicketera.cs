@@ -1,4 +1,6 @@
 ﻿using BE;
+using BLL;
+using Servicios;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,10 +21,12 @@ namespace Presentacion
         public MDITicketera()
         {
             InitializeComponent();
+            bllusuario = new BLLUsuario();
         }
         private static MdiClient mdi;
         private CrearOrdenTrabajo crearWO;
         private ListadoTickets listartickets;
+        BLLUsuario bllusuario;
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
@@ -35,22 +39,43 @@ namespace Presentacion
 
         private void nuevaOrdenDeTrabajoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (crearWO == null)
-            {
-                crearWO = new CrearOrdenTrabajo();
-                crearWO.MdiParent = this;
-                crearWO.FormClosed += new FormClosedEventHandler(CerrarCrearWO);
-                crearWO.Show();
 
+           
+            BEArea area = bllusuario.BuscarArea(Sesion.ObtenerUsername());
+            if (area == null)
+            {
+                MessageBox.Show("Su usuario no puede acceder a este menu");
             }
             else
             {
-                crearWO.Activate();
+                if (crearWO == null)
+                {
+                    crearWO = new CrearOrdenTrabajo();
+                    crearWO.MdiParent = this;
+                    crearWO.FormClosed += new FormClosedEventHandler(CerrarCrearWO);
+                    crearWO.Show();
 
+                }
+                else
+                {
+                    crearWO.Activate();
+
+                }
             }
-        }
 
-        private void verTicketsToolStripMenuItem_Click(object sender, EventArgs e)
+        }
+    
+    private void verTicketsToolStripMenuItem_Click(object sender, EventArgs e)
+    {
+
+
+        
+        BEArea area = bllusuario.BuscarArea(Sesion.ObtenerUsername());
+        if (area == null)
+        {
+            MessageBox.Show("Su usuario no puede acceder a este menu");
+        }
+        else
         {
             if (listartickets == null)
             {
@@ -66,28 +91,30 @@ namespace Presentacion
 
             }
         }
-        void CerrarListarTickets(object sender, FormClosedEventArgs e)
-        {
-            listartickets = null;
-        }
 
-        private void MDITicketera_Load(object sender, EventArgs e)
+    }
+    void CerrarListarTickets(object sender, FormClosedEventArgs e)
+    {
+        listartickets = null;
+    }
+
+    private void MDITicketera_Load(object sender, EventArgs e)
+    {
+        foreach (Control control in this.Controls)
         {
-            foreach (Control control in this.Controls)
+
+            try
+            {
+                mdi = (MdiClient)control;
+                mdi.BackColor = Color.FromArgb(120, 150, 200);
+
+            }
+            catch (Exception)
             {
 
-                try
-                {
-                    mdi = (MdiClient)control;
-                    mdi.BackColor = Color.FromArgb(120, 150, 200); 
 
-                }
-                catch (Exception)
-                {
-
-
-                }
             }
         }
     }
+}
 }

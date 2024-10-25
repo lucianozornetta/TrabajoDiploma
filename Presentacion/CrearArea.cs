@@ -34,6 +34,7 @@ namespace Presentacion
         {
             cmbResponsable.DataSource = null;
             cmbResponsable.DataSource = bllusuario.ListarUsuarios();
+            cmbResponsable.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
         private void btnCrearArea_Click(object sender, EventArgs e)

@@ -39,10 +39,12 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.datagridalterados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.datagridalterados.Location = new System.Drawing.Point(63, 55);
-            this.datagridalterados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.datagridalterados.Margin = new System.Windows.Forms.Padding(2);
             this.datagridalterados.Name = "datagridalterados";
+            this.datagridalterados.ReadOnly = true;
             this.datagridalterados.RowHeadersWidth = 62;
             this.datagridalterados.RowTemplate.Height = 28;
+            this.datagridalterados.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.datagridalterados.Size = new System.Drawing.Size(408, 164);
             this.datagridalterados.TabIndex = 0;
             // 
@@ -51,7 +53,7 @@
             this.btnrecalcular.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnrecalcular.Location = new System.Drawing.Point(566, 77);
-            this.btnrecalcular.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnrecalcular.Margin = new System.Windows.Forms.Padding(2);
             this.btnrecalcular.Name = "btnrecalcular";
             this.btnrecalcular.Size = new System.Drawing.Size(114, 55);
             this.btnrecalcular.TabIndex = 1;
@@ -68,7 +70,7 @@
             this.ClientSize = new System.Drawing.Size(750, 292);
             this.Controls.Add(this.btnrecalcular);
             this.Controls.Add(this.datagridalterados);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "UsuariosAlterados";
             this.Text = "UsuariosAlterados";
             this.Load += new System.EventHandler(this.UsuariosAlterados_Load);
