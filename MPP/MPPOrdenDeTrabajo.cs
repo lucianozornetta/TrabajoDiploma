@@ -42,11 +42,13 @@ namespace MPP
 
             hasdatos.Add("@FechaInicio", WO.FechaInicio);
             hasdatos.Add("@Cliente", WO.Cliente.Usuario);
+
             hasdatos.Add("@Resumen", WO.Resumen);
             hasdatos.Add("@Notas", WO.Notas);
             hasdatos.Add("@Area", WO.area.ID);
             hasdatos.Add("@FechaLimite", WO.FechaLimite);
             hasdatos.Add("@Estado", WO.Estado);
+            hasdatos.Add("@IDAreaCliente", WO.Cliente.Area.ID);
 
             ListaConsultas.Add(consulta);
             ListaHash.Add(hasdatos);
@@ -139,6 +141,11 @@ namespace MPP
                     WO.Resolucion = row["Resolucion"] != DBNull.Value ? row["Resolucion"].ToString() : string.Empty;
                     WO.Estado = row["Estado"] != DBNull.Value ? row["Estado"].ToString() : string.Empty;
                     WO.EmpleadoAsignado = new BEUsuario(row["EmpleadoAsignado"] != DBNull.Value ? row["EmpleadoAsignado"].ToString() : string.Empty);
+                    if (row["IDAreaCliente"] != DBNull.Value)
+                    {
+                        WO.AreaCliente = new BEArea(Convert.ToInt32(row["IDAreaCliente"].ToString()));
+                    }
+                    
                     ListaOrdenTrabajo.Add(WO);
 
                 }
@@ -173,6 +180,10 @@ namespace MPP
                     WO.Resolucion = row["Resolucion"] != DBNull.Value ? row["Resolucion"].ToString() : string.Empty;
                     WO.Estado = row["Estado"] != DBNull.Value ? row["Estado"].ToString() : string.Empty;
                     WO.EmpleadoAsignado = new BEUsuario(row["EmpleadoAsignado"] != DBNull.Value ? row["EmpleadoAsignado"].ToString() : string.Empty);
+                    if (row["IDAreaCliente"] != DBNull.Value)
+                    {
+                        WO.AreaCliente = new BEArea(Convert.ToInt32(row["IDAreaCliente"].ToString()));
+                    }
                     ListaOrdenTrabajo.Add(WO);
 
                 }
@@ -191,25 +202,15 @@ namespace MPP
 
             if (grilla.Rows.Count > 0)
             {
-
                 foreach (BEOrdenDeTrabajo orden in ListaWO)
                 {
-
                     orden.Tags = new List<BETag>();
-
-
                     foreach (DataRow row in grilla.Rows)
                     {
-
                         if (Convert.ToInt32(row["IDOrden"]) == orden.Numero)
                         {
-
                             string nombreTag = row["NombreTag"].ToString();
-
-
                             BETag tagAsociado = ListaTags.FirstOrDefault(tag => tag.Nombre == nombreTag);
-
-
                             if (tagAsociado != null)
                             {
                                 orden.Tags.Add(tagAsociado);

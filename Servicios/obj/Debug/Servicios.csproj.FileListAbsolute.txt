@@ -78,3 +78,12 @@ C:\Users\lucia\Source\Repos\TrabajoDiploma\Servicios\bin\Debug\System.Numerics.V
 C:\Users\lucia\Source\Repos\TrabajoDiploma\Servicios\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\lucia\Source\Repos\TrabajoDiploma\Servicios\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\lucia\Source\Repos\TrabajoDiploma\Servicios\bin\Debug\System.ValueTuple.xml
+C:\Users\lucia\Source\Repos\TrabajoDiploma\Servicios\bin\Debug\Servicios.dll.config
+C:\Users\lucia\Source\Repos\TrabajoDiploma\Servicios\bin\Debug\System.IO.Pipelines.dll
+C:\Users\lucia\Source\Repos\TrabajoDiploma\Servicios\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\lucia\Source\Repos\TrabajoDiploma\Servicios\bin\Debug\System.Text.Json.dll
+C:\Users\lucia\Source\Repos\TrabajoDiploma\Servicios\bin\Debug\BE.dll.config
+C:\Users\lucia\Source\Repos\TrabajoDiploma\Servicios\bin\Debug\Interfaces.dll.config
+C:\Users\lucia\Source\Repos\TrabajoDiploma\Servicios\bin\Debug\System.IO.Pipelines.xml
+C:\Users\lucia\Source\Repos\TrabajoDiploma\Servicios\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\lucia\Source\Repos\TrabajoDiploma\Servicios\bin\Debug\System.Text.Json.xml

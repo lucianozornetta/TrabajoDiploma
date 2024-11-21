@@ -14,6 +14,8 @@ namespace BE
 
         public int CasosCerrados { get; set; }
 
+        public int DentroDeSLA { get; set; }
+        public int FueraDeSLA { get; set; }
        
     }
 }

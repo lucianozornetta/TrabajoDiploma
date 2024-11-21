@@ -35,8 +35,7 @@ namespace BLL
             List<BEOrdenDeTrabajo> lista;
             lista = mppWO.ListarOrdenesDeTrabajo(area);
             while (i == 0)
-            {
-                
+            {             
                 foreach (BEOrdenDeTrabajo WO in lista)
                 {
                     if (WO.Estado != null)
@@ -51,7 +50,7 @@ namespace BLL
                     }
                 }
             }
-            
+            CompletarAreaClienteWO(lista);
             return lista;
         }
 
@@ -113,7 +112,29 @@ namespace BLL
             }
           
         }
+        void CompletarAreaClienteWO(List<BEOrdenDeTrabajo> lista)
+        {
+            BLLArea bllarea = new BLLArea();
+            List<BEArea> ListaAreas = bllarea.ListarAreas();
+            foreach(BEOrdenDeTrabajo wo in lista)
+            {
+                foreach(BEArea area in ListaAreas)
+                {
+                    if(wo.AreaCliente != null)
+                    {
+                        if (wo.AreaCliente.ID > 0)
+                        {
+                            if (area.ID == wo.AreaCliente.ID)
+                            {
+                                wo.AreaCliente = area;
+                            }
+                        }
+                    }
+                  }            
+                
+            }
 
+        }
 
         public List<BEOrdenDeTrabajo> ListarOrdenTrabajoCliente(BEArea area)
         {
@@ -128,7 +149,7 @@ namespace BLL
             {
                 try
                 {
-                    if (area.ID == WO.Cliente.Area.ID)
+                    if (area.ID == WO.AreaCliente.ID)
                     {
                         ListaSoloCliente.Add(WO);
                     }
@@ -140,6 +161,7 @@ namespace BLL
                 }
                 
             }
+            CompletarAreaClienteWO(lista);
             return ListaSoloCliente;
 
         }
@@ -262,11 +284,15 @@ namespace BLL
                 BLLArea bllarea = new BLLArea();
                 List<BEOrdenDeTrabajo> listaWO = ListarOrdenesTrabajoConCerrados(area);
                 List<BEInformeEmpleado> ListaInformes = new List<BEInformeEmpleado>();
+                BEInformeAbiertoCerrado informearea = new BEInformeAbiertoCerrado();
+                informearea.Area = area.Nombre;
                 foreach (BEUsuario usuario in area.EmpleadosDelArea)
                 {
                     BEInformeEmpleado informe = new BEInformeEmpleado();
                     informe.CasosAbiertos = 0;
                     informe.CasosCerrados = 0;
+                    informe.DentroDeSLA = 0;
+                    informe.FueraDeSLA = 0;
                     informe.Usuario = usuario.Usuario;
                     foreach (BEOrdenDeTrabajo WO in listaWO)
                     {
@@ -277,15 +303,28 @@ namespace BLL
                                 if (WO.Estado != "Cerrado")
                                 {
                                     informe.CasosAbiertos += 1;
+                                    informearea.Abiertos += 1;
                                 }
                                 else
                                 {
                                     informe.CasosCerrados += 1;
+                                    informearea.Cerrados += 1;
+                                    if(WO.FechaFin < WO.FechaLimite)
+                                    {
+                                        informe.DentroDeSLA += 1;
+                                        informearea.DentroSLA += 1;
+                                    }
+                                    else
+                                    {
+                                        informe.FueraDeSLA += 1;
+                                        informearea.FueraSLA += 1;
+                                    }
                                 }
                             }
                             else
                             {
                                 informe.CasosAbiertos += 1;
+                                informearea.Abiertos += 1;
                             }
                         }
                        
@@ -294,7 +333,7 @@ namespace BLL
                     ListaInformes.Add(informe);
                 }
                 PDF pdf = new PDF();
-                pdf.GenerarPrimerTabla(ListaInformes);
+                pdf.GenerarPrimerTabla(ListaInformes, informearea);
                 return true;
             }
             catch (Exception)

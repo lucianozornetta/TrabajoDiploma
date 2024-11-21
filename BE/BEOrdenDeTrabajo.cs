@@ -25,6 +25,7 @@ namespace BE
         public int Numero { get; set; }
         public BEUsuario Cliente { get; set; }
 
+        public BEArea AreaCliente { get; set; }
         public BEUsuario EmpleadoAsignado { get; set; }
 
         public string Resumen { get; set; }

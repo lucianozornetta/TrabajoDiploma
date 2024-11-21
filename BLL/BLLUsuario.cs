@@ -20,8 +20,8 @@ namespace BLL
         MPPUsuario mppUsuario;
         public List<BEUsuario> ListarUsuarios()
         {
-            List<BEUsuario> listausuarios =  mppUsuario.ListarUsuarios();
-            foreach(BEUsuario usuario in listausuarios)
+            List<BEUsuario> listausuarios = mppUsuario.ListarUsuarios();
+            foreach (BEUsuario usuario in listausuarios)
             {
                 CompletarAreas(usuario);
             }
@@ -29,7 +29,7 @@ namespace BLL
         }
         public List<BEUsuarioHistorico> Listarcambios(BEUsuario usuario)
         {
-            return mppUsuario.Listarcambios( usuario);
+            return mppUsuario.Listarcambios(usuario);
         }
         public List<BEUsuario> ListarUsuariosConEliminados()
         {
@@ -86,13 +86,13 @@ namespace BLL
             {
                 return false;
             }
-          
+
         }
 
         void CompletarAreas(BEUsuario usu)
         {
             MPPArea mparea = new MPPArea();
-            List<BEArea> areas =  mparea.ListarAreas();
+            List<BEArea> areas = mparea.ListarAreas();
             if (usu.Area != null)
             {
                 foreach (BEArea area in areas)
@@ -104,19 +104,32 @@ namespace BLL
 
                 }
             }
-           
-        }
-        
 
+        }
+
+        public bool VerificarEmpleadoLibre(BEUsuario usu)
+        {
+            MPPOrdenDeTrabajo mpporden = new MPPOrdenDeTrabajo();
+            List<BEOrdenDeTrabajo> ListaWO = mpporden.ListarOrdenesDeTrabajoSinArea();
+            foreach (BEOrdenDeTrabajo WO in ListaWO)
+            {
+                if (usu.Usuario == WO.EmpleadoAsignado.Usuario)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
         public bool RemoverDeArea(BEUsuario usuario)
         {
             MPPUsuario mp = new MPPUsuario();
             return mp.RemoverDeArea(usuario);
+
         }
         public bool AsignarAreaUsuario(BEUsuario usu, BEArea area)
         {
             MPPUsuario mp = new MPPUsuario();
-            return mp.AsignarAreaUsuario(usu,area);
+            return mp.AsignarAreaUsuario(usu, area);
         }
         public bool Guardardvv()
         {
@@ -129,7 +142,7 @@ namespace BLL
 
         public bool HacerResponsable(BEUsuario usuario, BEArea area)
         {
-            return mppUsuario.HacerResponsable(usuario,area);
+            return mppUsuario.HacerResponsable(usuario, area);
         }
         public bool AsignarTag(BEUsuario usuario, BETag tag)
         {
@@ -138,9 +151,9 @@ namespace BLL
         public BEArea BuscarArea(BEUsuario usuario)
         {
             List<BEUsuario> LISTAUSUARIOS = ListarUsuarios();
-            foreach(BEUsuario user in LISTAUSUARIOS)
+            foreach (BEUsuario user in LISTAUSUARIOS)
             {
-                if(usuario.Usuario == user.Usuario)
+                if (usuario.Usuario == user.Usuario)
                 {
                     return user.Area;
                 }

@@ -99,6 +99,7 @@ namespace Presentacion
                 WO.Numero = bllordentrabajo.ObtenerProximoNumeroWO();
                 WO.FechaInicio = DateTime.Now;
                 WO.Cliente = Sesion.ObtenerUsername();
+                WO.Cliente.Area = bllusuario.BuscarArea(WO.Cliente);
                 WO.Resumen = txtResumenWO.Text;
                 WO.Notas = RtxtNotasWO.Text;
                 WO.area = (BEArea)cmbAreaWO.SelectedItem;

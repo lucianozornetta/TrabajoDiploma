@@ -116,15 +116,23 @@ namespace Presentacion
             }
             else
             {
-                if(usuario.Usuario == usuario.Area.Responsable.Usuario)
+                if(bllusuario.VerificarEmpleadoLibre(usuario))
                 {
-                    MessageBox.Show("No puede remover el area dado que es el responsable de la misma");
+                    if (usuario.Usuario == usuario.Area.Responsable.Usuario)
+                    {
+                        MessageBox.Show("No puede remover el area dado que es el responsable de la misma");
+                    }
+                    else
+                    {
+                        bllusuario.RemoverDeArea(usuario);
+                        MessageBox.Show("El empleado dejo de pertenecer al area.");
+                    }
                 }
                 else
                 {
-                    bllusuario.RemoverDeArea(usuario);
-                    MessageBox.Show("El empleado dejo de pertenecer al area.");
+                    MessageBox.Show("No se puede cambiar de area un empleado con Ordenes de Trabajo asignadas");
                 }
+              
             }
 
             Actualizar();

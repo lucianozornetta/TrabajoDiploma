@@ -3,20 +3,104 @@
   "WorkspaceRootPath": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\listadoareas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\listadoareas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\listadoareas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\listadoareas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\listadotickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\listadotickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D550EEEE-DD5F-4FA7-86DB-1D3BC988AC3E}|BLL\\BLL.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\bll\\blltag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D550EEEE-DD5F-4FA7-86DB-1D3BC988AC3E}|BLL\\BLL.csproj|solutionrelative:bll\\blltag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D550EEEE-DD5F-4FA7-86DB-1D3BC988AC3E}|BLL\\BLL.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\bll\\bllpermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D550EEEE-DD5F-4FA7-86DB-1D3BC988AC3E}|BLL\\BLL.csproj|solutionrelative:bll\\bllpermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\be\\betag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|solutionrelative:be\\betag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B8EB439-8891-4BC2-B8A3-0B24332C0729}|MPP\\MPP.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\mpp\\mppusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B8EB439-8891-4BC2-B8A3-0B24332C0729}|MPP\\MPP.csproj|solutionrelative:mpp\\mppusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5164C5-71C1-440C-B5BC-9A29B5AD0822}|Servicios\\Servicios.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\servicios\\archivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5164C5-71C1-440C-B5BC-9A29B5AD0822}|Servicios\\Servicios.csproj|solutionrelative:servicios\\archivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5164C5-71C1-440C-B5BC-9A29B5AD0822}|Servicios\\Servicios.csproj|c:\\users\\lucia\\source\\repos\\trabajodiploma\\servicios\\pdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5164C5-71C1-440C-B5BC-9A29B5AD0822}|Servicios\\Servicios.csproj|solutionrelative:servicios\\pdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D550EEEE-DD5F-4FA7-86DB-1D3BC988AC3E}|BLL\\BLL.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\bll\\bllordendetrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D550EEEE-DD5F-4FA7-86DB-1D3BC988AC3E}|BLL\\BLL.csproj|solutionrelative:bll\\bllordendetrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\be\\beinformeabiertocerrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|solutionrelative:be\\beinformeabiertocerrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\be\\beinformeempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|solutionrelative:be\\beinformeempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D550EEEE-DD5F-4FA7-86DB-1D3BC988AC3E}|BLL\\BLL.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\bll\\bllusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D550EEEE-DD5F-4FA7-86DB-1D3BC988AC3E}|BLL\\BLL.csproj|solutionrelative:bll\\bllusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\asignarempleadoarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\asignarempleadoarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\asignarempleadoarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\asignarempleadoarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B8EB439-8891-4BC2-B8A3-0B24332C0729}|MPP\\MPP.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\mpp\\mppordendetrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B8EB439-8891-4BC2-B8A3-0B24332C0729}|MPP\\MPP.csproj|solutionrelative:mpp\\mppordendetrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\crearordentrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\crearordentrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\listadotickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\listadotickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\crearordentrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\crearordentrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B8EB439-8891-4BC2-B8A3-0B24332C0729}|MPP\\MPP.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\mpp\\mpprepositorioidioma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B8EB439-8891-4BC2-B8A3-0B24332C0729}|MPP\\MPP.csproj|solutionrelative:mpp\\mpprepositorioidioma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B8EB439-8891-4BC2-B8A3-0B24332C0729}|MPP\\MPP.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\mpp\\mpparea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B8EB439-8891-4BC2-B8A3-0B24332C0729}|MPP\\MPP.csproj|solutionrelative:mpp\\mpparea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\be\\beordendetrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|solutionrelative:be\\beordendetrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\informes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\informes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\informes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\informes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\mditicketera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -27,16 +111,8 @@
       "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\mditicketera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D550EEEE-DD5F-4FA7-86DB-1D3BC988AC3E}|BLL\\BLL.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\bll\\bllusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D550EEEE-DD5F-4FA7-86DB-1D3BC988AC3E}|BLL\\BLL.csproj|solutionrelative:bll\\bllusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1E5164C5-71C1-440C-B5BC-9A29B5AD0822}|Servicios\\Servicios.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\servicios\\sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E5164C5-71C1-440C-B5BC-9A29B5AD0822}|Servicios\\Servicios.csproj|solutionrelative:servicios\\sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B8EB439-8891-4BC2-B8A3-0B24332C0729}|MPP\\MPP.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\mpp\\mppordendetrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B8EB439-8891-4BC2-B8A3-0B24332C0729}|MPP\\MPP.csproj|solutionrelative:mpp\\mppordendetrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -45,10 +121,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1E5164C5-71C1-440C-B5BC-9A29B5AD0822}|Servicios\\Servicios.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\servicios\\fabricaordenestrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E5164C5-71C1-440C-B5BC-9A29B5AD0822}|Servicios\\Servicios.csproj|solutionrelative:servicios\\fabricaordenestrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E5164C5-71C1-440C-B5BC-9A29B5AD0822}|Servicios\\Servicios.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\servicios\\pdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E5164C5-71C1-440C-B5BC-9A29B5AD0822}|Servicios\\Servicios.csproj|solutionrelative:servicios\\pdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\vertexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -73,26 +145,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\loguin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\loguin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\listadotickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\listadotickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\listadotickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\listadotickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\listadoareas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\listadoareas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\listadoareas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\listadoareas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\informes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\informes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\idiomas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -135,27 +187,15 @@
       "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\asignarpermisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\asignarempleadoarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\asignarempleadoarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\asignarempleadoarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\asignarempleadoarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B8EB439-8891-4BC2-B8A3-0B24332C0729}|MPP\\MPP.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\mpp\\mppusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B8EB439-8891-4BC2-B8A3-0B24332C0729}|MPP\\MPP.csproj|solutionrelative:mpp\\mppusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\areas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\areas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|c:\\users\\lucia\\source\\repos\\trabajodiploma\\presentacion\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|c:\\users\\lucia\\source\\repos\\trabajodiploma\\be\\bepermisocompuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\be\\bepermisocompuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|solutionrelative:be\\bepermisocompuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -171,16 +211,8 @@
       "RelativeMoniker": "D:0:0:{ADBB39F4-35BF-4345-8874-B41832E150EA}|DAL\\DAL.csproj|solutionrelative:dal\\acceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D550EEEE-DD5F-4FA7-86DB-1D3BC988AC3E}|BLL\\BLL.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\bll\\bllpermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D550EEEE-DD5F-4FA7-86DB-1D3BC988AC3E}|BLL\\BLL.csproj|solutionrelative:bll\\bllpermiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D550EEEE-DD5F-4FA7-86DB-1D3BC988AC3E}|BLL\\BLL.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\bll\\bllrepositorioidioma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D550EEEE-DD5F-4FA7-86DB-1D3BC988AC3E}|BLL\\BLL.csproj|solutionrelative:bll\\bllrepositorioidioma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D550EEEE-DD5F-4FA7-86DB-1D3BC988AC3E}|BLL\\BLL.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\bll\\blltag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D550EEEE-DD5F-4FA7-86DB-1D3BC988AC3E}|BLL\\BLL.csproj|solutionrelative:bll\\blltag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D550EEEE-DD5F-4FA7-86DB-1D3BC988AC3E}|BLL\\BLL.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\bll\\bllbitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -191,24 +223,12 @@
       "RelativeMoniker": "D:0:0:{D550EEEE-DD5F-4FA7-86DB-1D3BC988AC3E}|BLL\\BLL.csproj|solutionrelative:bll\\bllarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\be\\beinformeempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|solutionrelative:be\\beinformeempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\be\\beordentrabajobaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|solutionrelative:be\\beordentrabajobaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\be\\beordendetrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|solutionrelative:be\\beordendetrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\be\\bedetallewo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|solutionrelative:be\\bedetallewo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\be\\betag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|solutionrelative:be\\betag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\be\\beusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -227,18 +247,6 @@
       "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\areas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\informes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\informes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\be\\beinformeabiertocerrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|solutionrelative:be\\beinformeabiertocerrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E5164C5-71C1-440C-B5BC-9A29B5AD0822}|Servicios\\Servicios.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\servicios\\archivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E5164C5-71C1-440C-B5BC-9A29B5AD0822}|Servicios\\Servicios.csproj|solutionrelative:servicios\\archivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\be\\beordentrabajocritico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|solutionrelative:be\\beordentrabajocritico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -255,10 +263,6 @@
       "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\vertexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B8EB439-8891-4BC2-B8A3-0B24332C0729}|MPP\\MPP.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\mpp\\mpparea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B8EB439-8891-4BC2-B8A3-0B24332C0729}|MPP\\MPP.csproj|solutionrelative:mpp\\mpparea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\be\\filtrobitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88F28D4D-A6C9-4E82-AA8B-7636C3296EC9}|BE\\BE.csproj|solutionrelative:be\\filtrobitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -269,10 +273,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9B8EB439-8891-4BC2-B8A3-0B24332C0729}|MPP\\MPP.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\mpp\\mppbitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B8EB439-8891-4BC2-B8A3-0B24332C0729}|MPP\\MPP.csproj|solutionrelative:mpp\\mppbitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B8EB439-8891-4BC2-B8A3-0B24332C0729}|MPP\\MPP.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\mpp\\mpprepositorioidioma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B8EB439-8891-4BC2-B8A3-0B24332C0729}|MPP\\MPP.csproj|solutionrelative:mpp\\mpprepositorioidioma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B8EB439-8891-4BC2-B8A3-0B24332C0729}|MPP\\MPP.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\mpp\\mpptag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -294,23 +294,320 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Registro.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Registro.cs",
-              "RelativeDocumentMoniker": "Presentacion\\Registro.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Registro.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Presentacion\\Registro.cs [Dise\u00F1o]",
+              "DocumentIndex": 13,
+              "Title": "AsignarEmpleadoArea.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\AsignarEmpleadoArea.cs",
+              "RelativeDocumentMoniker": "Presentacion\\AsignarEmpleadoArea.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\AsignarEmpleadoArea.cs",
+              "RelativeToolTip": "Presentacion\\AsignarEmpleadoArea.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAcwH8AAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T13:20:23.777Z",
+              "WhenOpened": "2024-10-04T14:19:13.641Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BLLUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLUsuario.cs",
+              "RelativeDocumentMoniker": "BLL\\BLLUsuario.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLUsuario.cs",
+              "RelativeToolTip": "BLL\\BLLUsuario.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAcwHUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T13:45:14.633Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListadoAreas.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoAreas.cs",
+              "RelativeDocumentMoniker": "Presentacion\\ListadoAreas.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoAreas.cs",
+              "RelativeToolTip": "Presentacion\\ListadoAreas.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAcwOEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T15:03:28.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Archivo.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Servicios\\Archivo.cs",
+              "RelativeDocumentMoniker": "Servicios\\Archivo.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Servicios\\Archivo.cs",
+              "RelativeToolTip": "Servicios\\Archivo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T21:28:56.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PDF.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Servicios\\PDF.cs",
+              "RelativeDocumentMoniker": "Servicios\\PDF.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Servicios\\PDF.cs",
+              "RelativeToolTip": "Servicios\\PDF.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAmwJkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T03:00:27.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BLLTag.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLTag.cs",
+              "RelativeDocumentMoniker": "BLL\\BLLTag.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLTag.cs",
+              "RelativeToolTip": "BLL\\BLLTag.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwDgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T00:09:44.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListadoTickets.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoTickets.cs",
+              "RelativeDocumentMoniker": "Presentacion\\ListadoTickets.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoTickets.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\ListadoTickets.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:32:09.749Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListadoAreas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoAreas.cs",
+              "RelativeDocumentMoniker": "Presentacion\\ListadoAreas.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoAreas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\ListadoAreas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T15:01:56.405Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BLLPermiso.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLPermiso.cs",
+              "RelativeDocumentMoniker": "BLL\\BLLPermiso.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLPermiso.cs",
+              "RelativeToolTip": "BLL\\BLLPermiso.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAD4vy0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T13:45:08.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BETag.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BETag.cs",
+              "RelativeDocumentMoniker": "BE\\BETag.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BETag.cs",
+              "RelativeToolTip": "BE\\BETag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T14:59:37.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MPPUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPUsuario.cs",
+              "RelativeDocumentMoniker": "MPP\\MPPUsuario.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPUsuario.cs",
+              "RelativeToolTip": "MPP\\MPPUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T13:30:11.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BEInformeAbiertoCerrado.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BEInformeAbiertoCerrado.cs",
+              "RelativeDocumentMoniker": "BE\\BEInformeAbiertoCerrado.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BEInformeAbiertoCerrado.cs",
+              "RelativeToolTip": "BE\\BEInformeAbiertoCerrado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T03:07:32.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BLLOrdenDeTrabajo.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLOrdenDeTrabajo.cs",
+              "RelativeDocumentMoniker": "BLL\\BLLOrdenDeTrabajo.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLOrdenDeTrabajo.cs",
+              "RelativeToolTip": "BLL\\BLLOrdenDeTrabajo.cs",
+              "ViewState": "AgIAACEBAAAAAAAAAAAEwB8BAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T19:08:29.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BEInformeEmpleado.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BEInformeEmpleado.cs",
+              "RelativeDocumentMoniker": "BE\\BEInformeEmpleado.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BEInformeEmpleado.cs",
+              "RelativeToolTip": "BE\\BEInformeEmpleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T02:58:35.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AsignarEmpleadoArea.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\AsignarEmpleadoArea.cs",
+              "RelativeDocumentMoniker": "Presentacion\\AsignarEmpleadoArea.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\AsignarEmpleadoArea.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\AsignarEmpleadoArea.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T14:16:25.737Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MPPOrdenDeTrabajo.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPOrdenDeTrabajo.cs",
+              "RelativeDocumentMoniker": "MPP\\MPPOrdenDeTrabajo.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPOrdenDeTrabajo.cs",
+              "RelativeToolTip": "MPP\\MPPOrdenDeTrabajo.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T19:00:59.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MPPRepositorioIdioma.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPRepositorioIdioma.cs",
+              "RelativeDocumentMoniker": "MPP\\MPPRepositorioIdioma.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPRepositorioIdioma.cs",
+              "RelativeToolTip": "MPP\\MPPRepositorioIdioma.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:15:12.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MPPArea.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPArea.cs",
+              "RelativeDocumentMoniker": "MPP\\MPPArea.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPArea.cs",
+              "RelativeToolTip": "MPP\\MPPArea.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwEEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T16:19:27.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "CrearOrdenTrabajo.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\CrearOrdenTrabajo.cs",
+              "RelativeDocumentMoniker": "Presentacion\\CrearOrdenTrabajo.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\CrearOrdenTrabajo.cs",
+              "RelativeToolTip": "Presentacion\\CrearOrdenTrabajo.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAmwFAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T15:01:19.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CrearOrdenTrabajo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\CrearOrdenTrabajo.cs",
+              "RelativeDocumentMoniker": "Presentacion\\CrearOrdenTrabajo.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\CrearOrdenTrabajo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\CrearOrdenTrabajo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T15:01:02.54Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ListadoTickets.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoTickets.cs",
+              "RelativeDocumentMoniker": "Presentacion\\ListadoTickets.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoTickets.cs",
+              "RelativeToolTip": "Presentacion\\ListadoTickets.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAmwD0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:56:00.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BEOrdenDeTrabajo.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BEOrdenDeTrabajo.cs",
+              "RelativeDocumentMoniker": "BE\\BEOrdenDeTrabajo.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BEOrdenDeTrabajo.cs",
+              "RelativeToolTip": "BE\\BEOrdenDeTrabajo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T14:48:44.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Informes.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Informes.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Informes.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Informes.cs",
+              "RelativeToolTip": "Presentacion\\Informes.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwB8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T03:02:47.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Informes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Informes.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Informes.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Informes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\Informes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T02:32:43.31Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "Permisos.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Permisos.cs",
               "RelativeDocumentMoniker": "Presentacion\\Permisos.cs",
@@ -323,7 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 27,
               "Title": "Sesion.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Servicios\\Sesion.cs",
               "RelativeDocumentMoniker": "Servicios\\Sesion.cs",
@@ -336,83 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CrearOrdenTrabajo.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\CrearOrdenTrabajo.cs",
-              "RelativeDocumentMoniker": "Presentacion\\CrearOrdenTrabajo.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\CrearOrdenTrabajo.cs",
-              "RelativeToolTip": "Presentacion\\CrearOrdenTrabajo.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAmwHMAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T15:01:19.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BLLOrdenDeTrabajo.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLOrdenDeTrabajo.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLOrdenDeTrabajo.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLOrdenDeTrabajo.cs",
-              "RelativeToolTip": "BLL\\BLLOrdenDeTrabajo.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAWwIIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:08:29.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Ticket.cs",
-              "RelativeDocumentMoniker": "Presentacion\\Ticket.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Ticket.cs*",
-              "RelativeToolTip": "Presentacion\\Ticket.cs*",
-              "ViewState": "AgIAAG0BAAAAAAAAAAD4v4YBAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T00:18:33.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Ticket.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Ticket.cs",
-              "RelativeDocumentMoniker": "Presentacion\\Ticket.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Ticket.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Presentacion\\Ticket.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T15:18:43.455Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MDITicketera.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\MDITicketera.cs",
-              "RelativeDocumentMoniker": "Presentacion\\MDITicketera.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\MDITicketera.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Presentacion\\MDITicketera.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T15:35:05.955Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BLLUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLUsuario.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLUsuario.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLUsuario.cs",
-              "RelativeToolTip": "BLL\\BLLUsuario.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAjwJMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:45:14.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 26,
               "Title": "MDITicketera.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\MDITicketera.cs",
               "RelativeDocumentMoniker": "Presentacion\\MDITicketera.cs",
@@ -425,19 +646,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CrearOrdenTrabajo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\CrearOrdenTrabajo.cs",
-              "RelativeDocumentMoniker": "Presentacion\\CrearOrdenTrabajo.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\CrearOrdenTrabajo.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Presentacion\\CrearOrdenTrabajo.cs [Dise\u00F1o]",
+              "DocumentIndex": 25,
+              "Title": "MDITicketera.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\MDITicketera.cs",
+              "RelativeDocumentMoniker": "Presentacion\\MDITicketera.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\MDITicketera.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\MDITicketera.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T15:01:02.54Z",
+              "WhenOpened": "2024-10-04T15:35:05.955Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 28,
+              "Title": "Ticket.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Ticket.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Ticket.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Ticket.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\Ticket.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T15:18:43.455Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Ticket.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Ticket.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Ticket.cs",
+              "RelativeToolTip": "Presentacion\\Ticket.cs",
+              "ViewState": "AgIAAHABAAAAAAAAAAD4v4EBAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T00:18:33.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Registro.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Registro.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Registro.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Registro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\Registro.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T13:20:23.777Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "VerTexto.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\VerTexto.cs",
               "RelativeDocumentMoniker": "Presentacion\\VerTexto.cs",
@@ -449,20 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MPPOrdenDeTrabajo.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPOrdenDeTrabajo.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPOrdenDeTrabajo.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPOrdenDeTrabajo.cs",
-              "RelativeToolTip": "MPP\\MPPOrdenDeTrabajo.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAWwHcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:00:59.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 29,
               "Title": "FabricaOrdenesTrabajo.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Servicios\\FabricaOrdenesTrabajo.cs",
               "RelativeDocumentMoniker": "Servicios\\FabricaOrdenesTrabajo.cs",
@@ -475,7 +720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 35,
               "Title": "Loguin.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Loguin.cs",
               "RelativeDocumentMoniker": "Presentacion\\Loguin.cs",
@@ -487,7 +732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 31,
               "Title": "UsuariosAlterados.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\UsuariosAlterados.cs",
               "RelativeDocumentMoniker": "Presentacion\\UsuariosAlterados.cs",
@@ -499,20 +744,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PDF.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Servicios\\PDF.cs",
-              "RelativeDocumentMoniker": "Servicios\\PDF.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Servicios\\PDF.cs",
-              "RelativeToolTip": "Servicios\\PDF.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T03:00:27.567Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 33,
               "Title": "Permisos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Permisos.cs",
               "RelativeDocumentMoniker": "Presentacion\\Permisos.cs",
@@ -524,69 +756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ListadoTickets.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoTickets.cs",
-              "RelativeDocumentMoniker": "Presentacion\\ListadoTickets.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoTickets.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Presentacion\\ListadoTickets.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:32:09.749Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ListadoTickets.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoTickets.cs",
-              "RelativeDocumentMoniker": "Presentacion\\ListadoTickets.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoTickets.cs",
-              "RelativeToolTip": "Presentacion\\ListadoTickets.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA4wCUAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:56:00.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ListadoAreas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoAreas.cs",
-              "RelativeDocumentMoniker": "Presentacion\\ListadoAreas.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoAreas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Presentacion\\ListadoAreas.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T15:01:56.405Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ListadoAreas.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoAreas.cs",
-              "RelativeDocumentMoniker": "Presentacion\\ListadoAreas.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoAreas.cs",
-              "RelativeToolTip": "Presentacion\\ListadoAreas.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAIwFQAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T15:03:28.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Informes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Informes.cs",
-              "RelativeDocumentMoniker": "Presentacion\\Informes.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Informes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Presentacion\\Informes.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T02:32:43.31Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 36,
               "Title": "Idiomas.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Idiomas.cs",
               "RelativeDocumentMoniker": "Presentacion\\Idiomas.cs",
@@ -599,7 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 37,
               "Title": "Idiomas.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Idiomas.cs",
               "RelativeDocumentMoniker": "Presentacion\\Idiomas.cs",
@@ -611,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 38,
               "Title": "CrearTag.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\CrearTag.cs",
               "RelativeDocumentMoniker": "Presentacion\\CrearTag.cs",
@@ -623,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 39,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Form1.cs",
               "RelativeDocumentMoniker": "Presentacion\\Form1.cs",
@@ -635,7 +805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 40,
               "Title": "CrearArea.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\CrearArea.cs",
               "RelativeDocumentMoniker": "Presentacion\\CrearArea.cs",
@@ -647,7 +817,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 41,
               "Title": "CrearArea.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\CrearArea.cs",
               "RelativeDocumentMoniker": "Presentacion\\CrearArea.cs",
@@ -660,7 +830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 42,
               "Title": "Bitacora.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Bitacora.cs",
               "RelativeDocumentMoniker": "Presentacion\\Bitacora.cs",
@@ -673,7 +843,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 43,
               "Title": "Bitacora.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Bitacora.cs",
               "RelativeDocumentMoniker": "Presentacion\\Bitacora.cs",
@@ -685,7 +855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 44,
               "Title": "AsignarPermisos.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\AsignarPermisos.cs",
               "RelativeDocumentMoniker": "Presentacion\\AsignarPermisos.cs",
@@ -698,32 +868,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "AsignarEmpleadoArea.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\AsignarEmpleadoArea.cs",
-              "RelativeDocumentMoniker": "Presentacion\\AsignarEmpleadoArea.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\AsignarEmpleadoArea.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Presentacion\\AsignarEmpleadoArea.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T14:16:25.737Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "MPPUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPUsuario.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPUsuario.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPUsuario.cs",
-              "RelativeToolTip": "MPP\\MPPUsuario.cs",
-              "ViewState": "AgIAAAwBAAAAAAAAAAD4vx4BAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:30:11.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 45,
               "Title": "AsignarPermisos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\AsignarPermisos.cs",
               "RelativeDocumentMoniker": "Presentacion\\AsignarPermisos.cs",
@@ -735,7 +880,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 46,
               "Title": "Areas.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Areas.cs",
               "RelativeDocumentMoniker": "Presentacion\\Areas.cs",
@@ -747,7 +892,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 49,
               "Title": "BEPermiso.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BEPermiso.cs",
               "RelativeDocumentMoniker": "BE\\BEPermiso.cs",
@@ -760,7 +905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 50,
               "Title": "MPPPermiso.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPPermiso.cs",
               "RelativeDocumentMoniker": "MPP\\MPPPermiso.cs",
@@ -773,20 +918,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "AsignarEmpleadoArea.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\AsignarEmpleadoArea.cs",
-              "RelativeDocumentMoniker": "Presentacion\\AsignarEmpleadoArea.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\AsignarEmpleadoArea.cs",
-              "RelativeToolTip": "Presentacion\\AsignarEmpleadoArea.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAIwFAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T14:19:13.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 48,
               "Title": "BEPermisoCompuesto.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BEPermisoCompuesto.cs",
               "RelativeDocumentMoniker": "BE\\BEPermisoCompuesto.cs",
@@ -799,7 +931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 47,
               "Title": "Registro.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Registro.cs",
               "RelativeDocumentMoniker": "Presentacion\\Registro.cs",
@@ -812,19 +944,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "BLLTag.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLTag.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLTag.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLTag.cs",
-              "RelativeToolTip": "BLL\\BLLTag.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T00:09:44.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 53,
               "Title": "BLLBitacora.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLBitacora.cs",
               "RelativeDocumentMoniker": "BLL\\BLLBitacora.cs",
@@ -832,23 +952,12 @@
               "RelativeToolTip": "BLL\\BLLBitacora.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T00:02:58.126Z"
+              "WhenOpened": "2024-10-24T00:02:58.126Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "BLLPermiso.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLPermiso.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLPermiso.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLPermiso.cs",
-              "RelativeToolTip": "BLL\\BLLPermiso.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAD4vy0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:45:08.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 51,
               "Title": "Acceso.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\DAL\\Acceso.cs",
               "RelativeDocumentMoniker": "DAL\\Acceso.cs",
@@ -856,11 +965,12 @@
               "RelativeToolTip": "DAL\\Acceso.cs",
               "ViewState": "AgIAAFwAAAAAAAAAAAAwwHEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T15:23:26.509Z"
+              "WhenOpened": "2024-10-13T15:23:26.509Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 54,
               "Title": "BLLArea.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLArea.cs",
               "RelativeDocumentMoniker": "BLL\\BLLArea.cs",
@@ -868,11 +978,12 @@
               "RelativeToolTip": "BLL\\BLLArea.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T16:18:29.205Z"
+              "WhenOpened": "2024-10-01T16:18:29.205Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 55,
               "Title": "BEOrdenTrabajoBaja.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BEOrdenTrabajoBaja.cs",
               "RelativeDocumentMoniker": "BE\\BEOrdenTrabajoBaja.cs",
@@ -880,11 +991,12 @@
               "RelativeToolTip": "BE\\BEOrdenTrabajoBaja.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T15:16:55.669Z"
+              "WhenOpened": "2024-10-01T15:16:55.669Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 56,
               "Title": "BEDetalleWO.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BEDetalleWO.cs",
               "RelativeDocumentMoniker": "BE\\BEDetalleWO.cs",
@@ -892,23 +1004,12 @@
               "RelativeToolTip": "BE\\BEDetalleWO.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:51:44.304Z"
+              "WhenOpened": "2024-10-01T14:51:44.304Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "BEOrdenDeTrabajo.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BEOrdenDeTrabajo.cs",
-              "RelativeDocumentMoniker": "BE\\BEOrdenDeTrabajo.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BEOrdenDeTrabajo.cs",
-              "RelativeToolTip": "BE\\BEOrdenDeTrabajo.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:48:44.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 52,
               "Title": "BLLRepositorioIdioma.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLRepositorioIdioma.cs",
               "RelativeDocumentMoniker": "BLL\\BLLRepositorioIdioma.cs",
@@ -916,23 +1017,12 @@
               "RelativeToolTip": "BLL\\BLLRepositorioIdioma.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAA4wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T00:16:20.063Z"
+              "WhenOpened": "2024-10-24T00:16:20.063Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "BETag.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BETag.cs",
-              "RelativeDocumentMoniker": "BE\\BETag.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BETag.cs",
-              "RelativeToolTip": "BE\\BETag.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:59:37.85Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 57,
               "Title": "BEUsuario.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BEUsuario.cs",
               "RelativeDocumentMoniker": "BE\\BEUsuario.cs",
@@ -940,11 +1030,12 @@
               "RelativeToolTip": "BE\\BEUsuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:59:47.708Z"
+              "WhenOpened": "2024-10-01T14:59:47.708Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 58,
               "Title": "BEArea.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BEArea.cs",
               "RelativeDocumentMoniker": "BE\\BEArea.cs",
@@ -952,23 +1043,12 @@
               "RelativeToolTip": "BE\\BEArea.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAmwBcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:49:49.533Z"
+              "WhenOpened": "2024-10-01T14:49:49.533Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "BEInformeEmpleado.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BEInformeEmpleado.cs",
-              "RelativeDocumentMoniker": "BE\\BEInformeEmpleado.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BEInformeEmpleado.cs",
-              "RelativeToolTip": "BE\\BEInformeEmpleado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T02:58:35.764Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 60,
               "Title": "Areas.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Areas.cs",
               "RelativeDocumentMoniker": "Presentacion\\Areas.cs",
@@ -981,7 +1061,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 59,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Form1.cs",
               "RelativeDocumentMoniker": "Presentacion\\Form1.cs",
@@ -994,44 +1074,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "BEInformeAbiertoCerrado.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BEInformeAbiertoCerrado.cs",
-              "RelativeDocumentMoniker": "BE\\BEInformeAbiertoCerrado.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BEInformeAbiertoCerrado.cs",
-              "RelativeToolTip": "BE\\BEInformeAbiertoCerrado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T03:07:32.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "Informes.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Informes.cs",
-              "RelativeDocumentMoniker": "Presentacion\\Informes.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Informes.cs",
-              "RelativeToolTip": "Presentacion\\Informes.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAuwCIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T03:02:47.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "Archivo.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Servicios\\Archivo.cs",
-              "RelativeDocumentMoniker": "Servicios\\Archivo.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Servicios\\Archivo.cs",
-              "RelativeToolTip": "Servicios\\Archivo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T21:28:56.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 61,
               "Title": "BEOrdenTrabajoCritico.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BEOrdenTrabajoCritico.cs",
               "RelativeDocumentMoniker": "BE\\BEOrdenTrabajoCritico.cs",
@@ -1039,11 +1082,12 @@
               "RelativeToolTip": "BE\\BEOrdenTrabajoCritico.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:53:43.328Z"
+              "WhenOpened": "2024-10-01T14:53:43.328Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 62,
               "Title": "BEOrdenTrabajoModerado.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BEOrdenTrabajoModerado.cs",
               "RelativeDocumentMoniker": "BE\\BEOrdenTrabajoModerado.cs",
@@ -1051,11 +1095,12 @@
               "RelativeToolTip": "BE\\BEOrdenTrabajoModerado.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAiwBMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T15:16:37.264Z"
+              "WhenOpened": "2024-10-01T15:16:37.264Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 63,
               "Title": "VerTexto.Designer.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\VerTexto.Designer.cs",
               "RelativeDocumentMoniker": "Presentacion\\VerTexto.Designer.cs",
@@ -1068,7 +1113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 64,
               "Title": "VerTexto.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\VerTexto.cs",
               "RelativeDocumentMoniker": "Presentacion\\VerTexto.cs",
@@ -1081,19 +1126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "MPPArea.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPArea.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPArea.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPArea.cs",
-              "RelativeToolTip": "MPP\\MPPArea.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowEEAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T16:19:27.187Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "FiltroBitacora.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\FiltroBitacora.cs",
               "RelativeDocumentMoniker": "BE\\FiltroBitacora.cs",
@@ -1101,11 +1134,12 @@
               "RelativeToolTip": "BE\\FiltroBitacora.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T15:18:21.779Z"
+              "WhenOpened": "2024-10-19T15:18:21.779Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "MDITicketera.Designer.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\MDITicketera.Designer.cs",
               "RelativeDocumentMoniker": "Presentacion\\MDITicketera.Designer.cs",
@@ -1126,23 +1160,12 @@
               "RelativeToolTip": "MPP\\MPPTag.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:15:11.245Z"
+              "WhenOpened": "2024-10-13T21:15:11.245Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 67,
-              "Title": "MPPRepositorioIdioma.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPRepositorioIdioma.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPRepositorioIdioma.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPRepositorioIdioma.cs",
-              "RelativeToolTip": "MPP\\MPPRepositorioIdioma.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:15:12.675Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
               "Title": "MPPBitacora.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPBitacora.cs",
               "RelativeDocumentMoniker": "MPP\\MPPBitacora.cs",
@@ -1150,7 +1173,8 @@
               "RelativeToolTip": "MPP\\MPPBitacora.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwB4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:30:01.692Z"
+              "WhenOpened": "2024-10-03T13:30:01.692Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

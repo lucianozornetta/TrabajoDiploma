@@ -11,6 +11,10 @@ using System.Windows.Forms;
 using BE;
 using Servicios;
 using Interfaces;
+using System.Text.Json;
+using System.Collections;
+using System.IO;
+
 
 
 namespace Presentacion
@@ -155,5 +159,78 @@ namespace Presentacion
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            List<BETag> ListaTags = blltag.ListarTags();
+            try
+            {
+                using (SaveFileDialog saveFileDialog = new SaveFileDialog())
+                {
+                    saveFileDialog.Filter = "Archivos JSON (*.json)|*.json"; 
+                    saveFileDialog.Title = "Guardar archivo JSON";
+                    saveFileDialog.FileName = "archivo.json"; 
+
+                   
+                    if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                    {
+                        string rutaArchivo = saveFileDialog.FileName;
+
+                       
+                        string json = JsonSerializer.Serialize(ListaTags, new JsonSerializerOptions
+                        {
+                            WriteIndented = true 
+                        });
+                        File.WriteAllText(rutaArchivo, json);
+
+                        MessageBox.Show("Archivo JSON exportado con éxito en: " + rutaArchivo, "Exportación Exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Operación cancelada por el usuario.", "Cancelado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ocurrió un error al exportar el archivo JSON: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using (OpenFileDialog openFileDialog = new OpenFileDialog())
+                {
+                    openFileDialog.Filter = "Archivos JSON (*.json)|*.json"; 
+                    openFileDialog.Title = "Seleccionar archivo JSON";
+
+
+                    if (openFileDialog.ShowDialog() == DialogResult.OK)
+                    {
+                        string rutaArchivo = openFileDialog.FileName;
+
+
+                        string contenidoJson = File.ReadAllText(rutaArchivo);
+
+                        List<BETag> lista = JsonSerializer.Deserialize<List<BETag>>(contenidoJson);
+                        blltag.ImportarListaTags(lista);
+                        MessageBox.Show("Archivo JSON importado con éxito.", "Importación Exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        ActualizarCMB();
+                        ActualizarListBox();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Operación cancelada por el usuario.", "Cancelado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ocurrió un error al importar el archivo JSON: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }           
+        }
     }
+    
 }
