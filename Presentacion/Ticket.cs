@@ -191,6 +191,7 @@ namespace Presentacion
                 detalle.Usuario = Sesion.ObtenerUsername();
                 bllorden.AgregarDetalle(detalle, orden);
                 Actualizar();
+                this.Close();
             }
 
         }
