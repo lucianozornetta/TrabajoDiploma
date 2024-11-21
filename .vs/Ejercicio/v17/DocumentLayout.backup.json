@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1E5164C5-71C1-440C-B5BC-9A29B5AD0822}|Servicios\\Servicios.csproj|c:\\users\\lucia\\source\\repos\\trabajodiploma\\servicios\\pdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5164C5-71C1-440C-B5BC-9A29B5AD0822}|Servicios\\Servicios.csproj|solutionrelative:servicios\\pdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\presentacion\\creartag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{972529CA-DDEE-47ED-B806-B045B85C39FC}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\creartag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -57,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1E5164C5-71C1-440C-B5BC-9A29B5AD0822}|Servicios\\Servicios.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\servicios\\archivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E5164C5-71C1-440C-B5BC-9A29B5AD0822}|Servicios\\Servicios.csproj|solutionrelative:servicios\\archivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E5164C5-71C1-440C-B5BC-9A29B5AD0822}|Servicios\\Servicios.csproj|c:\\users\\lucia\\source\\repos\\trabajodiploma\\servicios\\pdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E5164C5-71C1-440C-B5BC-9A29B5AD0822}|Servicios\\Servicios.csproj|solutionrelative:servicios\\pdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D550EEEE-DD5F-4FA7-86DB-1D3BC988AC3E}|BLL\\BLL.csproj|C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\bll\\bllordendetrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -294,7 +294,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -307,8 +307,7 @@
               "ViewState": "AgIAAGUAAAAAAAAAAAAcwH8AAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T14:19:13.641Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -321,50 +320,22 @@
               "ViewState": "AgIAAGEAAAAAAAAAAAAcwHUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T13:45:14.633Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ListadoAreas.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoAreas.cs",
-              "RelativeDocumentMoniker": "Presentacion\\ListadoAreas.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoAreas.cs",
-              "RelativeToolTip": "Presentacion\\ListadoAreas.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAwwKYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T15:03:28.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MPPUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPUsuario.cs",
-              "RelativeDocumentMoniker": "MPP\\MPPUsuario.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPUsuario.cs",
-              "RelativeToolTip": "MPP\\MPPUsuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:30:11.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Informes.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Informes.cs",
               "RelativeDocumentMoniker": "Presentacion\\Informes.cs",
               "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Informes.cs [Dise\u00F1o]",
               "RelativeToolTip": "Presentacion\\Informes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T02:32:43.31Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-20T02:32:43.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Informes.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Informes.cs",
               "RelativeDocumentMoniker": "Presentacion\\Informes.cs",
@@ -372,130 +343,50 @@
               "RelativeToolTip": "Presentacion\\Informes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T03:02:47.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T03:02:47.159Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CrearTag.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\CrearTag.cs",
               "RelativeDocumentMoniker": "Presentacion\\CrearTag.cs",
               "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\CrearTag.cs [Dise\u00F1o]",
               "RelativeToolTip": "Presentacion\\CrearTag.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T20:18:18.647Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-19T20:18:18.647Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AsignarEmpleadoArea.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\AsignarEmpleadoArea.cs",
               "RelativeDocumentMoniker": "Presentacion\\AsignarEmpleadoArea.cs",
               "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\AsignarEmpleadoArea.cs [Dise\u00F1o]",
               "RelativeToolTip": "Presentacion\\AsignarEmpleadoArea.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T14:16:25.737Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-04T14:16:25.737Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Bitacora.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Bitacora.cs",
               "RelativeDocumentMoniker": "Presentacion\\Bitacora.cs",
               "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Bitacora.cs [Dise\u00F1o]",
               "RelativeToolTip": "Presentacion\\Bitacora.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T13:20:16.8Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-01T13:20:16.8Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Bitacora.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Bitacora.cs",
-              "RelativeDocumentMoniker": "Presentacion\\Bitacora.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Bitacora.cs",
-              "RelativeToolTip": "Presentacion\\Bitacora.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T16:04:26.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BETag.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BETag.cs",
-              "RelativeDocumentMoniker": "BE\\BETag.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BETag.cs",
-              "RelativeToolTip": "BE\\BETag.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:59:37.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BLLPermiso.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLPermiso.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLPermiso.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLPermiso.cs",
-              "RelativeToolTip": "BLL\\BLLPermiso.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAD4vy0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:45:08.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ListadoAreas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoAreas.cs",
-              "RelativeDocumentMoniker": "Presentacion\\ListadoAreas.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoAreas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Presentacion\\ListadoAreas.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T15:01:56.405Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ListadoTickets.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoTickets.cs",
-              "RelativeDocumentMoniker": "Presentacion\\ListadoTickets.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoTickets.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Presentacion\\ListadoTickets.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:32:09.749Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BLLTag.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLTag.cs",
-              "RelativeDocumentMoniker": "BLL\\BLLTag.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLTag.cs",
-              "RelativeToolTip": "BLL\\BLLTag.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAmwDgAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T00:09:44.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 0,
               "Title": "PDF.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Servicios\\PDF.cs",
               "RelativeDocumentMoniker": "Servicios\\PDF.cs",
               "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Servicios\\PDF.cs",
               "RelativeToolTip": "Servicios\\PDF.cs",
-              "ViewState": "AgIAAJoAAAAAAAAAAAAmwJkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T03:00:27.567Z",
               "EditorCaption": ""
@@ -503,6 +394,100 @@
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "MPPUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPUsuario.cs",
+              "RelativeDocumentMoniker": "MPP\\MPPUsuario.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\MPP\\MPPUsuario.cs",
+              "RelativeToolTip": "MPP\\MPPUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T13:30:11.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bitacora.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Bitacora.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Bitacora.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Bitacora.cs",
+              "RelativeToolTip": "Presentacion\\Bitacora.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T16:04:26.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ListadoAreas.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoAreas.cs",
+              "RelativeDocumentMoniker": "Presentacion\\ListadoAreas.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoAreas.cs",
+              "RelativeToolTip": "Presentacion\\ListadoAreas.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAwwKYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T15:03:28.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BETag.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BETag.cs",
+              "RelativeDocumentMoniker": "BE\\BETag.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BE\\BETag.cs",
+              "RelativeToolTip": "BE\\BETag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T14:59:37.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BLLPermiso.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLPermiso.cs",
+              "RelativeDocumentMoniker": "BLL\\BLLPermiso.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLPermiso.cs",
+              "RelativeToolTip": "BLL\\BLLPermiso.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAD4vy0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T13:45:08.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ListadoAreas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoAreas.cs",
+              "RelativeDocumentMoniker": "Presentacion\\ListadoAreas.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoAreas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\ListadoAreas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T15:01:56.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ListadoTickets.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoTickets.cs",
+              "RelativeDocumentMoniker": "Presentacion\\ListadoTickets.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\ListadoTickets.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\ListadoTickets.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:32:09.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BLLTag.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLTag.cs",
+              "RelativeDocumentMoniker": "BLL\\BLLTag.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\BLL\\BLLTag.cs",
+              "RelativeToolTip": "BLL\\BLLTag.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwDgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T00:09:44.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Archivo.cs",
               "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Servicios\\Archivo.cs",
               "RelativeDocumentMoniker": "Servicios\\Archivo.cs",
@@ -510,8 +495,7 @@
               "RelativeToolTip": "Servicios\\Archivo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T21:28:56.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T21:28:56.809Z"
             },
             {
               "$type": "Document",
@@ -523,8 +507,7 @@
               "RelativeToolTip": "BE\\BEInformeAbiertoCerrado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T03:07:32.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T03:07:32.726Z"
             },
             {
               "$type": "Document",
@@ -536,8 +519,7 @@
               "RelativeToolTip": "BLL\\BLLOrdenDeTrabajo.cs",
               "ViewState": "AgIAACEBAAAAAAAAAAAEwB8BAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:08:29.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T19:08:29.804Z"
             },
             {
               "$type": "Document",
@@ -549,8 +531,7 @@
               "RelativeToolTip": "BE\\BEInformeEmpleado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T02:58:35.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T02:58:35.764Z"
             },
             {
               "$type": "Document",
@@ -562,8 +543,7 @@
               "RelativeToolTip": "MPP\\MPPOrdenDeTrabajo.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwCgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:00:59.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T19:00:59.895Z"
             },
             {
               "$type": "Document",
@@ -575,8 +555,7 @@
               "RelativeToolTip": "MPP\\MPPRepositorioIdioma.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:15:12.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T21:15:12.675Z"
             },
             {
               "$type": "Document",
@@ -588,8 +567,7 @@
               "RelativeToolTip": "MPP\\MPPArea.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwEEAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T16:19:27.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T16:19:27.187Z"
             },
             {
               "$type": "Document",
@@ -601,8 +579,7 @@
               "RelativeToolTip": "Presentacion\\CrearOrdenTrabajo.cs",
               "ViewState": "AgIAAFkAAAAAAAAAAAAmwFAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T15:01:19.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T15:01:19.15Z"
             },
             {
               "$type": "Document",
@@ -613,8 +590,7 @@
               "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\CrearOrdenTrabajo.cs [Dise\u00F1o]",
               "RelativeToolTip": "Presentacion\\CrearOrdenTrabajo.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T15:01:02.54Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-01T15:01:02.54Z"
             },
             {
               "$type": "Document",
@@ -626,8 +602,7 @@
               "RelativeToolTip": "Presentacion\\ListadoTickets.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAmwD0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:56:00.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T21:56:00.778Z"
             },
             {
               "$type": "Document",
@@ -639,8 +614,7 @@
               "RelativeToolTip": "BE\\BEOrdenDeTrabajo.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:48:44.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T14:48:44.02Z"
             },
             {
               "$type": "Document",
@@ -652,8 +626,7 @@
               "RelativeToolTip": "Presentacion\\Permisos.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAmwDoAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:45:35.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T13:45:35.618Z"
             },
             {
               "$type": "Document",
@@ -665,8 +638,7 @@
               "RelativeToolTip": "Servicios\\Sesion.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAgwCUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:56:19.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T21:56:19.349Z"
             },
             {
               "$type": "Document",
@@ -678,8 +650,7 @@
               "RelativeToolTip": "Presentacion\\MDITicketera.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T15:35:30.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T15:35:30.871Z"
             },
             {
               "$type": "Document",
@@ -690,8 +661,7 @@
               "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\MDITicketera.cs [Dise\u00F1o]",
               "RelativeToolTip": "Presentacion\\MDITicketera.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T15:35:05.955Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-04T15:35:05.955Z"
             },
             {
               "$type": "Document",
@@ -702,8 +672,7 @@
               "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Ticket.cs [Dise\u00F1o]",
               "RelativeToolTip": "Presentacion\\Ticket.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T15:18:43.455Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-19T15:18:43.455Z"
             },
             {
               "$type": "Document",
@@ -715,8 +684,7 @@
               "RelativeToolTip": "Presentacion\\Ticket.cs",
               "ViewState": "AgIAAHABAAAAAAAAAAD4v4EBAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T00:18:33.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T00:18:33.328Z"
             },
             {
               "$type": "Document",
@@ -727,8 +695,7 @@
               "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Registro.cs [Dise\u00F1o]",
               "RelativeToolTip": "Presentacion\\Registro.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T13:20:23.777Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-01T13:20:23.777Z"
             },
             {
               "$type": "Document",
@@ -739,8 +706,7 @@
               "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\VerTexto.cs [Dise\u00F1o]",
               "RelativeToolTip": "Presentacion\\VerTexto.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T18:20:53.39Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-19T18:20:53.39Z"
             },
             {
               "$type": "Document",
@@ -752,8 +718,7 @@
               "RelativeToolTip": "Servicios\\FabricaOrdenesTrabajo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T15:21:32.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T15:21:32.314Z"
             },
             {
               "$type": "Document",
@@ -764,8 +729,7 @@
               "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Loguin.cs [Dise\u00F1o]",
               "RelativeToolTip": "Presentacion\\Loguin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T13:20:22.472Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-01T13:20:22.472Z"
             },
             {
               "$type": "Document",
@@ -776,8 +740,7 @@
               "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\UsuariosAlterados.cs [Dise\u00F1o]",
               "RelativeToolTip": "Presentacion\\UsuariosAlterados.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T13:20:24.187Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-01T13:20:24.187Z"
             },
             {
               "$type": "Document",
@@ -788,8 +751,7 @@
               "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Permisos.cs [Dise\u00F1o]",
               "RelativeToolTip": "Presentacion\\Permisos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T13:20:23.264Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-01T13:20:23.264Z"
             },
             {
               "$type": "Document",
@@ -801,8 +763,7 @@
               "RelativeToolTip": "Presentacion\\Idiomas.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAmwDEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:45:23.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T13:45:23.431Z"
             },
             {
               "$type": "Document",
@@ -813,8 +774,7 @@
               "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Idiomas.cs [Dise\u00F1o]",
               "RelativeToolTip": "Presentacion\\Idiomas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T13:20:21.705Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-01T13:20:21.705Z"
             },
             {
               "$type": "Document",
@@ -825,8 +785,7 @@
               "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Presentacion\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T13:20:21.027Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-01T13:20:21.027Z"
             },
             {
               "$type": "Document",
@@ -837,8 +796,7 @@
               "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\CrearArea.cs [Dise\u00F1o]",
               "RelativeToolTip": "Presentacion\\CrearArea.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T15:55:01.477Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-01T15:55:01.477Z"
             },
             {
               "$type": "Document",
@@ -850,8 +808,7 @@
               "RelativeToolTip": "Presentacion\\CrearArea.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAmwCQAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T15:57:01.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T15:57:01.284Z"
             },
             {
               "$type": "Document",
@@ -863,8 +820,7 @@
               "RelativeToolTip": "Presentacion\\AsignarPermisos.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAgwEkAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T04:46:44.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T04:46:44.685Z"
             },
             {
               "$type": "Document",
@@ -875,8 +831,7 @@
               "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\AsignarPermisos.cs [Dise\u00F1o]",
               "RelativeToolTip": "Presentacion\\AsignarPermisos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T13:20:20.006Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-01T13:20:20.006Z"
             },
             {
               "$type": "Document",
@@ -887,8 +842,7 @@
               "ToolTip": "C:\\Users\\lucia\\source\\repos\\TrabajoDiploma\\Presentacion\\Areas.cs [Dise\u00F1o]",
               "RelativeToolTip": "Presentacion\\Areas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T22:56:37.783Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-03T22:56:37.783Z"
             },
             {
               "$type": "Document",
@@ -900,8 +854,7 @@
               "RelativeToolTip": "BE\\BEPermiso.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T23:22:18.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T23:22:18.121Z"
             },
             {
               "$type": "Document",
@@ -913,8 +866,7 @@
               "RelativeToolTip": "MPP\\MPPPermiso.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:30:07.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T13:30:07.373Z"
             },
             {
               "$type": "Document",
@@ -926,8 +878,7 @@
               "RelativeToolTip": "BE\\BEPermisoCompuesto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T23:00:56.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T23:00:56.088Z"
             },
             {
               "$type": "Document",
@@ -939,8 +890,7 @@
               "RelativeToolTip": "Presentacion\\Registro.cs",
               "ViewState": "AgIAAFMBAAAAAAAAAAAtwHABAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:27:57.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T13:27:57.319Z"
             },
             {
               "$type": "Document",
@@ -952,8 +902,7 @@
               "RelativeToolTip": "BLL\\BLLBitacora.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T00:02:58.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T00:02:58.126Z"
             },
             {
               "$type": "Document",
@@ -965,8 +914,7 @@
               "RelativeToolTip": "DAL\\Acceso.cs",
               "ViewState": "AgIAAFwAAAAAAAAAAAAwwHEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T15:23:26.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T15:23:26.509Z"
             },
             {
               "$type": "Document",
@@ -978,8 +926,7 @@
               "RelativeToolTip": "BLL\\BLLArea.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T16:18:29.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T16:18:29.205Z"
             },
             {
               "$type": "Document",
@@ -991,8 +938,7 @@
               "RelativeToolTip": "BE\\BEOrdenTrabajoBaja.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T15:16:55.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T15:16:55.669Z"
             },
             {
               "$type": "Document",
@@ -1004,8 +950,7 @@
               "RelativeToolTip": "BE\\BEDetalleWO.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:51:44.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T14:51:44.304Z"
             },
             {
               "$type": "Document",
@@ -1017,8 +962,7 @@
               "RelativeToolTip": "BLL\\BLLRepositorioIdioma.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAA4wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T00:16:20.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T00:16:20.063Z"
             },
             {
               "$type": "Document",
@@ -1030,8 +974,7 @@
               "RelativeToolTip": "BE\\BEUsuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:59:47.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T14:59:47.708Z"
             },
             {
               "$type": "Document",
@@ -1043,8 +986,7 @@
               "RelativeToolTip": "BE\\BEArea.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAmwBcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:49:49.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T14:49:49.533Z"
             },
             {
               "$type": "Document",
@@ -1056,8 +998,7 @@
               "RelativeToolTip": "Presentacion\\Areas.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAwwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T23:05:56.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T23:05:56.874Z"
             },
             {
               "$type": "Document",
@@ -1069,8 +1010,7 @@
               "RelativeToolTip": "Presentacion\\Form1.cs",
               "ViewState": "AgIAACQBAAAAAAAAAAAAAMUBAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T15:59:27.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T15:59:27.858Z"
             },
             {
               "$type": "Document",
@@ -1082,8 +1022,7 @@
               "RelativeToolTip": "BE\\BEOrdenTrabajoCritico.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:53:43.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T14:53:43.328Z"
             },
             {
               "$type": "Document",
@@ -1095,8 +1034,7 @@
               "RelativeToolTip": "BE\\BEOrdenTrabajoModerado.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAiwBMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T15:16:37.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T15:16:37.264Z"
             },
             {
               "$type": "Document",
@@ -1108,8 +1046,7 @@
               "RelativeToolTip": "Presentacion\\VerTexto.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T00:15:47.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T00:15:47.48Z"
             },
             {
               "$type": "Document",
@@ -1121,8 +1058,7 @@
               "RelativeToolTip": "Presentacion\\VerTexto.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAuwBIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T18:26:07.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T18:26:07.274Z"
             },
             {
               "$type": "Document",
@@ -1134,8 +1070,7 @@
               "RelativeToolTip": "BE\\FiltroBitacora.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T15:18:21.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T15:18:21.779Z"
             },
             {
               "$type": "Document",
@@ -1147,8 +1082,7 @@
               "RelativeToolTip": "Presentacion\\MDITicketera.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:59:01.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T21:59:01.48Z"
             },
             {
               "$type": "Document",
@@ -1160,8 +1094,7 @@
               "RelativeToolTip": "MPP\\MPPTag.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:15:11.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T21:15:11.245Z"
             },
             {
               "$type": "Document",
@@ -1173,8 +1106,7 @@
               "RelativeToolTip": "MPP\\MPPBitacora.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwB4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:30:01.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T13:30:01.692Z"
             },
             {
               "$type": "Document",
@@ -1186,8 +1118,7 @@
               "RelativeToolTip": "Presentacion\\Loguin.cs",
               "ViewState": "AgIAAJ4AAAAAAAAAAAAtwLAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:45:29.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T13:45:29.013Z"
             },
             {
               "$type": "Document",
@@ -1199,8 +1130,7 @@
               "RelativeToolTip": "Presentacion\\CrearArea.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T14:42:24.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T14:42:24.508Z"
             }
           ]
         }
