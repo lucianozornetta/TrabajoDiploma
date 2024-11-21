@@ -220,7 +220,20 @@ namespace BLL
         public bool CambiarArea(BEOrdenDeTrabajo orden)
         {
             MPPOrdenDeTrabajo mPPOrdenDeTrabajo = new MPPOrdenDeTrabajo();
-            return mPPOrdenDeTrabajo.AsignarArea(orden);
+            
+            try
+            {
+                if (mPPOrdenDeTrabajo.AsignarArea(orden))
+                {
+                    AutoAsignarWorkOrder(orden);
+                    return true;
+                }
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            return false;
         }
 
         public bool AgregarDetalle(BEDetalleWO detalle , BEOrdenDeTrabajo orden)
