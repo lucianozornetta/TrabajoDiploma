@@ -54,6 +54,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(218, 45);
             this.label1.TabIndex = 1;
+            this.label1.Tag = "ListadoTicketsLabelTicketera";
             this.label1.Text = "TICKETERA ";
             // 
             // btnAbrirWO
@@ -63,6 +64,7 @@
             this.btnAbrirWO.Name = "btnAbrirWO";
             this.btnAbrirWO.Size = new System.Drawing.Size(152, 59);
             this.btnAbrirWO.TabIndex = 2;
+            this.btnAbrirWO.Tag = "ListadoTicketsBtnAbrirWO";
             this.btnAbrirWO.Text = "ABRIR ORDEN DE TRABAJO";
             this.btnAbrirWO.UseVisualStyleBackColor = true;
             this.btnAbrirWO.Click += new System.EventHandler(this.btnAbrirWO_Click);

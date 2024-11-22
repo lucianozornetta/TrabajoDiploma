@@ -63,6 +63,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(98, 35);
             this.label1.TabIndex = 1;
+            this.label1.Tag = "ListadoAreasLabelAreas";
             this.label1.Text = "AREAS";
             // 
             // button1
@@ -72,6 +73,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(147, 49);
             this.button1.TabIndex = 2;
+            this.button1.Tag = "ListadoAreasBtnListarEmpleados";
             this.button1.Text = "Listar Empleados Del Area";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -95,6 +97,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(134, 35);
             this.label2.TabIndex = 4;
+            this.label2.Tag = "ListadoAreasLabelEmpleados";
             this.label2.Text = "Empleados";
             // 
             // cmbTags
@@ -113,6 +116,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 23);
             this.label3.TabIndex = 6;
+            this.label3.Tag = "ListadoAreasLabelTags";
             this.label3.Text = "Tags";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
@@ -131,6 +135,7 @@
             this.btnAsignarTag.Name = "btnAsignarTag";
             this.btnAsignarTag.Size = new System.Drawing.Size(290, 43);
             this.btnAsignarTag.TabIndex = 8;
+            this.btnAsignarTag.Tag = "ListadoAreasBtnAsignarTagEmpleado";
             this.btnAsignarTag.Text = "Asignar Tag a Empleado";
             this.btnAsignarTag.UseVisualStyleBackColor = true;
             this.btnAsignarTag.Click += new System.EventHandler(this.btnAsignarTag_Click);
@@ -142,6 +147,7 @@
             this.btnCrearTag.Name = "btnCrearTag";
             this.btnCrearTag.Size = new System.Drawing.Size(290, 33);
             this.btnCrearTag.TabIndex = 9;
+            this.btnCrearTag.Tag = "ListadoAreasBtnCrearNuevoTag";
             this.btnCrearTag.Text = "Crear Nuevo Tag";
             this.btnCrearTag.UseVisualStyleBackColor = true;
             this.btnCrearTag.Click += new System.EventHandler(this.btnCrearTag_Click);
@@ -153,6 +159,7 @@
             this.btnListarTagsEmpleado.Name = "btnListarTagsEmpleado";
             this.btnListarTagsEmpleado.Size = new System.Drawing.Size(121, 49);
             this.btnListarTagsEmpleado.TabIndex = 10;
+            this.btnListarTagsEmpleado.Tag = "ListadoAreasBtnListarTags";
             this.btnListarTagsEmpleado.Text = "Listar Tags";
             this.btnListarTagsEmpleado.UseVisualStyleBackColor = true;
             this.btnListarTagsEmpleado.Click += new System.EventHandler(this.btnListarTagsEmpleado_Click);
@@ -164,6 +171,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(161, 43);
             this.button2.TabIndex = 11;
+            this.button2.Tag = "ListadoAreasBtnExportarTags";
             this.button2.Text = "Exportar Tags";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -175,6 +183,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(161, 33);
             this.button3.TabIndex = 12;
+            this.button3.Tag = "ListadoAreasBtnImportarTags";
             this.button3.Text = "Importar Tags";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);

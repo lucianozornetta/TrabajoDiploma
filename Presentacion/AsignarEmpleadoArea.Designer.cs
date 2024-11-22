@@ -56,6 +56,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(104, 26);
             this.label1.TabIndex = 1;
+            this.label1.Tag = "AsignarEmpleadoAreaLabelEmpleados";
             this.label1.Text = "Empleados";
             // 
             // cmbAreas
@@ -75,6 +76,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 23);
             this.label2.TabIndex = 3;
+            this.label2.Tag = "AsignarEmpleadoAreaLabelArea";
             this.label2.Text = "Area";
             // 
             // btnAsignarArea
@@ -84,6 +86,7 @@
             this.btnAsignarArea.Name = "btnAsignarArea";
             this.btnAsignarArea.Size = new System.Drawing.Size(178, 34);
             this.btnAsignarArea.TabIndex = 4;
+            this.btnAsignarArea.Tag = "AsignarEmpleadoAreaBtnAsignarArea";
             this.btnAsignarArea.Text = "Asignar Area";
             this.btnAsignarArea.UseVisualStyleBackColor = true;
             this.btnAsignarArea.Click += new System.EventHandler(this.btnAsignarArea_Click);
@@ -95,6 +98,7 @@
             this.btnRemoverArea.Name = "btnRemoverArea";
             this.btnRemoverArea.Size = new System.Drawing.Size(128, 38);
             this.btnRemoverArea.TabIndex = 5;
+            this.btnRemoverArea.Tag = "AsignarEmpleadoAreaBtnRemoverArea";
             this.btnRemoverArea.Text = "Remover Area";
             this.btnRemoverArea.UseVisualStyleBackColor = true;
             this.btnRemoverArea.Click += new System.EventHandler(this.btnRemoverArea_Click);
@@ -106,6 +110,7 @@
             this.btnHacerResponsable.Name = "btnHacerResponsable";
             this.btnHacerResponsable.Size = new System.Drawing.Size(178, 51);
             this.btnHacerResponsable.TabIndex = 6;
+            this.btnHacerResponsable.Tag = "AsignarEmpleadoAreaBtnAsignarResponsable";
             this.btnHacerResponsable.Text = "Asignar Como Responsable de Area";
             this.btnHacerResponsable.UseVisualStyleBackColor = true;
             this.btnHacerResponsable.Click += new System.EventHandler(this.btnHacerResponsable_Click);

@@ -88,7 +88,7 @@ namespace Presentacion
                     {
                         MessageBox.Show("ya se encuentra registrado");
                     }
-                    else if (obllusuario.VerificarUsuarioRegistrado(usuario) == false)
+                    else
                     {
                         obllusuario.Guardar(usuario);
                         obllusuario.Guardardvv();

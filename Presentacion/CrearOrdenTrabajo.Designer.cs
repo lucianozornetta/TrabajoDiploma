@@ -75,6 +75,7 @@
             this.lblNotas.Name = "lblNotas";
             this.lblNotas.Size = new System.Drawing.Size(53, 23);
             this.lblNotas.TabIndex = 3;
+            this.lblNotas.Tag = "CrearWOLabelNotas";
             this.lblNotas.Text = "Notas";
             // 
             // txtResumenWO
@@ -93,6 +94,7 @@
             this.lblResumen.Name = "lblResumen";
             this.lblResumen.Size = new System.Drawing.Size(71, 23);
             this.lblResumen.TabIndex = 5;
+            this.lblResumen.Tag = "CrearWOLabelResumen";
             this.lblResumen.Text = "Resumen";
             // 
             // cmbAreaWO
@@ -112,6 +114,7 @@
             this.lblAreaWO.Name = "lblAreaWO";
             this.lblAreaWO.Size = new System.Drawing.Size(46, 23);
             this.lblAreaWO.TabIndex = 7;
+            this.lblAreaWO.Tag = "CrearWOLabelArea";
             this.lblAreaWO.Text = "Area";
             // 
             // cmbTags
@@ -131,6 +134,7 @@
             this.lblTags.Name = "lblTags";
             this.lblTags.Size = new System.Drawing.Size(109, 23);
             this.lblTags.TabIndex = 9;
+            this.lblTags.Tag = "CrearWOLabelAgregarTags";
             this.lblTags.Text = "Agregar Tags";
             // 
             // cmbImpacto
@@ -165,6 +169,7 @@
             this.lblImpacto.Name = "lblImpacto";
             this.lblImpacto.Size = new System.Drawing.Size(70, 23);
             this.lblImpacto.TabIndex = 12;
+            this.lblImpacto.Tag = "CrearWOLabelImpacto";
             this.lblImpacto.Text = "Impacto";
             // 
             // lblUrgencia
@@ -176,6 +181,7 @@
             this.lblUrgencia.Name = "lblUrgencia";
             this.lblUrgencia.Size = new System.Drawing.Size(75, 23);
             this.lblUrgencia.TabIndex = 13;
+            this.lblUrgencia.Tag = "CrearWOLabelUrgencia";
             this.lblUrgencia.Text = "Urgencia";
             // 
             // label1
@@ -187,6 +193,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(353, 33);
             this.label1.TabIndex = 14;
+            this.label1.Tag = "CrearWOLabelNuevaWO";
             this.label1.Text = "NUEVA ORDEN DE TRABAJO";
             // 
             // button1
@@ -196,6 +203,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(144, 55);
             this.button1.TabIndex = 15;
+            this.button1.Tag = "CrearWOBtnCrearWO";
             this.button1.Text = "Crear Orden de Trabajo";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -217,6 +225,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(66, 23);
             this.label2.TabIndex = 17;
+            this.label2.Tag = "CrearWOLabelNumero";
             this.label2.Text = "Numero";
             // 
             // ListTags
@@ -259,6 +268,7 @@
             this.Criticidad.Name = "Criticidad";
             this.Criticidad.Size = new System.Drawing.Size(112, 29);
             this.Criticidad.TabIndex = 31;
+            this.Criticidad.Tag = "CrearWOLabelCriticidad";
             this.Criticidad.Text = "Criticidad";
             // 
             // CrearOrdenTrabajo

@@ -186,8 +186,60 @@ namespace DAL
             }
         }
 
+        public bool CrearBackup(string ruta)
+        {
+            string query = $"BACKUP DATABASE [BDPROYECTOCAMPO] TO DISK = @Ruta";
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(cadena))
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@Ruta", ruta);
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                }
+                return true;
+            }
+            catch (Exception)
+            {
 
+                return false;
+            }
 
+        }
+
+        public bool RestaurarDesdeBackup(string ruta)
+        {
+            string bd = "BDPROYECTOCAMPO";
+            string restoreQuery = $@"
+            USE master;
+             ALTER DATABASE [{bd}] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+            RESTORE DATABASE [{bd}] FROM DISK = @Ruta WITH REPLACE;
+            ALTER DATABASE [{bd}] SET MULTI_USER;
+            ";
+            string connectionstring = @"Data Source=.\SQLEXPRESS01;Initial Catalog= master;Integrated Security=True;Encrypt=False";
+            try
+            {
+
+                using (SqlConnection connection = new SqlConnection(connectionstring))
+                {
+                    connection.Open();
+
+                    using (SqlCommand command = new SqlCommand(restoreQuery, connection))
+                    {
+                        command.Parameters.AddWithValue("@Ruta", ruta);
+                        command.ExecuteNonQuery();
+                    }
+                }
+                return true;
+            }
+            catch (Exception)
+            {
+
+                return false;
+            }
+            
+        }
     }
 
 }

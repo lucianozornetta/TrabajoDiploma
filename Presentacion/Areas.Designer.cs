@@ -60,6 +60,7 @@
             // 
             this.crearAreaToolStripMenuItem.Name = "crearAreaToolStripMenuItem";
             this.crearAreaToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
+            this.crearAreaToolStripMenuItem.Tag = "AreasBtnCrearArea";
             this.crearAreaToolStripMenuItem.Text = "Crear Area";
             this.crearAreaToolStripMenuItem.Click += new System.EventHandler(this.crearAreaToolStripMenuItem_Click);
             // 
@@ -67,6 +68,7 @@
             // 
             this.asignarEmpleadosAAreaToolStripMenuItem.Name = "asignarEmpleadosAAreaToolStripMenuItem";
             this.asignarEmpleadosAAreaToolStripMenuItem.Size = new System.Drawing.Size(158, 20);
+            this.asignarEmpleadosAAreaToolStripMenuItem.Tag = "AreasBtnAsignarEmpleadoArea";
             this.asignarEmpleadosAAreaToolStripMenuItem.Text = "Asignar Empleados A Area";
             this.asignarEmpleadosAAreaToolStripMenuItem.Click += new System.EventHandler(this.asignarEmpleadosAAreaToolStripMenuItem_Click);
             // 
@@ -74,6 +76,7 @@
             // 
             this.listadoAreasToolStripMenuItem.Name = "listadoAreasToolStripMenuItem";
             this.listadoAreasToolStripMenuItem.Size = new System.Drawing.Size(89, 20);
+            this.listadoAreasToolStripMenuItem.Tag = "AreasBtnListadoAreeas";
             this.listadoAreasToolStripMenuItem.Text = "Listado Areas";
             this.listadoAreasToolStripMenuItem.Click += new System.EventHandler(this.listadoAreasToolStripMenuItem_Click);
             // 
@@ -81,6 +84,7 @@
             // 
             this.informesToolStripMenuItem.Name = "informesToolStripMenuItem";
             this.informesToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.informesToolStripMenuItem.Tag = "AreasBtnInformes";
             this.informesToolStripMenuItem.Text = "Informes";
             this.informesToolStripMenuItem.Click += new System.EventHandler(this.informesToolStripMenuItem_Click);
             // 

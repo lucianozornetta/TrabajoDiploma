@@ -108,3 +108,4 @@ C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\bin\Debug\System.Threadi
 C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\bin\Debug\System.ValueTuple.xml
 C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\bin\Debug\MPP.dll.config
 C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\bin\Debug\DAL.dll.config
+C:\Users\lucia\Source\Repos\TrabajoDiploma\Presentacion\obj\Debug\Presentacion.Backups.resources

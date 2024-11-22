@@ -40,6 +40,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(122, 27);
             this.button1.TabIndex = 0;
+            this.button1.Tag = "CrearTagBtnCrearNuevoTag";
             this.button1.Text = "Crear Nuevo Tag";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -59,6 +60,7 @@
             this.lblNombreTag.Name = "lblNombreTag";
             this.lblNombreTag.Size = new System.Drawing.Size(101, 18);
             this.lblNombreTag.TabIndex = 2;
+            this.lblNombreTag.Tag = "CrearTagLabelNombreTag";
             this.lblNombreTag.Text = "Nombre de Tag";
             // 
             // CrearTag
@@ -72,6 +74,7 @@
             this.Controls.Add(this.button1);
             this.Name = "CrearTag";
             this.Text = "CrearTag";
+            this.Load += new System.EventHandler(this.CrearTag_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

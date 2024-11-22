@@ -57,8 +57,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.RtxtboxResolucion = new System.Windows.Forms.RichTextBox();
             this.Resolucion = new System.Windows.Forms.Label();
+            this.RtxtboxResolucion = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalleWO)).BeginInit();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -72,6 +72,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(61, 23);
             this.label1.TabIndex = 0;
+            this.label1.Tag = "TicketLabelCliente";
             this.label1.Text = "Cliente";
             // 
             // label2
@@ -83,6 +84,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 23);
             this.label2.TabIndex = 1;
+            this.label2.Tag = "TicketLabelArea";
             this.label2.Text = "Area";
             // 
             // label3
@@ -94,6 +96,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(136, 23);
             this.label3.TabIndex = 2;
+            this.label3.Tag = "TicketLabelUsuarioAsignado";
             this.label3.Text = "Usuario Asignado";
             // 
             // dgvDetalleWO
@@ -135,6 +138,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(66, 23);
             this.label4.TabIndex = 6;
+            this.label4.Tag = "TicketLabelNumero";
             this.label4.Text = "Numero";
             // 
             // cmbArea
@@ -170,6 +174,7 @@
             this.btnAgregarNota.Name = "btnAgregarNota";
             this.btnAgregarNota.Size = new System.Drawing.Size(136, 41);
             this.btnAgregarNota.TabIndex = 10;
+            this.btnAgregarNota.Tag = "TicketBtnAgregarDetalle";
             this.btnAgregarNota.Text = "Agregar Detalle.";
             this.btnAgregarNota.UseVisualStyleBackColor = true;
             this.btnAgregarNota.Click += new System.EventHandler(this.btnAgregarNota_Click);
@@ -181,6 +186,7 @@
             this.btnAbrirNota.Name = "btnAbrirNota";
             this.btnAbrirNota.Size = new System.Drawing.Size(136, 39);
             this.btnAbrirNota.TabIndex = 11;
+            this.btnAbrirNota.Tag = "TicketBtnAbrirDetalle";
             this.btnAbrirNota.Text = "Abrir Detalle";
             this.btnAbrirNota.UseVisualStyleBackColor = true;
             this.btnAbrirNota.Click += new System.EventHandler(this.btnAbrirNota_Click);
@@ -192,6 +198,7 @@
             this.btnSubirArchivo.Name = "btnSubirArchivo";
             this.btnSubirArchivo.Size = new System.Drawing.Size(136, 39);
             this.btnSubirArchivo.TabIndex = 12;
+            this.btnSubirArchivo.Tag = "TicketBtnSubirArchivo";
             this.btnSubirArchivo.Text = "Subir Archivo";
             this.btnSubirArchivo.UseVisualStyleBackColor = true;
             this.btnSubirArchivo.Click += new System.EventHandler(this.btnSubirArchivo_Click);
@@ -214,6 +221,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(71, 23);
             this.label5.TabIndex = 15;
+            this.label5.Tag = "TicketLabelResumen";
             this.label5.Text = "Resumen";
             // 
             // label6
@@ -225,6 +233,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(53, 23);
             this.label6.TabIndex = 16;
+            this.label6.Tag = "TicketLabelNotas";
             this.label6.Text = "Notas";
             // 
             // btnAbrirResumen
@@ -266,6 +275,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(102, 23);
             this.label7.TabIndex = 21;
+            this.label7.Tag = "TicketLabelFechaLimite";
             this.label7.Text = "Fecha Limite";
             // 
             // txtFechaLimite
@@ -286,6 +296,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(84, 23);
             this.label8.TabIndex = 23;
+            this.label8.Tag = "TicketLabelCriticidad";
             this.label8.Text = "Criticidad";
             // 
             // txtCriticidad
@@ -307,6 +318,7 @@
             this.Estado.Name = "Estado";
             this.Estado.Size = new System.Drawing.Size(59, 23);
             this.Estado.TabIndex = 25;
+            this.Estado.Tag = "TicketLabelEstado";
             this.Estado.Text = "Estado";
             // 
             // cmbEstado
@@ -330,6 +342,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(136, 50);
             this.button1.TabIndex = 27;
+            this.button1.Tag = "TicketBtnDescargarArchivo";
             this.button1.Text = "Descargar Archivo";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -352,14 +365,6 @@
             this.panel2.Size = new System.Drawing.Size(478, 310);
             this.panel2.TabIndex = 29;
             // 
-            // RtxtboxResolucion
-            // 
-            this.RtxtboxResolucion.Location = new System.Drawing.Point(174, 238);
-            this.RtxtboxResolucion.Name = "RtxtboxResolucion";
-            this.RtxtboxResolucion.Size = new System.Drawing.Size(191, 45);
-            this.RtxtboxResolucion.TabIndex = 30;
-            this.RtxtboxResolucion.Text = "";
-            // 
             // Resolucion
             // 
             this.Resolucion.AutoSize = true;
@@ -369,7 +374,16 @@
             this.Resolucion.Name = "Resolucion";
             this.Resolucion.Size = new System.Drawing.Size(86, 23);
             this.Resolucion.TabIndex = 30;
+            this.Resolucion.Tag = "TicketLabelResolucion";
             this.Resolucion.Text = "Resolucion";
+            // 
+            // RtxtboxResolucion
+            // 
+            this.RtxtboxResolucion.Location = new System.Drawing.Point(174, 238);
+            this.RtxtboxResolucion.Name = "RtxtboxResolucion";
+            this.RtxtboxResolucion.Size = new System.Drawing.Size(191, 45);
+            this.RtxtboxResolucion.TabIndex = 30;
+            this.RtxtboxResolucion.Text = "";
             // 
             // Ticket
             // 

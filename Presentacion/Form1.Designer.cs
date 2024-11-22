@@ -39,6 +39,7 @@
             this.ticketeraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.backupsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,6 +55,7 @@
             this.alteradosToolStripMenuItem,
             this.areasToolStripMenuItem,
             this.ticketeraToolStripMenuItem,
+            this.backupsToolStripMenuItem,
             this.cerrarSesionToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -114,6 +116,7 @@
             // 
             this.areasToolStripMenuItem.Name = "areasToolStripMenuItem";
             this.areasToolStripMenuItem.Size = new System.Drawing.Size(48, 22);
+            this.areasToolStripMenuItem.Tag = "Form1Areas";
             this.areasToolStripMenuItem.Text = "Areas";
             this.areasToolStripMenuItem.Click += new System.EventHandler(this.areasToolStripMenuItem_Click);
             // 
@@ -121,6 +124,7 @@
             // 
             this.ticketeraToolStripMenuItem.Name = "ticketeraToolStripMenuItem";
             this.ticketeraToolStripMenuItem.Size = new System.Drawing.Size(66, 22);
+            this.ticketeraToolStripMenuItem.Tag = "Form1Ticketera";
             this.ticketeraToolStripMenuItem.Text = "Ticketera";
             this.ticketeraToolStripMenuItem.Click += new System.EventHandler(this.ticketeraToolStripMenuItem_Click);
             // 
@@ -141,6 +145,13 @@
             this.comboBox1.Size = new System.Drawing.Size(141, 21);
             this.comboBox1.TabIndex = 3;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // backupsToolStripMenuItem
+            // 
+            this.backupsToolStripMenuItem.Name = "backupsToolStripMenuItem";
+            this.backupsToolStripMenuItem.Size = new System.Drawing.Size(63, 22);
+            this.backupsToolStripMenuItem.Text = "Backups";
+            this.backupsToolStripMenuItem.Click += new System.EventHandler(this.backupsToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -176,6 +187,7 @@
         private System.Windows.Forms.ToolStripMenuItem alteradosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem areasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ticketeraToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem backupsToolStripMenuItem;
     }
 }
 

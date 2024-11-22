@@ -14,18 +14,27 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Interfaces;
 
 namespace Presentacion
 {
-    public partial class Ticket : Form
+    public partial class Ticket : Form, IObserver
     {
         public Ticket()
         {
             InitializeComponent();
+            bllrepositorio = new BLLRepositorioIdioma();
+        }
+        public Ticket(BEIdioma idioma)
+        {
+            InitializeComponent();
+            bllrepositorio = new BLLRepositorioIdioma();
+            Update(idioma.ID);
         }
         BEOrdenDeTrabajo orden;
         BLLArea bllarea;
         BLLUsuario bllusuario;
+        BLLRepositorioIdioma bllrepositorio;
         bool Usuarios = false;
         bool Areas = false;
         bool Estados = false;
@@ -59,6 +68,33 @@ namespace Presentacion
                 
             }
         }
+        public Ticket(BEOrdenDeTrabajo WO, BEIdioma idiomaa)
+        {
+            InitializeComponent();
+           
+            orden = WO;
+            bllarea = new BLLArea();
+            bllorden = new BLLOrdenDeTrabajo();
+            bllusuario = new BLLUsuario();
+            BEArea areasesion = bllusuario.BuscarArea(Sesion.ObtenerUsername());
+            if (areasesion.ID != WO.area.ID)
+            {
+                txtCliente.Enabled = false;
+                txtResumen.Enabled = false;
+                RtxtNotas.Enabled = false;
+                cmbArea.Enabled = false;
+                cmbUsuarioAsignado.Enabled = false;
+                txtFechaLimite.Enabled = false;
+                cmbEstado.Enabled = false;
+                RtxtboxResolucion.Enabled = false;
+                RtxtDetalles.Enabled = false;
+                btnAgregarNota.Enabled = false;
+                btnSubirArchivo.Enabled = false;
+                
+
+            }
+            Update(idiomaa.ID);
+        }
 
         void Actualizar()
         {
@@ -91,6 +127,7 @@ namespace Presentacion
         }
         private void Ticket_Load(object sender, EventArgs e)
         {
+            Sesion.getinstace().AgregarObservador(this);
             txtNumero.Text = orden.Numero.ToString();
             txtCliente.Text = orden.Cliente.Usuario;
             txtResumen.Text = orden.Resumen.ToString();
@@ -116,6 +153,18 @@ namespace Presentacion
             cmbEstado.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbArea.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbUsuarioAsignado.DropDownStyle = ComboBoxStyle.DropDownList;
+            //GuardarPalabras();
+        }
+        void GuardarPalabras()
+        {
+            bllrepositorio = new BLLRepositorioIdioma();
+            foreach (Control c in this.Controls)
+            {
+                if (c.Tag != null)
+                {
+                    bllrepositorio.GuardarPalabra(c.Tag.ToString());
+                }
+            }
         }
 
         void CargarGrilla()
@@ -399,6 +448,27 @@ namespace Presentacion
                 MessageBox.Show("Hubo un error al descargar el archivo seleccionado.");
             }
            
+        }
+
+        public void Update(int a)
+        {
+            bllrepositorio = new BLLRepositorioIdioma();
+            foreach (Control c in this.Controls)
+            {
+                if (c.Tag != null)
+                {
+                    BEIdioma idioma = new BEIdioma();
+                    idioma.ID = a;
+                    foreach (BETraduccion traduccion in bllrepositorio.ListarTraducciones(idioma))
+                    {
+                        if (c.Tag.ToString() == traduccion.tag)
+                        {
+                            c.Text = traduccion.Texto;
+                        }
+                    }
+
+                }
+            }
         }
     }
 }

@@ -57,6 +57,7 @@
             this.lblNombreArea.Name = "lblNombreArea";
             this.lblNombreArea.Size = new System.Drawing.Size(109, 23);
             this.lblNombreArea.TabIndex = 2;
+            this.lblNombreArea.Tag = "CrearAreaLabelNombreArea";
             this.lblNombreArea.Text = "Nombre Area";
             // 
             // cmbResponsable
@@ -75,6 +76,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(99, 23);
             this.label1.TabIndex = 4;
+            this.label1.Tag = "CrearAreaLabelResponsable";
             this.label1.Text = "Responsable";
             // 
             // btnCrearArea
@@ -84,6 +86,7 @@
             this.btnCrearArea.Name = "btnCrearArea";
             this.btnCrearArea.Size = new System.Drawing.Size(118, 23);
             this.btnCrearArea.TabIndex = 5;
+            this.btnCrearArea.Tag = "CrearAreaBtnCrearArea";
             this.btnCrearArea.Text = "Crear Area";
             this.btnCrearArea.UseVisualStyleBackColor = true;
             this.btnCrearArea.Click += new System.EventHandler(this.btnCrearArea_Click);

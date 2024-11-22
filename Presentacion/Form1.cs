@@ -29,6 +29,7 @@ namespace Presentacion
         private CrearArea creararea;
         private Areas areas;
         private MDITicketera mditicketera;
+        private Backups backup;
         Loguin log;
 
         public Form1()
@@ -57,6 +58,7 @@ namespace Presentacion
                 alteradosToolStripMenuItem.Enabled = false;
                 areasToolStripMenuItem.Enabled = false;
                 ticketeraToolStripMenuItem.Enabled = false;
+                backupsToolStripMenuItem.Enabled = false;
 
                 int centerX = 0;
                 comboBox1.Location = new System.Drawing.Point(centerX, comboBox1.Location.Y);
@@ -155,7 +157,9 @@ namespace Presentacion
         BLLUsuario obllusu = new BLLUsuario();
         private void Form1_Load(object sender, EventArgs e)
         {
+            
             bllrepositorio = new BLLRepositorioIdioma();
+
             Sesion.getinstace().AgregarObservador(this);
             comboBox1.DataSource = null;
             comboBox1.DataSource = bllrepositorio.ListarIdiomas();
@@ -314,6 +318,10 @@ namespace Presentacion
                     {
                         ticketeraToolStripMenuItem.Enabled = true;
                     }
+                    if(perm.ID == 77)
+                    {
+                        backupsToolStripMenuItem.Enabled = true;
+                    }
 
                 }
             }
@@ -442,19 +450,87 @@ namespace Presentacion
 
         private void areasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            areas = new Areas();
-            areas.FormClosed += (s, args) => this.Show();
-            areas.Show();
-            this.Hide();
+            if (areas == null)
+            {
+                if(comboBox1.SelectedIndex >= 0)
+                {
+                    areas = new Areas((BEIdioma)comboBox1.SelectedItem);
+                }
+                else
+                {
+                    areas = new Areas();
+                }
+                areas.FormClosed += (s, args) => this.Show();
+                areas.FormClosed += new FormClosedEventHandler(CerrarAreas);
+                areas.Show();
+                this.Hide();
+            }
+            else
+            {
+                areas.Activate();
+            }
             
+
+            
+        }
+        void CerrarAreas(object sender, FormClosedEventArgs e)
+        {
+            areas = null;
         }
 
         private void ticketeraToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            mditicketera = new MDITicketera();
-            mditicketera.FormClosed += (s, args) => this.Show();
-            mditicketera.Show();
-            this.Hide();
+            if (mditicketera == null)
+            {
+                if (comboBox1.SelectedIndex >= 0)
+                {
+                    mditicketera = new MDITicketera((BEIdioma)comboBox1.SelectedItem);
+                }
+                else
+                {
+                    mditicketera = new MDITicketera();
+                }
+                mditicketera.FormClosed += (s, args) => this.Show();
+                mditicketera.FormClosed += new FormClosedEventHandler(CerrarMDITicketera);
+                mditicketera.Show();
+                this.Hide();
+            }
+            else
+            {
+                mditicketera.Activate();
+            }
+        }
+        void CerrarMDITicketera(object sender, FormClosedEventArgs e)
+        {
+            mditicketera = null;
+        }
+
+        private void backupsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (mditicketera == null)
+            {
+                if (comboBox1.SelectedIndex >= 0)
+                {
+                    backup = new Backups((BEIdioma)comboBox1.SelectedItem);
+                }
+                else
+                {
+                    backup = new Backups();
+                }
+                backup.MdiParent = this;
+                backup.FormClosed += new FormClosedEventHandler(CerrarBackup);
+                backup.Show();
+
+            }
+            else
+            {
+                backup.Activate();
+            }
+
+        }
+        void CerrarBackup(object sender, FormClosedEventArgs e)
+        {
+            backup = null;
         }
     }
 }

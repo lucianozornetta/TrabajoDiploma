@@ -73,6 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MPPArea.cs" />
+    <Compile Include="MPPBackup.cs" />
     <Compile Include="MPPBitacora.cs" />
     <Compile Include="MPPOrdenDeTrabajo.cs" />
     <Compile Include="MPPPermiso.cs" />

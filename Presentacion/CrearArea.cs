@@ -10,25 +10,48 @@ using System.Windows.Forms;
 using BLL;
 using BE;
 using Servicios;
+using Interfaces;
 using System.Security.Cryptography.X509Certificates;
 
 namespace Presentacion
 {
-    public partial class CrearArea : Form
+    public partial class CrearArea : Form,IObserver
     {
         public CrearArea()
         {
             InitializeComponent();
             bllusuario = new BLLUsuario();
             bllarea = new BLLArea();
+            bllrepositorio = new BLLRepositorioIdioma();
 
+        }
+        public CrearArea(BEIdioma idioma)
+        {
+            InitializeComponent();
+            bllusuario = new BLLUsuario();
+            bllarea = new BLLArea();
+            bllrepositorio = new BLLRepositorioIdioma();
+            Update(idioma.ID);
         }
         BLLUsuario bllusuario;
         BLLArea bllarea;
+        BLLRepositorioIdioma bllrepositorio;
         private void CrearArea_Load(object sender, EventArgs e)
         {
             Actualizar();
+            Sesion.getinstace().AgregarObservador(this);
+            //GuardarPalabras();
 
+        }
+        void GuardarPalabras()
+        {
+            foreach (Control c in this.Controls)
+            {
+                if (c.Tag != null)
+                {
+                    bllrepositorio.GuardarPalabra(c.Tag.ToString());
+                }
+            }
         }
         void Actualizar()
         {
@@ -65,5 +88,24 @@ namespace Presentacion
             Actualizar();
         }
 
+        public void Update(int a)
+        {
+            foreach (Control c in this.Controls)
+            {
+                if (c.Tag != null)
+                {
+                    BEIdioma idioma = new BEIdioma();
+                    idioma.ID = a;
+                    foreach (BETraduccion traduccion in bllrepositorio.ListarTraducciones(idioma))
+                    {
+                        if (c.Tag.ToString() == traduccion.tag)
+                        {
+                            c.Text = traduccion.Texto;
+                        }
+                    }
+
+                }
+            }
+        }
     }
 }

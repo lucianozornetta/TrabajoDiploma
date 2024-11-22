@@ -10,12 +10,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Servicios;
+using Interfaces;
 using System.Diagnostics.Eventing.Reader;
 
 
 namespace Presentacion
 {
-    public partial class CrearOrdenTrabajo : Form
+    public partial class CrearOrdenTrabajo : Form, IObserver
     {
         public CrearOrdenTrabajo()
         {
@@ -24,8 +25,20 @@ namespace Presentacion
             blltag = new BLLTag();
             bllarea = new BLLArea();
             bllordentrabajo = new BLLOrdenDeTrabajo();
+            bllrepositorio = new BLLRepositorioIdioma();
+        }
+        public CrearOrdenTrabajo(BEIdioma idioma)
+        {
+            InitializeComponent();
+            bllusuario = new BLLUsuario();
+            blltag = new BLLTag();
+            bllarea = new BLLArea();
+            bllordentrabajo = new BLLOrdenDeTrabajo();
+            bllrepositorio = new BLLRepositorioIdioma();
+            Update(idioma.ID);
         }
         BLLUsuario bllusuario;
+        BLLRepositorioIdioma bllrepositorio;
         BLLTag blltag;
         BLLArea bllarea;
         BLLOrdenDeTrabajo bllordentrabajo;
@@ -37,13 +50,25 @@ namespace Presentacion
         private void CrearOrdenTrabajo_Load(object sender, EventArgs e)
         {
             ActualizarControladores();
+            Sesion.getinstace().AgregarObservador(this);
             cmbAreaWO.SelectedIndex = -1;
             cmbTags.SelectedIndex = -1;
             cmbTags.Hide();
             txtNumero.Text = Convert.ToString(bllordentrabajo.ObtenerProximoNumeroWO());
             cmbImpacto.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbUrgencia.DropDownStyle = ComboBoxStyle.DropDownList;
+            //GuardarPalabras();
             
+        }
+        void GuardarPalabras()
+        {
+            foreach (Control c in this.Controls)
+            {
+                if (c.Tag != null)
+                {
+                    bllrepositorio.GuardarPalabra(c.Tag.ToString());
+                }
+            }
         }
         void CargarCheckedListbox()
         {
@@ -126,6 +151,26 @@ namespace Presentacion
             //{
             //    tags.Add(TAG);
             //}
+        }
+
+        public void Update(int a)
+        {
+            foreach (Control c in this.Controls)
+            {
+                if (c.Tag != null)
+                {
+                    BEIdioma idioma = new BEIdioma();
+                    idioma.ID = a;
+                    foreach (BETraduccion traduccion in bllrepositorio.ListarTraducciones(idioma))
+                    {
+                        if (c.Tag.ToString() == traduccion.tag)
+                        {
+                            c.Text = traduccion.Texto;
+                        }
+                    }
+
+                }
+            }
         }
     }
 }

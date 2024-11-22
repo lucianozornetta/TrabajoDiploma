@@ -52,6 +52,7 @@
             // 
             this.nuevaOrdenDeTrabajoToolStripMenuItem.Name = "nuevaOrdenDeTrabajoToolStripMenuItem";
             this.nuevaOrdenDeTrabajoToolStripMenuItem.Size = new System.Drawing.Size(147, 20);
+            this.nuevaOrdenDeTrabajoToolStripMenuItem.Tag = "MDITicketeraNuevaWO";
             this.nuevaOrdenDeTrabajoToolStripMenuItem.Text = "Nueva Orden De Trabajo";
             this.nuevaOrdenDeTrabajoToolStripMenuItem.Click += new System.EventHandler(this.nuevaOrdenDeTrabajoToolStripMenuItem_Click);
             // 
@@ -59,6 +60,7 @@
             // 
             this.verTicketsToolStripMenuItem.Name = "verTicketsToolStripMenuItem";
             this.verTicketsToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
+            this.verTicketsToolStripMenuItem.Tag = "MDITicketeraVerTickets";
             this.verTicketsToolStripMenuItem.Text = "Ver Tickets";
             this.verTicketsToolStripMenuItem.Click += new System.EventHandler(this.verTicketsToolStripMenuItem_Click);
             // 

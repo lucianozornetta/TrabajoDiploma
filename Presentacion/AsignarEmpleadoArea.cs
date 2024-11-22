@@ -10,10 +10,11 @@ using System.Windows.Forms;
 using BE;
 using Servicios;
 using BLL;
+using Interfaces;
 
 namespace Presentacion
 {
-    public partial class AsignarEmpleadoArea : Form
+    public partial class AsignarEmpleadoArea : Form,IObserver
     {
         public AsignarEmpleadoArea()
         {
@@ -22,9 +23,21 @@ namespace Presentacion
             bllusuario = new BLLUsuario();
             btnHacerResponsable.Hide();
             ActivarControles();
+            bllrepositorio = new BLLRepositorioIdioma();
+        }
+        public AsignarEmpleadoArea(BEIdioma idioma)
+        {
+            InitializeComponent();
+            bllarea = new BLLArea();
+            bllusuario = new BLLUsuario();
+            btnHacerResponsable.Hide();
+            ActivarControles();
+            bllrepositorio = new BLLRepositorioIdioma();
+            Update(idioma.ID);
         }
         BLLArea bllarea;
         BLLUsuario bllusuario;
+        BLLRepositorioIdioma bllrepositorio;
 
         private void cmbAreas_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -86,10 +99,22 @@ namespace Presentacion
         }
         private void AsignarEmpleadoArea_Load(object sender, EventArgs e)
         {
+            Sesion.getinstace().AgregarObservador(this);
             Actualizar();
             label1.Show();
+            //GuardarPalabras();
         }
 
+        void GuardarPalabras()
+        {
+            foreach (Control c in this.Controls)
+            {
+                if (c.Tag != null)
+                {
+                    bllrepositorio.GuardarPalabra(c.Tag.ToString());
+                }
+            }
+        }
         private void btnAsignarArea_Click(object sender, EventArgs e)
         {
             BEUsuario usuario = (BEUsuario)dgvEmpleados.SelectedRows[0].DataBoundItem;
@@ -154,6 +179,26 @@ namespace Presentacion
                 MessageBox.Show("El empleado ya tiene un area asignada");
             }
             Actualizar();
+        }
+
+        public void Update(int a)
+        {
+            foreach (Control c in this.Controls)
+            {
+                if (c.Tag != null)
+                {
+                    BEIdioma idioma = new BEIdioma();
+                    idioma.ID = a;
+                    foreach (BETraduccion traduccion in bllrepositorio.ListarTraducciones(idioma))
+                    {
+                        if (c.Tag.ToString() == traduccion.tag)
+                        {
+                            c.Text = traduccion.Texto;
+                        }
+                    }
+
+                }
+            }
         }
     }
 }

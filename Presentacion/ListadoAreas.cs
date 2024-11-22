@@ -14,12 +14,12 @@ using Interfaces;
 using System.Text.Json;
 using System.Collections;
 using System.IO;
-
+using Interfaces;
 
 
 namespace Presentacion
 {
-    public partial class ListadoAreas : Form
+    public partial class ListadoAreas : Form, IObserver
     {
         public ListadoAreas()
         {
@@ -27,15 +27,38 @@ namespace Presentacion
             bllarea = new BLLArea();
             bLLUsuario = new BLLUsuario();
             blltag = new BLLTag();
+            bllrepositorio = new BLLRepositorioIdioma();
+        }
+        public ListadoAreas(BEIdioma idioma)
+        {
+            InitializeComponent();
+            bllarea = new BLLArea();
+            bLLUsuario = new BLLUsuario();
+            blltag = new BLLTag();
+            bllrepositorio = new BLLRepositorioIdioma();
+            Update(idioma.ID);
         }
         CrearTag creartag;
         BLLArea bllarea;
         BLLUsuario bLLUsuario;
+        BLLRepositorioIdioma bllrepositorio;
         BLLTag blltag;
         private void ListadoAreas_Load(object sender, EventArgs e)
         {
+            Sesion.getinstace().AgregarObservador(this);
             CargarGrilla();
             ActualizarCMB();
+            //GuardarPalabras();
+        }
+        void GuardarPalabras()
+        {
+            foreach (Control c in this.Controls)
+            {
+                if (c.Tag != null)
+                {
+                    bllrepositorio.GuardarPalabra(c.Tag.ToString());
+                }
+            }
         }
         void CargarGrilla()
         {
@@ -230,6 +253,26 @@ namespace Presentacion
             {
                 MessageBox.Show("Ocurrió un error al importar el archivo JSON: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }           
+        }
+
+        public void Update(int a)
+        {
+            foreach (Control c in this.Controls)
+            {
+                if (c.Tag != null)
+                {
+                    BEIdioma idioma = new BEIdioma();
+                    idioma.ID = a;
+                    foreach (BETraduccion traduccion in bllrepositorio.ListarTraducciones(idioma))
+                    {
+                        if (c.Tag.ToString() == traduccion.tag)
+                        {
+                            c.Text = traduccion.Texto;
+                        }
+                    }
+
+                }
+            }
         }
     }
     

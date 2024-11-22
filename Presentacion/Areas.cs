@@ -9,11 +9,13 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using BLL;
 using System.Windows.Forms;
+using Interfaces;
 
 namespace Presentacion
 {
-    public partial class Areas : Form
+    public partial class Areas : Form, IObserver
     {
         public Areas()
         {
@@ -22,14 +24,28 @@ namespace Presentacion
             asignarEmpleadosAAreaToolStripMenuItem.Enabled = false;
             listadoAreasToolStripMenuItem.Enabled = false;
             informesToolStripMenuItem.Enabled = false;
+            bllrepositorio = new BLLRepositorioIdioma();
             ActivarControles();
         }
+        public Areas(BEIdioma idiomaa)
+        {
+            InitializeComponent();
+            idioma = idiomaa;
+            crearAreaToolStripMenuItem.Enabled = false;
+            asignarEmpleadosAAreaToolStripMenuItem.Enabled = false;
+            listadoAreasToolStripMenuItem.Enabled = false;
+            informesToolStripMenuItem.Enabled = false;
+            bllrepositorio = new BLLRepositorioIdioma();
+            ActivarControles();
+            Update(idioma.ID);
+        }
+        BEIdioma idioma;
         private CrearArea creararea;
         private AsignarEmpleadoArea asignararea;
         private ListadoAreas listadoareas;
         private static MdiClient mdi;
         private Informes informe;
-
+        BLLRepositorioIdioma bllrepositorio;
 
         void ActivarControles()
         {
@@ -82,8 +98,15 @@ namespace Presentacion
         {
             if (creararea == null)
             {
-
-                creararea = new CrearArea();
+                if(idioma != null)
+                {
+                    creararea = new CrearArea(idioma);
+                }
+                else
+                {
+                    creararea = new CrearArea();
+                }
+                
                 creararea.MdiParent = this;
                 creararea.FormClosed += new FormClosedEventHandler(CerrarCrearArea);
                 creararea.Show();
@@ -104,8 +127,15 @@ namespace Presentacion
 
             if (asignararea == null)
             {
-
-                asignararea = new AsignarEmpleadoArea();
+                if(idioma != null)
+                {
+                    asignararea = new AsignarEmpleadoArea(idioma);
+                }
+                else
+                {
+                    asignararea = new AsignarEmpleadoArea();
+                }
+                
                 asignararea.MdiParent = this;
                 asignararea.FormClosed += new FormClosedEventHandler(CerrarAsignarArea);
                 asignararea.Show();
@@ -125,8 +155,15 @@ namespace Presentacion
         {
             if (listadoareas == null)
             {
-
-                listadoareas = new ListadoAreas();
+                if(idioma != null)
+                {
+                    listadoareas = new ListadoAreas(idioma);
+                }
+                else
+                {
+                    listadoareas = new ListadoAreas();
+                }
+                
                 listadoareas.MdiParent = this;
                 listadoareas.FormClosed += new FormClosedEventHandler(CerrarListadoAreas);
                 listadoareas.Show();
@@ -141,9 +178,19 @@ namespace Presentacion
         {
             listadoareas = null;
         }
-
+        void GuardarPalabras()
+        {
+            foreach (ToolStripItem c in this.menuStrip1.Items)
+            {
+                if (c.Tag.ToString() != null)
+                {
+                    bllrepositorio.GuardarPalabra(c.Tag.ToString());
+                }
+            }
+        }
         private void Areas_Load(object sender, EventArgs e)
         {
+            Sesion.getinstace().AgregarObservador(this);
             foreach (Control control in this.Controls)
             {
 
@@ -158,15 +205,23 @@ namespace Presentacion
 
 
                 }
+
             }
+            //GuardarPalabras();
         }
 
         private void informesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (informe == null)
             {
-
-                informe = new Informes();
+                if(idioma != null)
+                {
+                    informe = new Informes(idioma);
+                }
+                else
+                {
+                    informe = new Informes();
+                }
                 informe.MdiParent = this;
                 informe.FormClosed += new FormClosedEventHandler(CerrarInformes);
                 informe.Show();
@@ -180,6 +235,31 @@ namespace Presentacion
         void CerrarInformes(object sender, FormClosedEventArgs e)
         {
             informe = null;
+        }
+
+        public void Update(int a)
+        {
+            foreach (ToolStripItem c in this.menuStrip1.Items)
+            {
+                if (c.Tag != null)
+                {
+
+
+                    if (c.Tag.ToString() != null)
+                    {
+                        BEIdioma idioma = new BEIdioma();
+                        idioma.ID = a;
+                        foreach (BETraduccion traduccion in bllrepositorio.ListarTraducciones(idioma))
+                        {
+                            if (c.Tag.ToString() == traduccion.tag)
+                            {
+                                c.Text = traduccion.Texto;
+                            }
+                        }
+
+                    }
+                }
+            }
         }
     }   
 

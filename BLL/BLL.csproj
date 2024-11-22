@@ -73,6 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLLArea.cs" />
+    <Compile Include="BLLBackups.cs" />
     <Compile Include="BLLBitacora.cs" />
     <Compile Include="BLLOrdenDeTrabajo.cs" />
     <Compile Include="BLLPermiso.cs" />
