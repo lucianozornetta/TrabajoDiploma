@@ -45,8 +45,6 @@
             this.txtResumen = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.btnAbrirResumen = new System.Windows.Forms.Button();
-            this.btnAbrirNotas = new System.Windows.Forms.Button();
             this.RtxtNotas = new System.Windows.Forms.RichTextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtFechaLimite = new System.Windows.Forms.TextBox();
@@ -59,6 +57,8 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.Resolucion = new System.Windows.Forms.Label();
             this.RtxtboxResolucion = new System.Windows.Forms.RichTextBox();
+            this.btnAbrirNotas = new System.Windows.Forms.Button();
+            this.btnAbrirResumen = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalleWO)).BeginInit();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -236,26 +236,6 @@
             this.label6.Tag = "TicketLabelNotas";
             this.label6.Text = "Notas";
             // 
-            // btnAbrirResumen
-            // 
-            this.btnAbrirResumen.Image = ((System.Drawing.Image)(resources.GetObject("btnAbrirResumen.Image")));
-            this.btnAbrirResumen.Location = new System.Drawing.Point(426, 156);
-            this.btnAbrirResumen.Name = "btnAbrirResumen";
-            this.btnAbrirResumen.Size = new System.Drawing.Size(49, 48);
-            this.btnAbrirResumen.TabIndex = 18;
-            this.btnAbrirResumen.UseVisualStyleBackColor = true;
-            this.btnAbrirResumen.Click += new System.EventHandler(this.btnAbrirResumen_Click);
-            // 
-            // btnAbrirNotas
-            // 
-            this.btnAbrirNotas.Image = global::Presentacion.Properties.Resources.detail_icon_215012;
-            this.btnAbrirNotas.Location = new System.Drawing.Point(426, 210);
-            this.btnAbrirNotas.Name = "btnAbrirNotas";
-            this.btnAbrirNotas.Size = new System.Drawing.Size(49, 48);
-            this.btnAbrirNotas.TabIndex = 19;
-            this.btnAbrirNotas.UseVisualStyleBackColor = true;
-            this.btnAbrirNotas.Click += new System.EventHandler(this.btnAbrirNotas_Click);
-            // 
             // RtxtNotas
             // 
             this.RtxtNotas.BackColor = System.Drawing.SystemColors.HighlightText;
@@ -364,6 +344,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(478, 310);
             this.panel2.TabIndex = 29;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // Resolucion
             // 
@@ -384,6 +365,26 @@
             this.RtxtboxResolucion.Size = new System.Drawing.Size(191, 45);
             this.RtxtboxResolucion.TabIndex = 30;
             this.RtxtboxResolucion.Text = "";
+            // 
+            // btnAbrirNotas
+            // 
+            this.btnAbrirNotas.Image = global::Presentacion.Properties.Resources.detail_icon_215012;
+            this.btnAbrirNotas.Location = new System.Drawing.Point(426, 210);
+            this.btnAbrirNotas.Name = "btnAbrirNotas";
+            this.btnAbrirNotas.Size = new System.Drawing.Size(49, 48);
+            this.btnAbrirNotas.TabIndex = 19;
+            this.btnAbrirNotas.UseVisualStyleBackColor = true;
+            this.btnAbrirNotas.Click += new System.EventHandler(this.btnAbrirNotas_Click);
+            // 
+            // btnAbrirResumen
+            // 
+            this.btnAbrirResumen.Image = ((System.Drawing.Image)(resources.GetObject("btnAbrirResumen.Image")));
+            this.btnAbrirResumen.Location = new System.Drawing.Point(426, 156);
+            this.btnAbrirResumen.Name = "btnAbrirResumen";
+            this.btnAbrirResumen.Size = new System.Drawing.Size(49, 48);
+            this.btnAbrirResumen.TabIndex = 18;
+            this.btnAbrirResumen.UseVisualStyleBackColor = true;
+            this.btnAbrirResumen.Click += new System.EventHandler(this.btnAbrirResumen_Click);
             // 
             // Ticket
             // 

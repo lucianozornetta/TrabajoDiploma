@@ -470,5 +470,10 @@ namespace Presentacion
                 }
             }
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
