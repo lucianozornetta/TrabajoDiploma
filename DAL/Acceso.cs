@@ -16,8 +16,8 @@ namespace DAL
     {
    
         
-        string cadena = @"Data Source=.\SQLEXPRESS01;Initial Catalog=BDPROYECTOCAMPO;Integrated Security=True;Encrypt=False";
-        private SqlConnection ocon = new SqlConnection(@"Data Source=.\SQLEXPRESS01;Initial Catalog=BDPROYECTOCAMPO;Integrated Security=True;Encrypt=False");
+        string cadena = @"Data Source=.;Initial Catalog=BDPROYECTOCAMPO;Integrated Security=True;Encrypt=False";
+        private SqlConnection ocon = new SqlConnection(@"Data Source=.;Initial Catalog=BDPROYECTOCAMPO;Integrated Security=True;Encrypt=False");
         private SqlCommand ocomand;
         private SqlTransaction trans;
 

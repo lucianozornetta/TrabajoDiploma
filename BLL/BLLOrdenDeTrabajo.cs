@@ -34,22 +34,26 @@ namespace BLL
             MPPOrdenDeTrabajo mppWO = new MPPOrdenDeTrabajo();
             List<BEOrdenDeTrabajo> lista;
             lista = mppWO.ListarOrdenesDeTrabajo(area);
-            while (i == 0)
-            {             
-                foreach (BEOrdenDeTrabajo WO in lista)
+            if(lista.Count > 0)
+            {
+                while (i == 0)
                 {
-                    if (WO.Estado != null)
+                    foreach (BEOrdenDeTrabajo WO in lista)
                     {
-                        if (WO.Estado == "Cerrado")
+                        if (WO.Estado != null)
                         {
-                            lista.Remove(WO);
-                            i = 0;
-                            break;
+                            if (WO.Estado == "Cerrado")
+                            {
+                                lista.Remove(WO);
+                                i = 0;
+                                break;
+                            }
+                            i = 1;
                         }
-                        i = 1;
                     }
                 }
             }
+           
             CompletarAreaClienteWO(lista);
             return lista;
         }

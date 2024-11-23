@@ -41,7 +41,10 @@ namespace Presentacion
         private void button1_Click(object sender, EventArgs e)
         {
             List<BEOrdenDeTrabajo> ListaOrdenesTrabajo = bllorden.ListarOrdenesTrabajoConCerrados(area);
-            bllorden.CrearInformeEmpleado(area);
+            if (bllorden.CrearInformeEmpleado(area))
+            {
+                MessageBox.Show("Informe Descargado");
+            }
         }
 
         private void Informes_Load(object sender, EventArgs e)
