@@ -223,10 +223,18 @@ namespace Presentacion
             {
                 if(permiso.EsPadre == true)
                 {
-                    if (bLLPermiso.EliminarPermiso(permiso))
+                    if(permiso.ID != 58)
                     {
-                        MessageBox.Show("Permiso Eliminado Correctamente");
+                        if (bLLPermiso.EliminarPermiso(permiso))
+                        {
+                            MessageBox.Show("Permiso Eliminado Correctamente");
+                        }
                     }
+                    else
+                    {
+                        MessageBox.Show("No se puede eliminar el permiso Admin");
+                    }
+                    
                 }
                 else
                 {

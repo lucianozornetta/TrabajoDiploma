@@ -50,6 +50,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.Criticidad = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -110,7 +111,7 @@
             this.lblAreaWO.AutoSize = true;
             this.lblAreaWO.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lblAreaWO.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAreaWO.Location = new System.Drawing.Point(102, 451);
+            this.lblAreaWO.Location = new System.Drawing.Point(42, 395);
             this.lblAreaWO.Name = "lblAreaWO";
             this.lblAreaWO.Size = new System.Drawing.Size(46, 23);
             this.lblAreaWO.TabIndex = 7;
@@ -240,6 +241,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panel1.Controls.Add(this.lblAreaWO);
             this.panel1.Location = new System.Drawing.Point(42, 56);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(528, 668);
@@ -283,7 +285,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblTags);
             this.Controls.Add(this.cmbTags);
-            this.Controls.Add(this.lblAreaWO);
             this.Controls.Add(this.cmbAreaWO);
             this.Controls.Add(this.lblResumen);
             this.Controls.Add(this.txtResumenWO);
@@ -294,6 +295,8 @@
             this.Name = "CrearOrdenTrabajo";
             this.Text = "CrearOrdenTrabajo";
             this.Load += new System.EventHandler(this.CrearOrdenTrabajo_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);

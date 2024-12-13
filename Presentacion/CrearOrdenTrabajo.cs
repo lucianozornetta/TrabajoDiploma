@@ -134,6 +134,7 @@ namespace Presentacion
                     WO.Tags.Add(TAG);
                 }
                 bllordentrabajo.GuardarWorkOrder(WO);
+                MessageBox.Show("Orden De Trabajo Creada Correctamente.");
 
             }
             catch (Exception)
@@ -156,6 +157,22 @@ namespace Presentacion
         public void Update(int a)
         {
             foreach (Control c in this.Controls)
+            {
+                if (c.Tag != null)
+                {
+                    BEIdioma idioma = new BEIdioma();
+                    idioma.ID = a;
+                    foreach (BETraduccion traduccion in bllrepositorio.ListarTraducciones(idioma))
+                    {
+                        if (c.Tag.ToString() == traduccion.tag)
+                        {
+                            c.Text = traduccion.Texto;
+                        }
+                    }
+
+                }
+            }
+            foreach (Control c in this.panel2.Controls)
             {
                 if (c.Tag != null)
                 {
